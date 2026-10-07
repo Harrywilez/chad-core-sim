@@ -1,0 +1,153 @@
+<div class="app">
+<header>
+  <h1>Chad Core <em>Lab</em></h1>
+  <a href="confinement_study.html" style="color:var(--teal-2);white-space:nowrap;text-decoration:none;font-size:12px">Confinement study ↗</a>
+  <span class="sub">exact Biot–Savart · field lines · full-orbit particles · everything computed in your browser</span>
+  <span class="status"><span><span class="dot" id="dot"></span><span id="status">idle</span></span><span id="fps"></span></span>
+</header>
+
+<aside id="left">
+  <section class="block">
+    <h2>Geometry</h2>
+    <div class="row"><label>Family</label>
+      <select id="family">
+        <option value="hopfdrift">Hopf drift (Codex variants)</option>
+        <option value="hopfcont">Hopf continued → torus</option>
+        <option value="hopftorus">Hopf torus (η fixed)</option>
+        <option value="hopfmirror">Hopf torus + mirror image (meshed torus)</option>
+        <option value="hopfmesh">Meshed torus II (closed knots · chiral weave · zone weave)</option>
+        <option value="precess">Precessing inward loops</option>
+        <option value="phase">Phase-slip toroidal spiral</option>
+        <option value="codexhopf">Hopf-coordinate drift (trial)</option>
+        <option value="recursive">Recursive ∫∫dl / ∫∫∫dl</option>
+        <option value="solenoid">Reference solenoid</option>
+        <option value="baseball">Baseball-seam coil (min-B)</option>
+        <option value="yinyang">Yin-yang pair</option>
+        <option value="picket">Picket fence (ring cusps)</option>
+        <option value="sphere">Sphere winding (uniform B)</option>
+        <option value="link">Hopf link (two linked rings)</option>
+        <option value="cone">Tornado coil (conical helix)</option>
+        <option value="design">Design from JSON (ccsim components)</option>
+      </select></div>
+    <div id="geo-params"></div>
+    <div class="row"><label>Assembly</label>
+      <select id="layout"></select></div>
+    <div class="row" id="row-corescale"><label>Core scale <span class="hint">fraction of ball</span></label><input id="corescale" type="number" step="0.05" min="0.2" max="1" value="0.45"></div>
+    <div class="toggle"><input type="checkbox" id="showreturn"><label for="showreturn">show return conductors</label></div>
+    <div class="btns"><button class="b primary" id="build">Build geometry</button></div>
+    <p class="note" id="geo-note"></p>
+  </section>
+
+  <section class="block">
+    <h2>Field</h2>
+    <div class="row"><label>Grid points / axis</label><select id="gridn"><option>17</option><option selected>25</option><option>33</option></select></div>
+    <div class="row"><label>Conductor radius <span class="hint">ball units</span></label><input id="wirer" type="number" step="0.001" min="0.0005" value="0.005"></div>
+    <div class="toggle"><input type="checkbox" id="showslice" checked><label for="showslice">|B| slice at z = 0</label></div>
+    <div class="btns"><button class="b primary" id="compute">Compute field</button><button class="b" id="lines">Trace field lines</button></div>
+    <div class="row"><label>Field-line seeds</label><input id="nlines" type="number" min="4" max="200" value="48"></div>
+    <div class="btns"><button class="b" id="poincare">Poincaré section (exact field)</button></div>
+    <div class="row"><label>Poincaré seeds · turns</label><span style="display:flex;gap:4px"><input id="npoinc" type="number" min="3" max="24" value="8" style="width:46px"><input id="nturns" type="number" min="4" max="40" value="10" style="width:46px"></span></div>
+    <p class="note">The field is the exact magnetostatic Maxwell solution for the polyline conductor (finite-segment Biot–Savart with a uniform-current interior); ∇·B and Ampère are checked on every compute.</p>
+  </section>
+
+  <section class="block">
+    <h2>Particles</h2>
+    <div class="row"><label>Scale preset</label><select id="scale"><option value="dimensionless">dimensionless (Codex)</option><option value="benchtop">benchtop 18 cm · 1 kA</option><option value="reactor">reactor 1 m · 364 kA</option></select></div>
+    <div class="row"><label>Species</label><select id="species"><option value="code">code particle q/m = 1</option><option value="D">D⁺</option><option value="e">e⁻</option><option value="alpha">α (He²⁺)</option><option value="Ar">Ar⁺</option></select></div>
+    <div class="row"><label>Energy <span class="hint">eV (SI scales)</span></label><input id="energy" type="number" step="any" value="15000"></div>
+    <div class="row"><label>Code speed <span class="hint">Codex units, ρ_L = v/8</span></label><input id="speed" type="number" step="0.005" min="0.0005" value="0.18"></div>
+    <div class="row"><label>Charge sign</label><select id="qsign"><option value="1">+</option><option value="-1">−</option><option value="0">mixed</option></select></div>
+    <div class="row"><label>Particles</label><input id="npart" type="number" min="8" max="2000" value="128"></div>
+    <div class="row"><label>Wall transits</label><input id="transits" type="number" min="1" max="200" step="1" value="8"></div>
+    <div class="row"><label>Ω·dt max</label><input id="omdt" type="number" step="0.05" min="0.02" max="0.5" value="0.15"></div>
+    <div class="row"><label>Seed</label><input id="seed" type="number" value="12345"></div>
+    <div class="btns"><button class="b primary" id="run">Run particles</button><button class="b" id="clearp">Clear</button></div>
+    <p class="note" id="part-note"></p>
+  </section>
+
+  <section class="block">
+    <h2>View</h2>
+    <div class="toggle"><input type="checkbox" id="turntable" checked><label for="turntable">turntable</label></div>
+    <div class="toggle"><input type="checkbox" id="trails" checked><label for="trails">particle trails</label></div>
+    <div class="toggle"><input type="checkbox" id="showwall" checked><label for="showwall">wall sphere</label></div>
+    <p class="note">Drag to rotate · wheel to zoom · double-click to reset.</p>
+  </section>
+</aside>
+
+<main>
+  <div id="view">
+    <div class="overlay" id="overlay"></div>
+    <canvas id="poincare-canvas" width="260" height="260" hidden style="position:absolute;left:12px;bottom:12px;border:1px solid var(--line-2);border-radius:3px"></canvas>
+    <div class="legend">retained<span class="sw" style="background:var(--ok)"></span><br>wall<span class="sw" style="background:var(--wall)"></span><br>conductor<span class="sw" style="background:var(--wire)"></span><br>field line → wall<span class="sw" style="background:var(--wall);opacity:.6"></span><br>field line, long<span class="sw" style="background:var(--teal)"></span></div>
+  </div>
+  <div class="transport">
+    <button class="b" id="play">▶ Play</button>
+    <span class="t">t = <b id="tnow">0.000</b> / <b id="tmax">0</b> &nbsp; alive <b id="alive">–</b></span>
+    <input type="range" id="scrub" min="0" max="0" value="0">
+    <canvas id="survival" width="500" height="128"></canvas>
+  </div>
+</main>
+
+<aside class="right" id="right">
+  <div class="tabs"><button class="on" data-tab="readout">Readout</button><button data-tab="designs">Designs <span class="livedot" id="livedot" title="live feed"></span></button><button data-tab="ledger">Ledger</button><button data-tab="verify">Checks</button></div>
+  <div class="scroll">
+    <div class="tabpane on" id="tab-readout">
+      <section class="block" id="sec-design" hidden><h2>Design · ccsim score</h2><div class="readout" id="ro-design"></div></section>
+      <section class="block"><h2>Geometry</h2><div class="readout" id="ro-geo"></div></section>
+      <section class="block"><h2>Field</h2><div class="readout" id="ro-field"></div></section>
+      <section class="block"><h2>Field lines · adiabatic prediction</h2><div class="readout" id="ro-lines"></div></section>
+      <section class="block"><h2>Flux surfaces · Poincaré</h2><div class="readout" id="ro-poinc"><span class="note">run a Poincaré section (Field block) — toroidal families only</span></div></section>
+      <section class="block"><h2>Particles</h2><div class="readout" id="ro-part"></div></section>
+      <section class="block"><h2>At scale</h2><div class="readout" id="ro-scale"></div><p class="note">B and Joule power at the selected preset; the geometry itself is scale-free (B ∝ I / L).</p></section>
+    </div>
+    <div class="tabpane" id="tab-designs">
+      <section class="block"><h2>Agent designs · the design loop's ledger</h2>
+        <p class="note">Every evaluation <code>ccsim.evaluate</code> ever made (score = τ_c × buildability, τ_c = √(τ_all·τ_pass) in wall transits at B_rms = 2 T; see AGENT.md). Click a row to rebuild that design here — same generators, same transforms, so the field, lines, particles and Poincaré section can be recomputed on it.</p>
+        <div class="feed" id="feed-status">built-in snapshot</div>
+        <div class="feed run" id="run-status" hidden></div>
+        <canvas id="score-history" width="500" height="150"></canvas>
+        <div class="row"><label>Sort by</label><select id="dsort"><option value="score">score</option><option value="t">newest</option><option value="tau_all">τ_all</option><option value="tau_pass">τ_pass</option><option value="build">buildability</option><option value="closed">closed lines</option></select></div>
+        <div class="row"><label>Filter</label><input id="dfilter" type="text" placeholder="name, family, hash…"></div>
+        <div class="toggle"><input type="checkbox" id="dlatest" checked><label for="dlatest">one row per design (latest evaluation)</label></div>
+        <div class="toggle"><input type="checkbox" id="follow"><label for="follow">follow the newest evaluation (rebuild the view as they arrive)</label></div>
+        <div class="ledger" id="designs"></div>
+        <details><summary>Load or edit a design as JSON</summary>
+          <textarea id="djson" rows="9" spellcheck="false" placeholder='{"name": "…", "wire_radius": 0.005, "components": [{"family": "hopfmesh", "params": {"eta": 0.6}}]}'></textarea>
+          <div class="btns"><button class="b primary" id="dload">Build from JSON</button><button class="b" id="dcopy">Copy current design</button></div>
+          <p class="note">Families and parameter names are those of <code>ccsim.design.FAMILIES</code>; transform order scale → reflect → rotate → translate; <code>current</code> is relative (sign = direction). Save the JSON under <code>designs/</code> and run <code>python3 -m ccsim.evaluate designs/x.json</code> to score it.</p>
+        </details>
+      </section>
+    </div>
+    <div class="tabpane" id="tab-ledger">
+      <section class="block"><h2>Precomputed screen (Python, 41³ grids)</h2>
+        <p class="note">Survival after 4 wall transits vs the field-line prediction. Click a row to load that geometry.</p>
+        <div class="ledger" id="ledger"></div>
+        <h2 style="margin-top:14px">Hopf continuation &amp; multi-core assemblies (exp07, 33³ grids)</h2>
+        <p class="note">Reactor-scale D⁺ survival after 4 / 8 / 20 transits. Singles listed first for reference. Click a row to load the geometry.</p>
+        <div class="ledger" id="assemblies"></div>
+        <h2 style="margin-top:14px">Playbook sweep (exp08, 25³ grids)</h2>
+        <p class="note">Reactor-scale D⁺ survival after 4 / 8 / 20 transits, fraction of closed field lines, and time-averaged core concentration (share of live particles inside r &lt; 0.35). Sorted by S20. Click a row to load the geometry with its exact parameters.</p>
+        <div class="ledger" id="playbook"></div>
+        <h2 style="margin-top:14px">Rung 1 · flux surfaces of the meshed torus (exp10, exact field)</h2>
+        <p class="note">Poincaré analysis: share of seeds on nested surfaces, last closed surface radius, rotational transform ι (axis → edge), well depth (+ = magnetic well). Click a row to load the geometry (Meshed torus II family).</p>
+        <div class="ledger" id="surfaces"></div>
+        <h2 style="margin-top:14px">Rung 2 · guiding-centre confinement inside the surfaces (exp11)</h2>
+        <p class="note">15 keV D⁺ seeded inside the surface region; ν is the pitch-angle scattering rate per wall transit (scaled up ~10³× to fit the run).</p>
+        <div class="ledger" id="transport"></div>
+        <details><summary>Adiabaticity sweep (Shallow 180°)</summary><div class="ledger" id="sweep"></div></details>
+        <details><summary>Codex comparison</summary><div class="ledger" id="codex"></div></details>
+      </section>
+    </div>
+    <div class="tabpane" id="tab-verify">
+      <section class="block"><h2>Verification suite (exp01)</h2><div class="kv" id="verify"></div>
+        <p class="note">Relative errors of every module against an independent closed form. Reproduce with <code>python3 experiments/exp01_verify.py</code>.</p></section>
+      <section class="block"><h2>Live Maxwell checks</h2><div class="kv" id="livechecks"><span>—</span><span>compute a field first</span></div></section>
+    </div>
+  </div>
+</aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const DATA = __UI_DATA__;
+</script>

@@ -1,0 +1,1590 @@
+[
+ {
+  "name": "hopf mirror woven \u03b7=0.80 24\u00d71 opposed",
+  "closed": 0.22916666666666666,
+  "wall": 0.08333333333333333,
+  "Rmir": 1.7190108900746421,
+  "pred": 0.47009650387537255,
+  "S4": 0.64375,
+  "S8": 0.56875,
+  "S20": 0.50625,
+  "median_loss_transits": 1.651002656607086,
+  "core": 0.19632436191458158,
+  "core0": 0.2375,
+  "brms": 6.542641883403933,
+  "bmax_rms": 2.0764312930659243,
+  "clearance": 0.01001618890311259,
+  "active_length": 181.66881315942254,
+  "joule_MW": 7710.689716825438,
+  "energy_drift": 4.4312610901120185e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.8,
+    "circuits": 24,
+    "revs": 1,
+    "mode": "woven",
+    "deta": 0.025,
+    "sense": "opposed"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": -1,
+   "eta": 0.8,
+   "circuits": 24,
+   "mode": "woven"
+  }
+ },
+ {
+  "name": "hopf mirror woven \u03b7=0.70 24\u00d71 opposed",
+  "closed": 0.14583333333333334,
+  "wall": 0.2916666666666667,
+  "Rmir": 1.2799979971320716,
+  "pred": 0.360149519219325,
+  "S4": 0.5375,
+  "S8": 0.48124999999999996,
+  "S20": 0.4625,
+  "median_loss_transits": 1.0841742966779782,
+  "core": 0.1577421939673701,
+  "core0": 0.21875,
+  "brms": 5.7225465431278995,
+  "bmax_rms": 2.1009899762809043,
+  "clearance": 0.013687112746267688,
+  "active_length": 191.1497928781989,
+  "joule_MW": 4305.079360092253,
+  "energy_drift": 4.053783293546919e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.7,
+    "circuits": 24,
+    "revs": 1.0,
+    "mode": "woven",
+    "deta": 0.025,
+    "sense": "opposed"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": -1,
+   "eta": 0.7,
+   "circuits": 24,
+   "revolutions": 1.0,
+   "mode": "woven"
+  }
+ },
+ {
+  "name": "hopf mirror woven \u03b7=0.70 36\u00d71 opposed",
+  "closed": 0.25,
+  "wall": 0.07291666666666667,
+  "Rmir": 1.5976158120071984,
+  "pred": 0.4188026758444308,
+  "S4": 0.525,
+  "S8": 0.48750000000000004,
+  "S20": 0.44375,
+  "median_loss_transits": 1.1576546252523048,
+  "core": 0.09732563532580343,
+  "core0": 0.21875,
+  "brms": 8.615235184017553,
+  "bmax_rms": 2.0763730823325006,
+  "clearance": 0.01164466428590287,
+  "active_length": 302.7799186469306,
+  "joule_MW": 8839.55624344103,
+  "energy_drift": 5.399573698692052e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.7,
+    "circuits": 36,
+    "revs": 1,
+    "mode": "woven",
+    "deta": 0.025,
+    "sense": "opposed"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": -1,
+   "eta": 0.7,
+   "circuits": 36,
+   "mode": "woven"
+  }
+ },
+ {
+  "name": "hopf mirror nested \u03b7=0.70 24\u00d71 opposed",
+  "closed": 0.020833333333333332,
+  "wall": 0.4375,
+  "Rmir": 7.69520984676084,
+  "pred": 0.36414425201786305,
+  "S4": 0.51875,
+  "S8": 0.475,
+  "S20": 0.40625,
+  "median_loss_transits": 1.234834845211089,
+  "core": 0.12045401525684277,
+  "core0": 0.21875,
+  "brms": 5.734167252682124,
+  "bmax_rms": 2.098596226417937,
+  "clearance": 0.013687112746267688,
+  "active_length": 178.24014180205603,
+  "joule_MW": 4063.1550021327275,
+  "energy_drift": 3.824014199985556e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.7,
+    "circuits": 24,
+    "revs": 1.0,
+    "mode": "nested",
+    "deta": 0.025,
+    "sense": "opposed"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": -1,
+   "eta": 0.7,
+   "circuits": 24,
+   "revolutions": 1.0,
+   "mode": "nested"
+  }
+ },
+ {
+  "name": "hopf mirror woven \u03b7=0.70 16\u00d71 opposed",
+  "closed": 0.11458333333333333,
+  "wall": 0.17708333333333334,
+  "Rmir": 1.7739265793327017,
+  "pred": 0.36132519388931694,
+  "S4": 0.49375,
+  "S8": 0.44375,
+  "S20": 0.36250000000000004,
+  "median_loss_transits": 1.115558506414689,
+  "core": 0.1240282316338717,
+  "core0": 0.23125,
+  "brms": 3.7972832145966438,
+  "bmax_rms": 2.1354527351134274,
+  "clearance": 0.013687112746267688,
+  "active_length": 123.26753154904712,
+  "joule_MW": 3032.2357536789305,
+  "energy_drift": 4.2999644652198094e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.7,
+    "circuits": 16,
+    "revs": 1,
+    "mode": "woven",
+    "deta": 0.025,
+    "sense": "opposed"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": -1,
+   "eta": 0.7,
+   "circuits": 16,
+   "mode": "woven"
+  }
+ },
+ {
+  "name": "precess \u00d7 pair-axial-same, core 0.55",
+  "closed": 0.0,
+  "wall": 0.96875,
+  "Rmir": 12.86873266965463,
+  "pred": 0.6828882841038869,
+  "S4": 0.5875,
+  "S8": 0.5,
+  "S20": 0.36250000000000004,
+  "median_loss_transits": 1.8848625797402025,
+  "core": 0.3879179862055179,
+  "core0": 0.24375,
+  "brms": 2.3518458412758445,
+  "bmax_rms": 2.8630939401118574,
+  "clearance": 0.0017143664759995446,
+  "active_length": 87.95303332586582,
+  "joule_MW": 150564.73695605862,
+  "energy_drift": 2.149982232609905e-14,
+  "ui": {
+   "family": "precess",
+   "params": {
+    "inward": 0.22,
+    "rotation": 24,
+    "slip": 3
+   },
+   "layout": "pair-axial-same",
+   "corescale": 0.55
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "precess",
+   "layout": "pair-axial-same",
+   "core_scale": 0.55
+  }
+ },
+ {
+  "name": "hopf mirror woven \u03b7=0.60 24\u00d71 opposed",
+  "closed": 0.14583333333333334,
+  "wall": 0.34375,
+  "Rmir": 1.6877373611586581,
+  "pred": 0.32210479259618946,
+  "S4": 0.42500000000000004,
+  "S8": 0.36875,
+  "S20": 0.32499999999999996,
+  "median_loss_transits": 1.1706503894698814,
+  "core": 0.03771935859922873,
+  "core0": 0.23125,
+  "brms": 4.828682634003693,
+  "bmax_rms": 2.0407418660739647,
+  "clearance": 0.01604161788358056,
+  "active_length": 202.13545817094808,
+  "joule_MW": 3282.3341951365564,
+  "energy_drift": 4.070195371658446e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.6,
+    "circuits": 24,
+    "revs": 1,
+    "mode": "woven",
+    "deta": 0.025,
+    "sense": "opposed"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": -1,
+   "eta": 0.6,
+   "circuits": 24,
+   "mode": "woven"
+  }
+ },
+ {
+  "name": "yin-yang (inner opposed) \u00d7 cube-8",
+  "closed": 0.07291666666666667,
+  "wall": 0.6875,
+  "Rmir": 9.943379439655844,
+  "pred": 0.7347557009999193,
+  "S4": 0.81875,
+  "S8": 0.64375,
+  "S20": 0.30000000000000004,
+  "median_loss_transits": 7.93765649040623,
+  "core": 0.21554798993683413,
+  "core0": 0.2375,
+  "brms": 3.8504413698442472,
+  "bmax_rms": 2.4479792111002254,
+  "clearance": 0.0009179751165069485,
+  "active_length": 160.08606796984824,
+  "joule_MW": 1946596.665510862,
+  "energy_drift": 4.070195371658447e-14,
+  "ui": {
+   "family": "yinyang",
+   "params": {
+    "sense": "opposed"
+   },
+   "layout": "cube-8",
+   "corescale": 0.5
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "yin-yang",
+   "layout": "cube-8",
+   "core_scale": 0.5,
+   "inner_sign": -1
+  }
+ },
+ {
+  "name": "precess \u00d7 pair-side-crossed, core 0.55",
+  "closed": 0.020833333333333332,
+  "wall": 0.6666666666666666,
+  "Rmir": 7.748558897146857,
+  "pred": 0.5625496810474778,
+  "S4": 0.61875,
+  "S8": 0.5125,
+  "S20": 0.29374999999999996,
+  "median_loss_transits": 2.878938964013693,
+  "core": 0.28424383766074895,
+  "core0": 0.225,
+  "brms": 2.3672883389259614,
+  "bmax_rms": 2.732758253629739,
+  "clearance": 0.001714366475999577,
+  "active_length": 87.95303332586582,
+  "joule_MW": 151147.2795266116,
+  "energy_drift": 3.528596793978089e-14,
+  "ui": {
+   "family": "precess",
+   "params": {
+    "inward": 0.22,
+    "rotation": 24,
+    "slip": 3
+   },
+   "layout": "pair-side-crossed",
+   "corescale": 0.55
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "precess",
+   "layout": "pair-side-crossed",
+   "core_scale": 0.55
+  }
+ },
+ {
+  "name": "precess(inward 0.22, rot 12\u00b0) \u00d7 pair-side-crossed",
+  "closed": 0.0,
+  "wall": 0.96875,
+  "Rmir": 14.954779830531034,
+  "pred": 0.6630912974120785,
+  "S4": 0.6375,
+  "S8": 0.53125,
+  "S20": 0.28125,
+  "median_loss_transits": 3.9947482905368603,
+  "core": 0.30927113437108283,
+  "core0": 0.2375,
+  "brms": 2.198743019951946,
+  "bmax_rms": 3.7876793654265324,
+  "clearance": 0.001435821499251479,
+  "active_length": 72.0414147841852,
+  "joule_MW": 188622.40081731454,
+  "energy_drift": 2.084333920163801e-14,
+  "ui": {
+   "family": "precess",
+   "params": {
+    "inward": 0.22,
+    "rotation": 12.0,
+    "slip": 3
+   },
+   "layout": "pair-side-crossed",
+   "corescale": 0.45
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "precess",
+   "layout": "pair-side-crossed",
+   "inward": 0.22,
+   "rotation_deg": 12.0
+  }
+ },
+ {
+  "name": "precess \u00d7 pair-side-crossed, core 0.45",
+  "closed": 0.0,
+  "wall": 0.8958333333333334,
+  "Rmir": 16.681236233723446,
+  "pred": 0.6484295151850118,
+  "S4": 0.69375,
+  "S8": 0.56875,
+  "S20": 0.26249999999999996,
+  "median_loss_transits": 5.416821947073004,
+  "core": 0.2923901512205396,
+  "core0": 0.2375,
+  "brms": 1.9730188892525433,
+  "bmax_rms": 3.884272983347372,
+  "clearance": 0.0014026634803632494,
+  "active_length": 71.96157272116294,
+  "joule_MW": 197495.31386136127,
+  "energy_drift": 2.855701591405523e-14,
+  "ui": {
+   "family": "precess",
+   "params": {
+    "inward": 0.22,
+    "rotation": 24,
+    "slip": 3
+   },
+   "layout": "pair-side-crossed",
+   "corescale": 0.45
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "precess",
+   "layout": "pair-side-crossed",
+   "core_scale": 0.45
+  }
+ },
+ {
+  "name": "precess(inward 0.15, rot 24\u00b0) \u00d7 pair-side-crossed",
+  "closed": 0.0,
+  "wall": 0.9895833333333334,
+  "Rmir": 10.074150384342882,
+  "pred": 0.5938945577456648,
+  "S4": 0.6625,
+  "S8": 0.575,
+  "S20": 0.26249999999999996,
+  "median_loss_transits": 5.331534530852339,
+  "core": 0.2773040346003347,
+  "core0": 0.225,
+  "brms": 2.307199586376849,
+  "bmax_rms": 3.23840492571727,
+  "clearance": 0.0005460518303763071,
+  "active_length": 73.92441452862053,
+  "joule_MW": 1326090.0000936687,
+  "energy_drift": 2.4782237948404244e-14,
+  "ui": {
+   "family": "precess",
+   "params": {
+    "inward": 0.15,
+    "rotation": 24.0,
+    "slip": 3
+   },
+   "layout": "pair-side-crossed",
+   "corescale": 0.45
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "precess",
+   "layout": "pair-side-crossed",
+   "inward": 0.15,
+   "rotation_deg": 24.0
+  }
+ },
+ {
+  "name": "hopf mirror woven \u03b7=0.80 24\u00d71 same",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 2.7119209642665205,
+  "pred": 0.5061753681401552,
+  "S4": 0.41874999999999996,
+  "S8": 0.35624999999999996,
+  "S20": 0.23750000000000004,
+  "median_loss_transits": 1.2567486322356711,
+  "core": 0.15918827193677182,
+  "core0": 0.2375,
+  "brms": 5.402913915915075,
+  "bmax_rms": 3.3786782586747224,
+  "clearance": 0.01001618890311259,
+  "active_length": 181.66881315942254,
+  "joule_MW": 7710.689716825438,
+  "energy_drift": 3.8568383562086096e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.8,
+    "circuits": 24,
+    "revs": 1,
+    "mode": "woven",
+    "deta": 0.025,
+    "sense": "same"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": 1,
+   "eta": 0.8,
+   "circuits": 24,
+   "mode": "woven"
+  }
+ },
+ {
+  "name": "yin-yang \u00d7 cube-8-checker",
+  "closed": 0.041666666666666664,
+  "wall": 0.78125,
+  "Rmir": 3.988581756174166,
+  "pred": 0.5912679746058529,
+  "S4": 0.7,
+  "S8": 0.48750000000000004,
+  "S20": 0.23124999999999996,
+  "median_loss_transits": 6.107127528539096,
+  "core": 0.23566193553488446,
+  "core0": 0.2375,
+  "brms": 3.89947154443187,
+  "bmax_rms": 1.8207701459472487,
+  "clearance": 0.0009179751165069485,
+  "active_length": 160.08606796984824,
+  "joule_MW": 1946596.665510862,
+  "energy_drift": 3.397300169085881e-14,
+  "ui": {
+   "family": "yinyang",
+   "params": {
+    "sense": "same"
+   },
+   "layout": "cube-8-checker",
+   "corescale": 0.5
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "yin-yang",
+   "layout": "cube-8-checker",
+   "core_scale": 0.5,
+   "inner_sign": 1
+  }
+ },
+ {
+  "name": "precess(inward 0.30, rot 24\u00b0) \u00d7 pair-side-crossed",
+  "closed": 0.010416666666666666,
+  "wall": 0.90625,
+  "Rmir": 25.287729244901907,
+  "pred": 0.6511290625309224,
+  "S4": 0.68125,
+  "S8": 0.5375,
+  "S20": 0.20625000000000004,
+  "median_loss_transits": 5.1321585640209335,
+  "core": 0.3191107213051437,
+  "core0": 0.24375,
+  "brms": 1.5937250730722181,
+  "bmax_rms": 5.7560560789581325,
+  "clearance": 0.0022744804790003677,
+  "active_length": 70.09469811525052,
+  "joule_MW": 73850.75681512464,
+  "energy_drift": 2.2648667793905873e-14,
+  "ui": {
+   "family": "precess",
+   "params": {
+    "inward": 0.3,
+    "rotation": 24.0,
+    "slip": 3
+   },
+   "layout": "pair-side-crossed",
+   "corescale": 0.45
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "precess",
+   "layout": "pair-side-crossed",
+   "inward": 0.3,
+   "rotation_deg": 24.0
+  }
+ },
+ {
+  "name": "precess(inward 0.22, rot 36\u00b0) \u00d7 pair-side-crossed",
+  "closed": 0.020833333333333332,
+  "wall": 0.65625,
+  "Rmir": 13.091325273922914,
+  "pred": 0.6360904663126415,
+  "S4": 0.71875,
+  "S8": 0.525,
+  "S20": 0.20625000000000004,
+  "median_loss_transits": 6.348849949029584,
+  "core": 0.25375782755711973,
+  "core0": 0.2125,
+  "brms": 1.9025375885403268,
+  "bmax_rms": 4.194344209871631,
+  "clearance": 0.002047821978531495,
+  "active_length": 71.89010705312623,
+  "joule_MW": 92628.76102333069,
+  "energy_drift": 2.9705861381862056e-14,
+  "ui": {
+   "family": "precess",
+   "params": {
+    "inward": 0.22,
+    "rotation": 36.0,
+    "slip": 3
+   },
+   "layout": "pair-side-crossed",
+   "corescale": 0.45
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "precess",
+   "layout": "pair-side-crossed",
+   "inward": 0.22,
+   "rotation_deg": 36.0
+  }
+ },
+ {
+  "name": "hopf mirror woven \u03b7=0.70 24\u00d71 same",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 2.8467417711808607,
+  "pred": 0.47111209830120987,
+  "S4": 0.30625,
+  "S8": 0.275,
+  "S20": 0.19374999999999998,
+  "median_loss_transits": 1.1703094160396295,
+  "core": 0.10520082939677462,
+  "core0": 0.21875,
+  "brms": 6.769947288075703,
+  "bmax_rms": 3.0450328350385174,
+  "clearance": 0.013687112746267688,
+  "active_length": 191.1497928781989,
+  "joule_MW": 4305.079360092253,
+  "energy_drift": 3.3644760128628286e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.7,
+    "circuits": 24,
+    "revs": 1.0,
+    "mode": "woven",
+    "deta": 0.025,
+    "sense": "same"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": 1,
+   "eta": 0.7,
+   "circuits": 24,
+   "revolutions": 1.0,
+   "mode": "woven"
+  }
+ },
+ {
+  "name": "yin-yang \u00d7 cube-8 (John's pick)",
+  "closed": 0.0,
+  "wall": 0.8958333333333334,
+  "Rmir": 3.666171261580287,
+  "pred": 0.47699931759831365,
+  "S4": 0.54375,
+  "S8": 0.3125,
+  "S20": 0.19374999999999998,
+  "median_loss_transits": 2.833305267928459,
+  "core": 0.3393619322067247,
+  "core0": 0.2375,
+  "brms": 3.8027870651372986,
+  "bmax_rms": 1.5547506378349476,
+  "clearance": 0.0009179751165069485,
+  "active_length": 160.08606796984824,
+  "joule_MW": 1946596.665510862,
+  "energy_drift": 2.8064653570709456e-14,
+  "ui": {
+   "family": "yinyang",
+   "params": {
+    "sense": "same"
+   },
+   "layout": "cube-8",
+   "corescale": 0.5
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "yin-yang",
+   "layout": "cube-8",
+   "core_scale": 0.5,
+   "inner_sign": 1
+  }
+ },
+ {
+  "name": "hopf torus \u03b7=0.78, 24\u00d71",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.381842590953641,
+  "pred": 0.2276028838968607,
+  "S4": 0.375,
+  "S8": 0.29374999999999996,
+  "S20": 0.1875,
+  "median_loss_transits": 1.5824787440173218,
+  "core": 0.16458892308644674,
+  "core0": 0.2375,
+  "brms": 4.303818663827449,
+  "bmax_rms": 2.1299898638388655,
+  "clearance": 0.0161882653551284,
+  "active_length": 88.56116266521559,
+  "joule_MW": 1444.8572788515407,
+  "energy_drift": 2.4782237948404253e-14,
+  "ui": {
+   "family": "hopftorus",
+   "params": {
+    "eta": 0.78,
+    "circuits": 24,
+    "revs": 1
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-torus",
+   "eta": 0.78,
+   "circuits": 24,
+   "revolutions": 1
+  }
+ },
+ {
+  "name": "hopf mirror nested \u03b7=0.70 24\u00d71 same",
+  "closed": 0.0,
+  "wall": 0.9895833333333334,
+  "Rmir": 2.5460802190817358,
+  "pred": 0.4432651489489619,
+  "S4": 0.3125,
+  "S8": 0.25,
+  "S20": 0.16249999999999998,
+  "median_loss_transits": 1.293599456415033,
+  "core": 0.13861291667327272,
+  "core0": 0.21875,
+  "brms": 6.735067852129229,
+  "bmax_rms": 3.060808217450002,
+  "clearance": 0.013687112746267688,
+  "active_length": 178.24014180205603,
+  "joule_MW": 4063.1550021327275,
+  "energy_drift": 3.06905860685536e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.7,
+    "circuits": 24,
+    "revs": 1.0,
+    "mode": "nested",
+    "deta": 0.025,
+    "sense": "same"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": 1,
+   "eta": 0.7,
+   "circuits": 24,
+   "revolutions": 1.0,
+   "mode": "nested"
+  }
+ },
+ {
+  "name": "hopf torus \u03b7=0.70, 25\u00d73",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.4990087277982451,
+  "pred": 0.23843233744651945,
+  "S4": 0.30625,
+  "S8": 0.23750000000000004,
+  "S20": 0.15000000000000002,
+  "median_loss_transits": 1.4646014960454476,
+  "core": 0.10195304482395649,
+  "core0": 0.23125,
+  "brms": 4.665833671446052,
+  "bmax_rms": 2.412869990165651,
+  "clearance": 0.01899261191016181,
+  "active_length": 96.66244073352368,
+  "joule_MW": 1128.1636946379506,
+  "energy_drift": 2.9213499038516264e-14,
+  "ui": {
+   "family": "hopftorus",
+   "params": {
+    "eta": 0.7,
+    "circuits": 25,
+    "revs": 3
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-torus",
+   "eta": 0.7,
+   "circuits": 25,
+   "revolutions": 3
+  }
+ },
+ {
+  "name": "hopf continued 360\u00b0 / 24 circuits",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.2913583537066355,
+  "pred": 0.19329308575174928,
+  "S4": 0.38125,
+  "S8": 0.28125,
+  "S20": 0.15000000000000002,
+  "median_loss_transits": 1.5033869415751275,
+  "core": 0.20753046043491374,
+  "core0": 0.2375,
+  "brms": 4.30342221857745,
+  "bmax_rms": 2.21330370052613,
+  "clearance": 0.029876432295400074,
+  "active_length": 80.25833756801973,
+  "joule_MW": 707.5105509303578,
+  "energy_drift": 3.938898746766238e-14,
+  "ui": {
+   "family": "hopfcont",
+   "params": {
+    "eta0": 0.82,
+    "eta1": 0.64,
+    "sweep": 360,
+    "circuits": 24
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-continued",
+   "sweep": 360,
+   "circuits": 24,
+   "eta1": 0.64
+  }
+ },
+ {
+  "name": "hopf mirror woven \u03b7=0.60 24\u00d71 same",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 2.8270179145362233,
+  "pred": 0.3841758887007787,
+  "S4": 0.23124999999999996,
+  "S8": 0.1875,
+  "S20": 0.14375000000000004,
+  "median_loss_transits": 1.1410260151794558,
+  "core": 0.01954814896991303,
+  "core0": 0.23125,
+  "brms": 8.203263928532916,
+  "bmax_rms": 2.436637691696545,
+  "clearance": 0.01604161788358056,
+  "active_length": 202.13545817094808,
+  "joule_MW": 3282.3341951365564,
+  "energy_drift": 3.938898746766238e-14,
+  "ui": {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.6,
+    "circuits": 24,
+    "revs": 1,
+    "mode": "woven",
+    "deta": 0.025,
+    "sense": "same"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-mirror",
+   "sense": 1,
+   "eta": 0.6,
+   "circuits": 24,
+   "mode": "woven"
+  }
+ },
+ {
+  "name": "hopf continued 720\u00b0 / 48, \u03b7\u21920.72",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.1639444479898007,
+  "pred": 0.1798957832067786,
+  "S4": 0.275,
+  "S8": 0.21250000000000002,
+  "S20": 0.13749999999999996,
+  "median_loss_transits": 1.4191694136700634,
+  "core": 0.06117218066905781,
+  "core0": 0.23125,
+  "brms": 8.462886312712824,
+  "bmax_rms": 2.156153821909772,
+  "clearance": 0.018238186092586924,
+  "active_length": 165.87825734015132,
+  "joule_MW": 1947.4407479118865,
+  "energy_drift": 3.610657184535718e-14,
+  "ui": {
+   "family": "hopfcont",
+   "params": {
+    "eta0": 0.82,
+    "eta1": 0.72,
+    "sweep": 720,
+    "circuits": 48
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-continued",
+   "sweep": 720,
+   "circuits": 48,
+   "eta1": 0.72
+  }
+ },
+ {
+  "name": "hopf continued 720\u00b0 / 48 circuits",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.19489868971842,
+  "pred": 0.15671769094183055,
+  "S4": 0.25,
+  "S8": 0.19999999999999996,
+  "S20": 0.13749999999999996,
+  "median_loss_transits": 1.1810308118450763,
+  "core": 0.15193659480268637,
+  "core0": 0.225,
+  "brms": 8.417585018159556,
+  "bmax_rms": 2.1931207892014566,
+  "clearance": 0.022766178780923463,
+  "active_length": 160.51165167265293,
+  "joule_MW": 1274.1721475446636,
+  "energy_drift": 3.938898746766239e-14,
+  "ui": {
+   "family": "hopfcont",
+   "params": {
+    "eta0": 0.82,
+    "eta1": 0.64,
+    "sweep": 720,
+    "circuits": 48
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-continued",
+   "sweep": 720,
+   "circuits": 48,
+   "eta1": 0.64
+  }
+ },
+ {
+  "name": "hopf torus \u03b7=0.70, 24\u00d71",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.3671694646376826,
+  "pred": 0.21532374200093,
+  "S4": 0.31875,
+  "S8": 0.20625000000000004,
+  "S20": 0.11875000000000002,
+  "median_loss_transits": 1.506702396954371,
+  "core": 0.08584192653053899,
+  "core0": 0.23125,
+  "brms": 4.444324544589586,
+  "bmax_rms": 2.3232156843154077,
+  "clearance": 0.019579614245071736,
+  "active_length": 92.04650064595204,
+  "joule_MW": 1019.2343608763878,
+  "energy_drift": 2.6423445759556844e-14,
+  "ui": {
+   "family": "hopftorus",
+   "params": {
+    "eta": 0.7,
+    "circuits": 24,
+    "revs": 1
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-torus",
+   "eta": 0.7,
+   "circuits": 24,
+   "revolutions": 1
+  }
+ },
+ {
+  "name": "precess \u00d7 pair-side-crossed, core 0.35",
+  "closed": 0.0,
+  "wall": 0.75,
+  "Rmir": 32.23798695037736,
+  "pred": 0.7069525722643618,
+  "S4": 0.65,
+  "S8": 0.42500000000000004,
+  "S20": 0.11875000000000002,
+  "median_loss_transits": 5.8077127799449455,
+  "core": 0.28526457975495834,
+  "core0": 0.24375,
+  "brms": 1.5011044947532453,
+  "bmax_rms": 6.243992842113095,
+  "clearance": 0.0010909604847269608,
+  "active_length": 55.97011211646006,
+  "joule_MW": 279588.21393587673,
+  "energy_drift": 1.821740670379385e-14,
+  "ui": {
+   "family": "precess",
+   "params": {
+    "inward": 0.22,
+    "rotation": 24,
+    "slip": 3
+   },
+   "layout": "pair-side-crossed",
+   "corescale": 0.35
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "precess",
+   "layout": "pair-side-crossed",
+   "core_scale": 0.35
+  }
+ },
+ {
+  "name": "hopf continued 720\u00b0 / 32 circuits",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.150354895995072,
+  "pred": 0.1623603678629109,
+  "S4": 0.22499999999999998,
+  "S8": 0.17500000000000004,
+  "S20": 0.11250000000000004,
+  "median_loss_transits": 1.329920851077167,
+  "core": 0.11664261436174485,
+  "core0": 0.21875,
+  "brms": 5.613284891004968,
+  "bmax_rms": 2.2162476050252025,
+  "clearance": 0.026638624270298117,
+  "active_length": 107.15301132542989,
+  "joule_MW": 895.0374811916878,
+  "energy_drift": 3.348063934751302e-14,
+  "ui": {
+   "family": "hopfcont",
+   "params": {
+    "eta0": 0.82,
+    "eta1": 0.64,
+    "sweep": 720,
+    "circuits": 32
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-continued",
+   "sweep": 720,
+   "circuits": 32,
+   "eta1": 0.64
+  }
+ },
+ {
+  "name": "hopf torus \u03b7=0.62, 24\u00d71",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.3094844586120842,
+  "pred": 0.21381241456917918,
+  "S4": 0.24375000000000002,
+  "S8": 0.18125000000000002,
+  "S20": 0.10624999999999996,
+  "median_loss_transits": 1.2818004608217402,
+  "core": 0.0544597882635539,
+  "core0": 0.2375,
+  "brms": 4.734913170945485,
+  "bmax_rms": 2.1237551930851213,
+  "clearance": 0.024050705575856316,
+  "active_length": 96.03143870716106,
+  "joule_MW": 819.2457287309454,
+  "energy_drift": 2.6095204197326332e-14,
+  "ui": {
+   "family": "hopftorus",
+   "params": {
+    "eta": 0.62,
+    "circuits": 24,
+    "revs": 1
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-torus",
+   "eta": 0.62,
+   "circuits": 24,
+   "revolutions": 1
+  }
+ },
+ {
+  "name": "yin-yang \u00d7 pair-side-crossed",
+  "closed": 0.0625,
+  "wall": 0.6666666666666666,
+  "Rmir": 21.347090245661633,
+  "pred": 0.7609618052121897,
+  "S4": 0.6125,
+  "S8": 0.4625,
+  "S20": 0.10624999999999996,
+  "median_loss_transits": 5.231501344833002,
+  "core": 0.2556607458731291,
+  "core0": 0.24375,
+  "brms": 1.888927196898508,
+  "bmax_rms": 3.495618781747446,
+  "clearance": 0.014999999999999757,
+  "active_length": 40.021516992462054,
+  "joule_MW": 1828.352468845596,
+  "energy_drift": 2.3961634042827958e-14,
+  "ui": {
+   "family": "yinyang",
+   "params": {
+    "sense": "same"
+   },
+   "layout": "pair-side-crossed",
+   "corescale": 0.5
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "yin-yang",
+   "layout": "pair-side-crossed",
+   "core_scale": 0.5,
+   "inner_sign": 1
+  }
+ },
+ {
+  "name": "sphere winding 24 turns (uniform B)",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.0316189732230505,
+  "pred": 0.0844228328892516,
+  "S4": 0.25625,
+  "S8": 0.16249999999999998,
+  "S20": 0.09999999999999998,
+  "median_loss_transits": 1.6050284361345026,
+  "core": 0.07821220655445889,
+  "core0": 0.2375,
+  "brms": 5.110274073463686,
+  "bmax_rms": 1.0180536965066662,
+  "clearance": 0.059533333333333355,
+  "active_length": 94.08901744648102,
+  "joule_MW": 803.6812963465711,
+  "energy_drift": 3.134706919301465e-14,
+  "ui": {
+   "family": "sphere",
+   "params": {
+    "turns": 24
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "sphere",
+   "turns": 24
+  }
+ },
+ {
+  "name": "hopf continued 540\u00b0 / 36 circuits",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.5399573438629846,
+  "pred": 0.13511784708774463,
+  "S4": 0.22499999999999998,
+  "S8": 0.13124999999999998,
+  "S20": 0.09375,
+  "median_loss_transits": 1.4702763427002397,
+  "core": 0.2093994261557924,
+  "core0": 0.23125,
+  "brms": 6.484540682108138,
+  "bmax_rms": 2.273510888248058,
+  "clearance": 0.02982083332568583,
+  "active_length": 120.70799975324978,
+  "joule_MW": 994.1274071256992,
+  "energy_drift": 5.2846891519113694e-14,
+  "ui": {
+   "family": "hopfcont",
+   "params": {
+    "eta0": 0.82,
+    "eta1": 0.64,
+    "sweep": 540,
+    "circuits": 36
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-continued",
+   "sweep": 540,
+   "circuits": 36,
+   "eta1": 0.64
+  }
+ },
+ {
+  "name": "hopf continued 720\u00b0 / 64 circuits",
+  "closed": 0.0,
+  "wall": 0.9895833333333334,
+  "Rmir": 1.1203570158730705,
+  "pred": 0.1306845145089974,
+  "S4": 0.19999999999999996,
+  "S8": 0.11875000000000002,
+  "S20": 0.08750000000000002,
+  "median_loss_transits": 1.3738420006797203,
+  "core": 0.11916939452848162,
+  "core0": 0.2125,
+  "brms": 11.224141684359793,
+  "bmax_rms": 2.181172249803263,
+  "clearance": 0.02150193365782639,
+  "active_length": 213.8787851909741,
+  "joule_MW": 1766.4688158341007,
+  "energy_drift": 4.9400355115693225e-14,
+  "ui": {
+   "family": "hopfcont",
+   "params": {
+    "eta0": 0.82,
+    "eta1": 0.64,
+    "sweep": 720,
+    "circuits": 64
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-continued",
+   "sweep": 720,
+   "circuits": 64,
+   "eta1": 0.64
+  }
+ },
+ {
+  "name": "baseball \u00d7 pair-side-crossed",
+  "closed": 0.052083333333333336,
+  "wall": 0.5,
+  "Rmir": 25.63249381200648,
+  "pred": 0.8077874043526574,
+  "S4": 0.56875,
+  "S8": 0.4,
+  "S20": 0.08125000000000004,
+  "median_loss_transits": 5.023930998340756,
+  "core": 0.36140711132238945,
+  "core0": 0.23125,
+  "brms": 1.7246297230856715,
+  "bmax_rms": 4.371497816206296,
+  "clearance": 0.015749999999999795,
+  "active_length": 26.796860654982083,
+  "joule_MW": 929.3606358439326,
+  "energy_drift": 2.6095204197326332e-14,
+  "ui": {
+   "family": "baseball",
+   "params": {},
+   "layout": "pair-side-crossed",
+   "corescale": 0.45
+  },
+  "meta": {
+   "family": "assembly",
+   "core": "baseball",
+   "layout": "pair-side-crossed"
+  }
+ },
+ {
+  "name": "hopf torus \u03b7=0.55, 24\u00d71",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.366169799734386,
+  "pred": 0.20524058599472883,
+  "S4": 0.19999999999999996,
+  "S8": 0.13749999999999996,
+  "S20": 0.06874999999999998,
+  "median_loss_transits": 1.2567544654697929,
+  "core": 0.017348067123092673,
+  "core0": 0.23125,
+  "brms": 5.21168448098571,
+  "bmax_rms": 2.0389085751616918,
+  "clearance": 0.02277072228093977,
+  "active_length": 99.97514315783417,
+  "joule_MW": 846.9633724158697,
+  "energy_drift": 2.9049378257401014e-14,
+  "ui": {
+   "family": "hopftorus",
+   "params": {
+    "eta": 0.55,
+    "circuits": 24,
+    "revs": 1
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-torus",
+   "eta": 0.55,
+   "circuits": 24,
+   "revolutions": 1
+  }
+ },
+ {
+  "name": "yin-yang pair (4+4 turns)",
+  "closed": 0.010416666666666666,
+  "wall": 0.9479166666666666,
+  "Rmir": 2.1232282020532107,
+  "pred": 0.23127917146846766,
+  "S4": 0.19999999999999996,
+  "S8": 0.11875000000000002,
+  "S20": 0.06874999999999998,
+  "median_loss_transits": 1.3212554033262527,
+  "core": 0.03265564855274916,
+  "core0": 0.2375,
+  "brms": 2.2863677086935703,
+  "bmax_rms": 2.0914397853868913,
+  "clearance": 0.02999999999999972,
+  "active_length": 40.021516992462054,
+  "joule_MW": 557.7159059797124,
+  "energy_drift": 2.5110479510634768e-14,
+  "ui": {
+   "family": "yinyang",
+   "params": {
+    "turns": 4
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "yin-yang",
+   "turns": 4
+  }
+ },
+ {
+  "name": "hopf drift Shallow 180\u00b0 / 16 circuits",
+  "closed": 0.0,
+  "wall": 0.9895833333333334,
+  "Rmir": 4.582646933671725,
+  "pred": 0.21833219984812646,
+  "S4": 0.22499999999999998,
+  "S8": 0.13124999999999998,
+  "S20": 0.050000000000000044,
+  "median_loss_transits": 1.2610619422345621,
+  "core": 0.22659138866647857,
+  "core0": 0.2375,
+  "brms": 3.562400993946898,
+  "bmax_rms": 2.45513665329793,
+  "clearance": 0.022744432483327023,
+  "active_length": 53.15218588291394,
+  "joule_MW": 513.2835747890457,
+  "energy_drift": 2.6587566540672106e-14,
+  "ui": {
+   "family": "hopfdrift",
+   "params": {
+    "variant": "s64_180",
+    "circuits": 16
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-drift",
+   "variant": "s64_180",
+   "circuits": 16
+  }
+ },
+ {
+  "name": "hopf continued 720\u00b0 / 48, \u03b7\u21920.56",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 1.1195180380285088,
+  "pred": 0.12477201003405425,
+  "S4": 0.16249999999999998,
+  "S8": 0.11875000000000002,
+  "S20": 0.03749999999999998,
+  "median_loss_transits": 1.2499088886232803,
+  "core": 0.20908940105624918,
+  "core0": 0.225,
+  "brms": 8.501180749183307,
+  "bmax_rms": 2.194641497016352,
+  "clearance": 0.029366666427585803,
+  "active_length": 156.00745751057238,
+  "joule_MW": 1242.635080786818,
+  "energy_drift": 3.380888090974354e-14,
+  "ui": {
+   "family": "hopfcont",
+   "params": {
+    "eta0": 0.82,
+    "eta1": 0.56,
+    "sweep": 720,
+    "circuits": 48
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-continued",
+   "sweep": 720,
+   "circuits": 48,
+   "eta1": 0.56
+  }
+ },
+ {
+  "name": "hopf drift Shallow 180\u00b0 / 10 circuits",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 4.67040796720633,
+  "pred": 0.23565799190867806,
+  "S4": 0.20625000000000004,
+  "S8": 0.13749999999999996,
+  "S20": 0.03749999999999998,
+  "median_loss_transits": 1.241622174788799,
+  "core": 0.20225291462459768,
+  "core0": 0.2375,
+  "brms": 2.2376293477289413,
+  "bmax_rms": 2.4956560606766494,
+  "clearance": 0.03668037438307079,
+  "active_length": 33.137645745447514,
+  "joule_MW": 370.90652706531006,
+  "energy_drift": 1.8217406703793853e-14,
+  "ui": {
+   "family": "hopfdrift",
+   "params": {
+    "variant": "s64_180",
+    "circuits": 10
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-drift",
+   "variant": "s64_180",
+   "circuits": 10
+  }
+ },
+ {
+  "name": "picket fence 7 rings",
+  "closed": 0.03125,
+  "wall": 0.9479166666666666,
+  "Rmir": 4.710604851551804,
+  "pred": 0.6221204823943163,
+  "S4": 0.19374999999999998,
+  "S8": 0.08125000000000004,
+  "S20": 0.018750000000000044,
+  "median_loss_transits": 1.7312013926119323,
+  "core": 0.4093896326284612,
+  "core0": 0.2375,
+  "brms": 0.3121407607070226,
+  "bmax_rms": 3.111121762956857,
+  "clearance": 0.059130555822403875,
+  "active_length": 28.713901980782495,
+  "joule_MW": 1147.4810684317722,
+  "energy_drift": 1.641207811152599e-14,
+  "ui": {
+   "family": "picket",
+   "params": {
+    "rings": 7
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "picket",
+   "rings": 7
+  }
+ },
+ {
+  "name": "baseball seam (6 turns, 60\u00b0)",
+  "closed": 0.020833333333333332,
+  "wall": 0.9583333333333334,
+  "Rmir": 1.0124939664700565,
+  "pred": 0.04856814886009419,
+  "S4": 0.05625000000000002,
+  "S8": 0.018750000000000044,
+  "S20": 0.006249999999999978,
+  "median_loss_transits": 0.9880740771009437,
+  "core": 0.6770892182275988,
+  "core0": 0.2375,
+  "brms": 2.376384868338522,
+  "bmax_rms": 2.1426700596530095,
+  "clearance": 0.02952717510141502,
+  "active_length": 35.89751514424903,
+  "joule_MW": 392.01585061334174,
+  "energy_drift": 2.3469271699482168e-14,
+  "ui": {
+   "family": "baseball",
+   "params": {
+    "amp": 60,
+    "turns": 6
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "baseball",
+   "turns": 6,
+   "amplitude_deg": 60
+  }
+ },
+ {
+  "name": "hopf drift Shallow 180\u00b0 / 6 circuits",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 5.359630998134642,
+  "pred": 0.2297548894459834,
+  "S4": 0.16874999999999996,
+  "S8": 0.06874999999999998,
+  "S20": 0.0,
+  "median_loss_transits": 1.3305686379027615,
+  "core": 0.21066826220237345,
+  "core0": 0.2375,
+  "brms": 1.3604700626302648,
+  "bmax_rms": 2.564724270980089,
+  "clearance": 0.060206188437984094,
+  "active_length": 19.796362369571504,
+  "joule_MW": 276.0041417913684,
+  "energy_drift": 1.0175488429146117e-14,
+  "ui": {
+   "family": "hopfdrift",
+   "params": {
+    "variant": "s64_180",
+    "circuits": 6
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "hopf-drift",
+   "variant": "s64_180",
+   "circuits": 6
+  }
+ },
+ {
+  "name": "picket fence 5 rings",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 8.077312257973396,
+  "pred": 0.6254713337231291,
+  "S4": 0.20625000000000004,
+  "S8": 0.06874999999999998,
+  "S20": 0.0,
+  "median_loss_transits": 1.5776742420846965,
+  "core": 0.2169289544545243,
+  "core0": 0.2375,
+  "brms": 0.3706391214122569,
+  "bmax_rms": 3.0476762619805293,
+  "clearance": 0.059130555822403875,
+  "active_length": 20.22480088434132,
+  "joule_MW": 817.6011287193284,
+  "energy_drift": 9.683126085800336e-15,
+  "ui": {
+   "family": "picket",
+   "params": {
+    "rings": 5
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "picket",
+   "rings": 5
+  }
+ },
+ {
+  "name": "Hopf link, opposed",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 2.6500827000370255,
+  "pred": 0.3026629955121018,
+  "S4": 0.11875000000000002,
+  "S8": 0.012499999999999956,
+  "S20": 0.0,
+  "median_loss_transits": 1.517725545212157,
+  "core": 0.08326628642990845,
+  "core0": 0.2375,
+  "brms": 0.5392699792758695,
+  "bmax_rms": 3.996603776663492,
+  "clearance": 0.06489658574125015,
+  "active_length": 7.791125058843477,
+  "joule_MW": 331.07882427079215,
+  "energy_drift": 6.400710463495137e-15,
+  "ui": {
+   "family": "link",
+   "params": {
+    "sense": "opposed"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "link",
+   "sense": -1
+  }
+ },
+ {
+  "name": "baseball seam (6 turns, 40\u00b0)",
+  "closed": 0.0,
+  "wall": 0.9895833333333334,
+  "Rmir": 1.0,
+  "pred": 0.017780487387388657,
+  "S4": 0.012499999999999956,
+  "S8": 0.0,
+  "S20": 0.0,
+  "median_loss_transits": 0.9438192581248621,
+  "core": 0.09492483681195461,
+  "core0": 0.2375,
+  "brms": 2.2671575389323064,
+  "bmax_rms": 2.1028367367456586,
+  "clearance": 0.03499999999999969,
+  "active_length": 29.77428961664676,
+  "joule_MW": 348.38173094089257,
+  "energy_drift": 1.0011367648030855e-14,
+  "ui": {
+   "family": "baseball",
+   "params": {
+    "amp": 40,
+    "turns": 6
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "baseball",
+   "turns": 6,
+   "amplitude_deg": 40
+  }
+ },
+ {
+  "name": "Hopf link (two linked rings)",
+  "closed": 0.0,
+  "wall": 1.0,
+  "Rmir": 3.0882356362022536,
+  "pred": 0.2959737317488847,
+  "S4": 0.10624999999999996,
+  "S8": 0.025000000000000022,
+  "S20": 0.0,
+  "median_loss_transits": 1.454852521662908,
+  "core": 0.0681699148919655,
+  "core0": 0.2375,
+  "brms": 0.5392550930583566,
+  "bmax_rms": 3.996714103508612,
+  "clearance": 0.06489658574125015,
+  "active_length": 7.791125058843477,
+  "joule_MW": 331.07882427079215,
+  "energy_drift": 8.698401399108777e-15,
+  "ui": {
+   "family": "link",
+   "params": {
+    "sense": "same"
+   },
+   "layout": "single"
+  },
+  "meta": {
+   "family": "link"
+  }
+ }
+]

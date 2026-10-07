@@ -1,0 +1,14 @@
+{
+ "name": "knot eta0.85 N28 rev2",
+ "components": [
+  {
+   "family": "hopftorus",
+   "params": {
+    "eta": 0.85,
+    "circuits": 28,
+    "revolutions": 2.0
+   }
+  }
+ ],
+ "wire_radius": 0.00813
+}

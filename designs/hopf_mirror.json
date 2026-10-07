@@ -1,0 +1,9 @@
+{
+ "name": "hopf mirror pair (untwisted, closed knots)",
+ "wire_radius": 0.005,
+ "components": [
+  {
+   "family": "hopfmirror"
+  }
+ ]
+}

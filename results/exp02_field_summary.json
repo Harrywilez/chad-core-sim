@@ -1,0 +1,197 @@
+{
+ "recursive-L2 (loop of loops, 12 turns)": {
+  "brms_roi_per_amp_per_m": 1.084515439424756e-06,
+  "b_core_median": 8.226871084817543e-07,
+  "b_shell_median": 5.251128936799256e-07,
+  "return_sensitivity": 0.025887479500092903,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0006875490547195442,
+   "rel_p95": 0.008227983903296076,
+   "rel_max": 0.02117728652405931
+  },
+  "active_length": 13.74018502413486,
+  "total_length": 32.64750507540191,
+  "clearance": 0.26499001619742385
+ },
+ "recursive-L3 (coil of coils, 12\u00d76)": {
+  "brms_roi_per_amp_per_m": 9.39485113224076e-07,
+  "b_core_median": 7.968117187502605e-07,
+  "b_shell_median": 5.011944143098556e-07,
+  "return_sensitivity": 0.046623004396937555,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0006091701984676922,
+   "rel_p95": 0.008707952762809874,
+   "rel_max": 0.015270831863792094
+  },
+  "active_length": 27.34565012632919,
+  "total_length": 46.26503764829306,
+  "clearance": 0.12240834076200802
+ },
+ "recursive-L3 alt-hand (12\u00d76, opposite handedness)": {
+  "brms_roi_per_amp_per_m": 8.929951237088364e-07,
+  "b_core_median": 8.183873527506905e-07,
+  "b_shell_median": 5.057118104352923e-07,
+  "return_sensitivity": 0.03837951756797818,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.000621984598307083,
+   "rel_p95": 0.008515686904157696,
+   "rel_max": 0.012788723122163207
+  },
+  "active_length": 27.339302077964003,
+  "total_length": 46.25388414425115,
+  "clearance": 0.12033077180504559
+ },
+ "codex phase-slip toroidal spiral": {
+  "brms_roi_per_amp_per_m": 5.774473183468767e-06,
+  "b_core_median": 1.1720993970330312e-05,
+  "b_shell_median": 3.293807228432741e-06,
+  "return_sensitivity": 0.0355782122359999,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0005036571729569536,
+   "rel_p95": 0.0027819463307202892,
+   "rel_max": 0.006989521798457152
+  },
+  "active_length": 77.58465115483166,
+  "total_length": 96.70244515607921,
+  "clearance": 0.0023674016853325827
+ },
+ "codex precessing inward loops": {
+  "brms_roi_per_amp_per_m": 7.101557862975124e-06,
+  "b_core_median": 9.01623349618393e-06,
+  "b_shell_median": 3.846598661845681e-06,
+  "return_sensitivity": 0.018228295282964057,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0007575588318600975,
+   "rel_p95": 0.0037387373106189396,
+   "rel_max": 0.013286779990909573
+  },
+  "active_length": 79.95730302351438,
+  "total_length": 98.86807912209346,
+  "clearance": 0.003117029956362814
+ },
+ "codex Hopf-coordinate drift": {
+  "brms_roi_per_amp_per_m": 5.989998757997548e-06,
+  "b_core_median": 1.3185318924120924e-05,
+  "b_shell_median": 2.593995185497506e-06,
+  "return_sensitivity": 0.070267372631311,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0007984052068258825,
+   "rel_p95": 0.0032349816837690575,
+   "rel_max": 0.013016415738967248
+  },
+  "active_length": 33.94255221207872,
+  "total_length": 53.78083287898643,
+  "clearance": 0.039874193809473026
+ },
+ "hopf-drift Shallow 150\u00b0 (10 circuits)": {
+  "brms_roi_per_amp_per_m": 6.415510610422693e-06,
+  "b_core_median": 1.3834439735446952e-05,
+  "b_shell_median": 2.3343484590804473e-06,
+  "return_sensitivity": 0.04300059188235816,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0007294605315445932,
+   "rel_p95": 0.003057811565478616,
+   "rel_max": 0.006799753285582261
+  },
+  "active_length": 33.10410362717814,
+  "total_length": 52.046217881702276,
+  "clearance": 0.030626984683992126
+ },
+ "hopf-drift Shallow 180\u00b0 (10 circuits)": {
+  "brms_roi_per_amp_per_m": 6.086819408428141e-06,
+  "b_core_median": 1.3594488178810824e-05,
+  "b_shell_median": 2.4056680840421695e-06,
+  "return_sensitivity": 0.03040809612227611,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0007005345900903313,
+   "rel_p95": 0.002985436224177533,
+   "rel_max": 0.005591401454907074
+  },
+  "active_length": 33.137645745447514,
+  "total_length": 52.138905297321074,
+  "clearance": 0.03668037438307079
+ },
+ "hopf-drift Shallow 210\u00b0 (10 circuits)": {
+  "brms_roi_per_amp_per_m": 5.790832587079399e-06,
+  "b_core_median": 1.3290373886338832e-05,
+  "b_shell_median": 2.463296552647328e-06,
+  "return_sensitivity": 0.04942417586249763,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0007226840869968703,
+   "rel_p95": 0.002774487562087892,
+   "rel_max": 0.00693127105141234
+  },
+  "active_length": 33.18870504020238,
+  "total_length": 52.24242335393674,
+  "clearance": 0.04243141795232866
+ },
+ "hopf-drift Deep 150\u00b0 (10 circuits)": {
+  "brms_roi_per_amp_per_m": 6.53712801475055e-06,
+  "b_core_median": 1.4277145590461986e-05,
+  "b_shell_median": 2.1564975852997447e-06,
+  "return_sensitivity": 0.027656831762468796,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0007799118506363701,
+   "rel_p95": 0.003265579134411832,
+   "rel_max": 0.006840830967634274
+  },
+  "active_length": 31.49497068395538,
+  "total_length": 50.460895855733966,
+  "clearance": 0.02961396637193992
+ },
+ "hopf-drift Deep 180\u00b0 (10 circuits)": {
+  "brms_roi_per_amp_per_m": 6.2145835759695715e-06,
+  "b_core_median": 1.4124302601118083e-05,
+  "b_shell_median": 2.203707635706591e-06,
+  "return_sensitivity": 0.04491866796804776,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0007565682251677495,
+   "rel_p95": 0.003217162878729987,
+   "rel_max": 0.007127633373498877
+  },
+  "active_length": 31.53862489562382,
+  "total_length": 50.54747103005275,
+  "clearance": 0.035324611870698575
+ },
+ "hopf-drift Deep 210\u00b0 (10 circuits)": {
+  "brms_roi_per_amp_per_m": 5.9253273795288045e-06,
+  "b_core_median": 1.3943281888411554e-05,
+  "b_shell_median": 2.2351923085931126e-06,
+  "return_sensitivity": 0.04075653749909262,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0007663575129653118,
+   "rel_p95": 0.003529498009591995,
+   "rel_max": 0.009223903111522297
+  },
+  "active_length": 31.59499385395945,
+  "total_length": 50.642769366740424,
+  "clearance": 0.041084286641966845
+ },
+ "reference solenoid (12 turns)": {
+  "brms_roi_per_amp_per_m": 7.940187826524941e-06,
+  "b_core_median": 1.066294567372429e-05,
+  "b_shell_median": 1.7497273706848578e-06,
+  "return_sensitivity": 0.013571631834947634,
+  "interp_error": {
+   "n": 200,
+   "rel_p50": 0.0005360444628565457,
+   "rel_p95": 0.002951396393804004,
+   "rel_max": 0.006846604084026578
+  },
+  "active_length": 33.931534354347676,
+  "total_length": 52.92519267324944,
+  "clearance": 0.09166666666666656
+ }
+}

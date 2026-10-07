@@ -1,0 +1,660 @@
+{
+  "manifest_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/holdout-manifest.json",
+  "manifest_sha256": "002849f9ce8cf5d0e8a903b482b1f5ba6e1b36e54263969c7f8cf06a08da1147",
+  "expected_replicates": [
+    0,
+    1,
+    2
+  ],
+  "nominee_locks": [
+    {
+      "arm": "direct",
+      "nominee": "primary",
+      "design_sha256": "2d27ee158ea0aad10f3cb062c2739ad611f59f0f864f9e4ff86423af1e2229b2"
+    },
+    {
+      "arm": "direct",
+      "nominee": "alternate",
+      "design_sha256": "04b828e067e3f692a300134737b95fbd1dcc9f493a82c62786f08bf7f41a543d"
+    },
+    {
+      "arm": "construction",
+      "nominee": "primary",
+      "design_sha256": "5d2b016c312a463f6aee8aea0fbafc87606a45dca67b6b75268a1ed235bd3cf9"
+    },
+    {
+      "arm": "construction",
+      "nominee": "alternate",
+      "design_sha256": "e97eaba8d92d68ed907dba3131e7250e0d61eeef67a5ad8b553bb8858e0ba96d"
+    }
+  ],
+  "marker_pairing_declared": true,
+  "bootstrap_requested_draws": 2000,
+  "results": [
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-baseline-baseline-0-primary/observation.json",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 0,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "22cf776ed96a05bcce83709de52df50dd69134c3ae9ee8440ef8098bfb688e65",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-direct-primary-0-primary/observation.json",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 0,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "8b471a074d6c59d98f258cdc56a24949798e00a775d45cbcbbf7c14e5e32cf39",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-direct-alternate-0-primary/observation.json",
+      "arm": "direct",
+      "nominee": "alternate",
+      "replicate": 0,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "681d8d3bffcbedd72542790b1456157d1ffc18ea5c50436204f7c299272aa858",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-construction-primary-0-primary/observation.json",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 0,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "4de7588eb65186dbac04416ea3cdf1889e76e5cd6145b03efafa548f87ba9257",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-construction-alternate-0-primary/observation.json",
+      "arm": "construction",
+      "nominee": "alternate",
+      "replicate": 0,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "3956094146fd5f08a5d80a85a056401804f47915c91997391cacfc681ec16b87",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-baseline-baseline-1-primary/observation.json",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 1,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "022913ee8cd15fd43317137f6c4528eabeb99f404afbf9b6a349f66a189cb722",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-direct-primary-1-primary/observation.json",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 1,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "60e19647624243b6839739f05f6537e650e5623fa0d2e56c77f8bdb76c6be091",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-direct-alternate-1-primary/observation.json",
+      "arm": "direct",
+      "nominee": "alternate",
+      "replicate": 1,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "8b414169a43e8985a2fad3edd42812ac1b45cfca44cae0d7f5b27f7186f8dfaf",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-construction-primary-1-primary/observation.json",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 1,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "20db3b46ff4f46863f436d0ab4d06b29ecfb0a725a93044336c99f46cba5eda7",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-construction-alternate-1-primary/observation.json",
+      "arm": "construction",
+      "nominee": "alternate",
+      "replicate": 1,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "b7ea4d4ca9d545f91b94b0827a85913a26e796e57688468b0b9fc24204103ff8",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-baseline-baseline-2-primary/observation.json",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 2,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "b4f669436e9afe22d9c3980d0c5132f79403e75ea762420426a6cdc32326b952",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-direct-primary-2-primary/observation.json",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 2,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "922da9cc9623086bcc87b8b40fff26a7dc3fc651d8876854397de2c5aa6b40d1",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-direct-alternate-2-primary/observation.json",
+      "arm": "direct",
+      "nominee": "alternate",
+      "replicate": 2,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "4d588f830708f4a40048e339045ac7f072010e75743d6c6e034a88fd00d28305",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-construction-primary-2-primary/observation.json",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 2,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "ff8643e0afb2629805e15253b9638cae12d7d0a01d2a391756cada6552225716",
+      "marker_array_valid": true
+    },
+    {
+      "result_path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/validation/confinement-holdout-construction-alternate-2-primary/observation.json",
+      "arm": "construction",
+      "nominee": "alternate",
+      "replicate": 2,
+      "eligible": true,
+      "reasons": [],
+      "result_sha256": "bac655afc43b93cbe4f2eb15a9ee46422ccf2432a46af3043e0c33679509fa0c",
+      "marker_array_valid": true
+    }
+  ],
+  "versus_baseline": [
+    {
+      "comparison": "construction:alternate minus baseline",
+      "direction": "left minus right",
+      "panels": [
+        {
+          "replicate": 0,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 46.57520483415252,
+          "right_rmst": 18.04014576948807,
+          "difference": 28.535059064664452,
+          "relative_difference_percent": 158.17532424226192,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 24.20219938277182,
+            "upper": 32.576271946842915,
+            "draws": 2000,
+            "seed": 812903,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        },
+        {
+          "replicate": 1,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 44.411923326511854,
+          "right_rmst": 18.71474904969023,
+          "difference": 25.697174276821624,
+          "relative_difference_percent": 137.3097454237409,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 21.32843398144667,
+            "upper": 30.204340536071637,
+            "draws": 2000,
+            "seed": 812904,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        },
+        {
+          "replicate": 2,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 46.88228891127647,
+          "right_rmst": 17.41025730175377,
+          "difference": 29.4720316095227,
+          "relative_difference_percent": 169.2797016075915,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 24.932641078680376,
+            "upper": 33.55633396417663,
+            "draws": 2000,
+            "seed": 812905,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        }
+      ],
+      "complete_eligible_panels": true,
+      "conditions_consistent_across_panels": true,
+      "pooled": {
+        "left_rmst": 45.956472357313615,
+        "right_rmst": 18.055050706977358,
+        "difference": 27.901421650336257,
+        "equal_panel_mean_difference": 27.901421650336257,
+        "panels": 3,
+        "left_particles": 1440,
+        "right_particles": 1440,
+        "all_panel_differences_positive": true,
+        "interpretation": "Descriptive outcome of these locked designs, not evidence of a population strategy effect",
+        "marker_bootstrap_interval": {
+          "level": 0.95,
+          "lower": 25.49435762652934,
+          "upper": 30.332550537040206,
+          "draws": 2000,
+          "seed": 813903,
+          "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+          "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+        }
+      }
+    },
+    {
+      "comparison": "construction:primary minus baseline",
+      "direction": "left minus right",
+      "panels": [
+        {
+          "replicate": 0,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 50.507111239562356,
+          "right_rmst": 18.04014576948807,
+          "difference": 32.466965470074285,
+          "relative_difference_percent": 179.97063818068918,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 27.94064392677155,
+            "upper": 37.176112167803225,
+            "draws": 2000,
+            "seed": 822903,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        },
+        {
+          "replicate": 1,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 47.86137764149142,
+          "right_rmst": 18.71474904969023,
+          "difference": 29.146628591801193,
+          "relative_difference_percent": 155.7414877133158,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 24.501212287929835,
+            "upper": 33.52501046974534,
+            "draws": 2000,
+            "seed": 822904,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        },
+        {
+          "replicate": 2,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 54.151672564625414,
+          "right_rmst": 17.41025730175377,
+          "difference": 36.74141526287164,
+          "relative_difference_percent": 211.03315491592767,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 32.22215881172669,
+            "upper": 41.49652675230478,
+            "draws": 2000,
+            "seed": 822905,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        }
+      ],
+      "complete_eligible_panels": true,
+      "conditions_consistent_across_panels": true,
+      "pooled": {
+        "left_rmst": 50.840053815226405,
+        "right_rmst": 18.055050706977358,
+        "difference": 32.78500310824904,
+        "equal_panel_mean_difference": 32.78500310824904,
+        "panels": 3,
+        "left_particles": 1440,
+        "right_particles": 1440,
+        "all_panel_differences_positive": true,
+        "interpretation": "Descriptive outcome of these locked designs, not evidence of a population strategy effect",
+        "marker_bootstrap_interval": {
+          "level": 0.95,
+          "lower": 30.193551232879443,
+          "upper": 35.5965043809726,
+          "draws": 2000,
+          "seed": 823903,
+          "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+          "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+        }
+      }
+    },
+    {
+      "comparison": "direct:alternate minus baseline",
+      "direction": "left minus right",
+      "panels": [
+        {
+          "replicate": 0,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 21.984303525492365,
+          "right_rmst": 18.04014576948807,
+          "difference": 3.9441577560042944,
+          "relative_difference_percent": 21.86322553266275,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 1.1410282030060324,
+            "upper": 6.591556845796414,
+            "draws": 2000,
+            "seed": 832903,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        },
+        {
+          "replicate": 1,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 21.403293223828438,
+          "right_rmst": 18.71474904969023,
+          "difference": 2.688544174138208,
+          "relative_difference_percent": 14.365910902677635,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": -0.04525751396488313,
+            "upper": 5.434471610635611,
+            "draws": 2000,
+            "seed": 832904,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        },
+        {
+          "replicate": 2,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 21.52378799438386,
+          "right_rmst": 17.41025730175377,
+          "difference": 4.113530692630089,
+          "relative_difference_percent": 23.627052842095132,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 1.8608833497641066,
+            "upper": 6.61252263638517,
+            "draws": 2000,
+            "seed": 832905,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        }
+      ],
+      "complete_eligible_panels": true,
+      "conditions_consistent_across_panels": true,
+      "pooled": {
+        "left_rmst": 21.637128247901554,
+        "right_rmst": 18.055050706977358,
+        "difference": 3.582077540924196,
+        "equal_panel_mean_difference": 3.5820775409241974,
+        "panels": 3,
+        "left_particles": 1440,
+        "right_particles": 1440,
+        "all_panel_differences_positive": true,
+        "interpretation": "Descriptive outcome of these locked designs, not evidence of a population strategy effect",
+        "marker_bootstrap_interval": {
+          "level": 0.95,
+          "lower": 2.085121097431089,
+          "upper": 5.057912259592261,
+          "draws": 2000,
+          "seed": 833903,
+          "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+          "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+        }
+      }
+    },
+    {
+      "comparison": "direct:primary minus baseline",
+      "direction": "left minus right",
+      "panels": [
+        {
+          "replicate": 0,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 32.671593022125535,
+          "right_rmst": 18.04014576948807,
+          "difference": 14.631447252637464,
+          "relative_difference_percent": 81.10492808425164,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 10.697139446063918,
+            "upper": 18.54612881652951,
+            "draws": 2000,
+            "seed": 842903,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        },
+        {
+          "replicate": 1,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 30.57677532482013,
+          "right_rmst": 18.71474904969023,
+          "difference": 11.8620262751299,
+          "relative_difference_percent": 63.38330395793494,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 8.270781752065222,
+            "upper": 15.506235778622019,
+            "draws": 2000,
+            "seed": 842904,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        },
+        {
+          "replicate": 2,
+          "eligible": true,
+          "reasons": [],
+          "paired_markers_available": true,
+          "left_rmst": 32.628181098869824,
+          "right_rmst": 17.41025730175377,
+          "difference": 15.217923797116054,
+          "relative_difference_percent": 87.4078052573245,
+          "left_particles": 480,
+          "right_particles": 480,
+          "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+          "marker_bootstrap_interval": {
+            "level": 0.95,
+            "lower": 11.35295779242836,
+            "upper": 19.161484240778975,
+            "draws": 2000,
+            "seed": 842905,
+            "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+            "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+          }
+        }
+      ],
+      "complete_eligible_panels": true,
+      "conditions_consistent_across_panels": true,
+      "pooled": {
+        "left_rmst": 31.95884981527183,
+        "right_rmst": 18.055050706977358,
+        "difference": 13.903799108294471,
+        "equal_panel_mean_difference": 13.903799108294473,
+        "panels": 3,
+        "left_particles": 1440,
+        "right_particles": 1440,
+        "all_panel_differences_positive": true,
+        "interpretation": "Descriptive outcome of these locked designs, not evidence of a population strategy effect",
+        "marker_bootstrap_interval": {
+          "level": 0.95,
+          "lower": 11.652134353345986,
+          "upper": 16.103655355975977,
+          "draws": 2000,
+          "seed": 843903,
+          "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+          "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+        }
+      }
+    }
+  ],
+  "primary_between_arms": {
+    "comparison": "construction:primary minus direct:primary",
+    "direction": "left minus right",
+    "panels": [
+      {
+        "replicate": 0,
+        "eligible": true,
+        "reasons": [],
+        "paired_markers_available": true,
+        "left_rmst": 50.507111239562356,
+        "right_rmst": 32.671593022125535,
+        "difference": 17.83551821743682,
+        "relative_difference_percent": 54.59029256809861,
+        "left_particles": 480,
+        "right_particles": 480,
+        "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+        "marker_bootstrap_interval": {
+          "level": 0.95,
+          "lower": 14.113005628285359,
+          "upper": 21.762600789069904,
+          "draws": 2000,
+          "seed": 912903,
+          "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+          "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+        }
+      },
+      {
+        "replicate": 1,
+        "eligible": true,
+        "reasons": [],
+        "paired_markers_available": true,
+        "left_rmst": 47.86137764149142,
+        "right_rmst": 30.57677532482013,
+        "difference": 17.284602316671293,
+        "relative_difference_percent": 56.52853230288427,
+        "left_particles": 480,
+        "right_particles": 480,
+        "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+        "marker_bootstrap_interval": {
+          "level": 0.95,
+          "lower": 13.571510295188208,
+          "upper": 21.24646031513089,
+          "draws": 2000,
+          "seed": 912904,
+          "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+          "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+        }
+      },
+      {
+        "replicate": 2,
+        "eligible": true,
+        "reasons": [],
+        "paired_markers_available": true,
+        "left_rmst": 54.151672564625414,
+        "right_rmst": 32.628181098869824,
+        "difference": 21.52349146575559,
+        "relative_difference_percent": 65.9659556275453,
+        "left_particles": 480,
+        "right_particles": 480,
+        "comparison_signature": "0bcf4d44b82a323fcc146207430372891c5e21fe65f90bbe6e8e2b2b142537e2",
+        "marker_bootstrap_interval": {
+          "level": 0.95,
+          "lower": 17.06091779441315,
+          "upper": 25.820622406124244,
+          "draws": 2000,
+          "seed": 912905,
+          "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+          "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+        }
+      }
+    ],
+    "complete_eligible_panels": true,
+    "conditions_consistent_across_panels": true,
+    "pooled": {
+      "left_rmst": 50.840053815226405,
+      "right_rmst": 31.95884981527183,
+      "difference": 18.881203999954575,
+      "equal_panel_mean_difference": 18.881203999954568,
+      "panels": 3,
+      "left_particles": 1440,
+      "right_particles": 1440,
+      "all_panel_differences_positive": true,
+      "interpretation": "Descriptive outcome of these locked designs, not evidence of a population strategy effect",
+      "marker_bootstrap_interval": {
+        "level": 0.95,
+        "lower": 16.49637509905653,
+        "upper": 21.142744018714176,
+        "draws": 2000,
+        "seed": 913903,
+        "method": "paired marker percentile bootstrap, independently stratified within the fixed panels",
+        "scope": "Conditional on these fixed designs and panels; does not measure native-team, strategy-population, grid, or model uncertainty"
+      }
+    }
+  },
+  "study_interpretation": "One paired native-strategy pilot: descriptive candidate outcomes; inconclusive for population superiority or the general environment-construction hypothesis",
+  "qualification_limit": "Numerical qualification is not grid/time convergence. Diagnostic overrides and nonprimary grids are excluded, even if their evaluations succeeded.",
+  "selection_limit": "Locked primary nominees determine the strategy comparison. Alternates remain exploratory; no winner is selected from held-out outcomes."
+}

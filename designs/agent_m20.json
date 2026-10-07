@@ -1,0 +1,5 @@
+{"name": "hopfmesh N20 de0.10 (open weave)",
+ "wire_radius": 0.0058,
+ "components": [{"family": "hopfmesh",
+   "params": {"eta": 0.60, "circuits": 20, "eps": 0.70, "periods": 4, "delta_eta": 0.10, "sense": -1},
+   "current": 1.0}]}

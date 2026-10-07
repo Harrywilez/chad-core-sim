@@ -1,0 +1,44 @@
+{
+ "name": "precess \u00d7 pair-side-crossed (baseline)",
+ "wire_radius": 0.0006,
+ "components": [
+  {
+   "family": "precess",
+   "params": {
+    "inward": 0.22,
+    "rotation_deg": 24,
+    "slip_deg": 3
+   },
+   "scale": 0.45,
+   "translate": [
+    0.5,
+    0,
+    0
+   ],
+   "current": 1.0
+  },
+  {
+   "family": "precess",
+   "params": {
+    "inward": 0.22,
+    "rotation_deg": 24,
+    "slip_deg": 3
+   },
+   "scale": 0.45,
+   "rotate": {
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "deg": 90
+   },
+   "translate": [
+    -0.5,
+    0,
+    0
+   ],
+   "current": 1.0
+  }
+ ]
+}

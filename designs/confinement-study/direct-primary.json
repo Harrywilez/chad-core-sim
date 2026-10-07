@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "current": 1.0,
+      "family": "hopfmesh",
+      "params": {
+        "circuits": 40,
+        "delta_eta": 0.02,
+        "eps": 0.4,
+        "eta": 0.7,
+        "periods": 4,
+        "sense": -1
+      }
+    }
+  ],
+  "name": "astra final eta.70 N40 eps0.40",
+  "wire_radius": 0.00448
+}

@@ -1,0 +1,7 @@
+baseline (round torus)                     clr=0.0145 surf=0.38 isl=0.06 open=0.56 r_out=0.106 ι_axis=+0.001 ι_edge=+0.000 well=+0.223 | 0.02:+0.001 0.06:+0.001 (146s)
+ellipse 0.20, n=5                          clr=0.0097 surf=0.44 isl=0.00 open=0.56 r_out=0.133 ι_axis=+0.018 ι_edge=+0.012 well=-0.327 | 0.04:+0.018 0.07:+0.014 0.13:+0.012 (104s)
+ellipse 0.20, n=3                          clr=0.0117 surf=0.38 isl=0.00 open=0.62 r_out=0.101 ι_axis=+0.020 ι_edge=+0.016 well=-0.062 | 0.03:+0.020 0.07:+0.016 (56s)
+helical axis 0.15, n=5                     clr=0.0090 surf=0.19 isl=0.06 open=0.75 r_out=0.041 ι_axis=+0.020 ι_edge=+0.018 well=-0.047 | 0.03:+0.020 (38s)
+ellipse 0.20 + helical axis 0.15, n=5      clr=0.0096 surf=0.00 isl=0.00 open=1.00 r_out=0.000 ι_axis=+nan ι_edge=+nan well=+nan |  (2s)
+ellipse 0.20 + triangle 0.15, n=5          clr=0.0161 surf=0.12 isl=0.00 open=0.88 r_out=0.098 ι_axis=+0.020 ι_edge=+0.019 well=+0.065 | 0.07:+0.020 (21s)
+done 0

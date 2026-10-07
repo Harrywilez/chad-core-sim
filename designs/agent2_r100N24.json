@@ -1,0 +1,18 @@
+{
+ "components": [
+  {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 1.0,
+    "circuits": 24,
+    "revolutions": 2.0,
+    "mode": "woven",
+    "delta_eta": 0.06,
+    "sense": -1
+   },
+   "current": 1.0
+  }
+ ],
+ "name": "mirror e1.0 N24 r2 de0.06",
+ "wire_radius": 0.00441
+}

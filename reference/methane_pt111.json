@@ -1,0 +1,238 @@
+{
+ "schema_version": 1,
+ "id": "methane_pt111",
+ "name": "Methane dehydrogenation on clean Pt(111)",
+ "surface": "Pt(111), ideal terrace",
+ "description": "Reduced first-bond energy-shift surrogate followed by well-mixed stochastic kinetics for sequential CHx dehydrogenation and H2 formation.",
+ "references": [
+  "https://doi.org/10.1063/1.1525803",
+  "https://doi.org/10.1021/jp0566865",
+  "https://doi.org/10.1021/acs.jpclett.7b01905",
+  "https://doi.org/10.1021/acs.jpclett.3c03408",
+  "https://doi.org/10.1039/C3CP52244J",
+  "https://nvlpubs.nist.gov/nistpubs/Legacy/NSRDS/nbsnsrds6.pdf"
+ ],
+ "species": [
+  {
+   "name": "CH4(g)",
+   "phase": "gas",
+   "composition": {
+    "C": 1,
+    "H": 4
+   },
+   "sites": 0
+  },
+  {
+   "name": "CH3*",
+   "phase": "surface",
+   "composition": {
+    "C": 1,
+    "H": 3
+   },
+   "sites": 1
+  },
+  {
+   "name": "CH2*",
+   "phase": "surface",
+   "composition": {
+    "C": 1,
+    "H": 2
+   },
+   "sites": 1
+  },
+  {
+   "name": "CH*",
+   "phase": "surface",
+   "composition": {
+    "C": 1,
+    "H": 1
+   },
+   "sites": 1
+  },
+  {
+   "name": "C*",
+   "phase": "surface",
+   "composition": {
+    "C": 1
+   },
+   "sites": 1
+  },
+  {
+   "name": "H*",
+   "phase": "surface",
+   "composition": {
+    "H": 1
+   },
+   "sites": 1
+  },
+  {
+   "name": "H2(g)",
+   "phase": "gas",
+   "composition": {
+    "H": 2
+   },
+   "sites": 0
+  }
+ ],
+ "steps": [
+  {
+   "id": "ch4_dissociation",
+   "equation": "CH4(g) + 2* -> CH3* + H*",
+   "kind": "collision",
+   "reactants": {
+    "CH4(g)": 1,
+    "*": 2
+   },
+   "products": {
+    "CH3*": 1,
+    "H*": 1
+   },
+   "barrier": {
+    "height_eV": 0.815,
+    "width_angstrom": 0.55,
+    "effective_mass_amu": 0.94,
+    "reaction_energy_eV": -0.02,
+    "imaginary_frequency_cm1": 0.0,
+    "model": "sech2"
+   },
+   "prefactor_s": 10000000000000.0,
+   "degeneracy": 1.0,
+   "steric_factor": 0.3,
+   "barrier_sigma_eV": 0.0,
+   "phonon_sigma_eV_300K": 0.0,
+   "translation_efficacy": 1.0,
+   "vibrational_frequency_cm1": 3019.0,
+   "vibrational_efficacy": 0.7,
+   "provenance": "Approximate 0.815 eV SRP-DFT electronic barrier anchor: DOI 10.1021/acs.jpclett.7b01905. Approx. -0.02 eV reaction energy, 3019 cm^-1 nu3, and condition-specific vibrational efficacy near 0.7: DOI 10.1039/C3CP52244J and NIST. Width 0.55 A, effective mass 0.94 amu, and steric factor 0.30 are uncalibrated surrogate parameters. Barrier-disorder fields are zero because rigid shifts of a finite quantum curve violate flux thresholds.",
+   "calibration_status": "unvalidated surrogate (selected literature anchors)",
+   "notes": "Do not identify this electronic barrier with the 0.544 +/- 0.036 eV apparent PC-MURT threshold. Moving-surface RPMD or state-resolved sticking data are required for benchmark accuracy."
+  },
+  {
+   "id": "ch3_dehydrogenation",
+   "equation": "CH3* + * -> CH2* + H*",
+   "kind": "thermal",
+   "reactants": {
+    "CH3*": 1,
+    "*": 1
+   },
+   "products": {
+    "CH2*": 1,
+    "H*": 1
+   },
+   "barrier": {
+    "height_eV": 0.72,
+    "width_angstrom": 0.48,
+    "effective_mass_amu": 0.94,
+    "reaction_energy_eV": 0.05,
+    "imaginary_frequency_cm1": 1050.0,
+    "model": "sech2"
+   },
+   "prefactor_s": 10000000000000.0,
+   "degeneracy": 1.0,
+   "steric_factor": 1.0,
+   "barrier_sigma_eV": 0.0,
+   "phonon_sigma_eV_300K": 0.0,
+   "translation_efficacy": 1.0,
+   "vibrational_frequency_cm1": 0.0,
+   "vibrational_efficacy": 0.0,
+   "provenance": "Illustrative placeholder; replace with a consistent DFT/HTST dataset",
+   "calibration_status": "illustrative",
+   "notes": ""
+  },
+  {
+   "id": "ch2_dehydrogenation",
+   "equation": "CH2* + * -> CH* + H*",
+   "kind": "thermal",
+   "reactants": {
+    "CH2*": 1,
+    "*": 1
+   },
+   "products": {
+    "CH*": 1,
+    "H*": 1
+   },
+   "barrier": {
+    "height_eV": 0.68,
+    "width_angstrom": 0.46,
+    "effective_mass_amu": 0.94,
+    "reaction_energy_eV": -0.1,
+    "imaginary_frequency_cm1": 1100.0,
+    "model": "sech2"
+   },
+   "prefactor_s": 10000000000000.0,
+   "degeneracy": 1.0,
+   "steric_factor": 1.0,
+   "barrier_sigma_eV": 0.0,
+   "phonon_sigma_eV_300K": 0.0,
+   "translation_efficacy": 1.0,
+   "vibrational_frequency_cm1": 0.0,
+   "vibrational_efficacy": 0.0,
+   "provenance": "Illustrative placeholder; replace with a consistent DFT/HTST dataset",
+   "calibration_status": "illustrative",
+   "notes": ""
+  },
+  {
+   "id": "ch_dehydrogenation",
+   "equation": "CH* + * -> C* + H*",
+   "kind": "thermal",
+   "reactants": {
+    "CH*": 1,
+    "*": 1
+   },
+   "products": {
+    "C*": 1,
+    "H*": 1
+   },
+   "barrier": {
+    "height_eV": 1.05,
+    "width_angstrom": 0.5,
+    "effective_mass_amu": 0.94,
+    "reaction_energy_eV": 0.2,
+    "imaginary_frequency_cm1": 950.0,
+    "model": "sech2"
+   },
+   "prefactor_s": 10000000000000.0,
+   "degeneracy": 1.0,
+   "steric_factor": 1.0,
+   "barrier_sigma_eV": 0.0,
+   "phonon_sigma_eV_300K": 0.0,
+   "translation_efficacy": 1.0,
+   "vibrational_frequency_cm1": 0.0,
+   "vibrational_efficacy": 0.0,
+   "provenance": "Illustrative placeholder; strongly facet and coverage dependent",
+   "calibration_status": "illustrative",
+   "notes": ""
+  },
+  {
+   "id": "h2_recombination",
+   "equation": "2H* -> H2(g) + 2*",
+   "kind": "thermal",
+   "reactants": {
+    "H*": 2
+   },
+   "products": {
+    "H2(g)": 1,
+    "*": 2
+   },
+   "barrier": {
+    "height_eV": 0.85,
+    "width_angstrom": 0.38,
+    "effective_mass_amu": 0.5,
+    "reaction_energy_eV": -0.45,
+    "imaginary_frequency_cm1": 1200.0,
+    "model": "sech2"
+   },
+   "prefactor_s": 10000000000000.0,
+   "degeneracy": 0.5,
+   "steric_factor": 1.0,
+   "barrier_sigma_eV": 0.0,
+   "phonon_sigma_eV_300K": 0.0,
+   "translation_efficacy": 1.0,
+   "vibrational_frequency_cm1": 0.0,
+   "vibrational_efficacy": 0.0,
+   "provenance": "Illustrative placeholder; replace with coverage-consistent H/Pt kinetics",
+   "calibration_status": "illustrative",
+   "notes": ""
+  }
+ ]
+}

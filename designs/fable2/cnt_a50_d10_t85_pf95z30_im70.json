@@ -1,0 +1,74 @@
+{
+ "name": "CNT a0.50 d0.10 th85 PF R0.95 z0.30 I-0.70",
+ "components": [
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.5,
+    "axis": "z"
+   },
+   "current": 1.0,
+   "rotate": {
+    "axis": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "deg": 42.5
+   },
+   "translate": [
+    -0.1,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.5,
+    "axis": "z"
+   },
+   "current": 1.0,
+   "rotate": {
+    "axis": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "deg": -42.5
+   },
+   "translate": [
+    0.1,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.95,
+    "axis": "z"
+   },
+   "current": -0.7,
+   "translate": [
+    0.0,
+    0.0,
+    0.3
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.95,
+    "axis": "z"
+   },
+   "current": -0.7,
+   "translate": [
+    0.0,
+    0.0,
+    -0.3
+   ]
+  }
+ ],
+ "wire_radius": 0.0235
+}

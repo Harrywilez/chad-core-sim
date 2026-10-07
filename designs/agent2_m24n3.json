@@ -1,0 +1,18 @@
+{
+ "components": [
+  {
+   "family": "hopfmesh",
+   "params": {
+    "eta": 0.6,
+    "circuits": 24,
+    "eps": 0.55,
+    "periods": 3,
+    "delta_eta": 0.08,
+    "sense": -1
+   },
+   "current": 1.0
+  }
+ ],
+ "name": "mesh e0.60 N24 eps0.55 n3 de0.08",
+ "wire_radius": 0.005984
+}

@@ -1,0 +1,2780 @@
+{
+  "status": "complete",
+  "protocol": "Fixed current, exact shared initial conditions, 120-transit restricted mean; pilot comparison, not a physical reactor validation.",
+  "arms": {
+    "direct": {
+      "used": 12,
+      "limit": 12,
+      "best": {
+        "id": "08690c8eb759b3419f4fce3d",
+        "arm": "direct",
+        "actor": "direct-astra",
+        "phase": "screen",
+        "primary": 33.37876397973888,
+        "survival": {
+          "S4": 0.49375,
+          "S20": 0.375,
+          "S40": 0.275,
+          "S80": 0.2125,
+          "S120": 0.1625
+        },
+        "valid": true,
+        "numerically_qualified": true,
+        "seconds": 17.628112077713013,
+        "design": {
+          "components": [
+            {
+              "current": 1.0,
+              "family": "hopfmesh",
+              "params": {
+                "circuits": 40,
+                "delta_eta": 0.02,
+                "eps": 0.4,
+                "eta": 0.7,
+                "periods": 4,
+                "sense": -1
+              }
+            }
+          ],
+          "name": "astra final eta.70 N40 eps0.40",
+          "wire_radius": 0.00448
+        },
+        "name": "astra final eta.70 N40 eps0.40",
+        "at": 1788748516.403456,
+        "completed_at": 1788748516.403456,
+        "accepted_ordinal": 11,
+        "accepted_at": 1788748498.2833369,
+        "experiment_id": "9fec5df6df198153bde233cf",
+        "canonical_observation": "inquiry/experiments/9fec5df6df198153bde233cf/outputs/observation.json"
+      },
+      "participants": [
+        "direct-astra",
+        "direct-astra-2"
+      ]
+    },
+    "construction": {
+      "used": 9,
+      "limit": 12,
+      "best": {
+        "id": "09528c4f9ab6fdf88ef8bd2c",
+        "arm": "construction",
+        "actor": "construction-astra",
+        "phase": "screen",
+        "primary": 47.80330823179222,
+        "survival": {
+          "S4": 0.675,
+          "S20": 0.5375,
+          "S40": 0.4125,
+          "S80": 0.3125,
+          "S120": 0.28125
+        },
+        "valid": true,
+        "numerically_qualified": true,
+        "seconds": 17.447510957717896,
+        "design": {
+          "components": [
+            {
+              "current": 1.0,
+              "family": "hopfmirror",
+              "params": {
+                "circuits": 32,
+                "delta_eta": 0.03,
+                "eta": 0.9,
+                "mode": "woven",
+                "revolutions": 2.0,
+                "sense": -1
+              }
+            }
+          ],
+          "name": "astra eta.9 reduced gap.03 N32",
+          "wire_radius": 0.00448
+        },
+        "name": "astra eta.9 reduced gap.03 N32",
+        "at": 1788748495.929474,
+        "completed_at": 1788748495.929474,
+        "accepted_ordinal": 9,
+        "accepted_at": 1788748477.948884,
+        "experiment_id": "8ed85b0ae5585333c1a858b9",
+        "canonical_observation": "inquiry/experiments/8ed85b0ae5585333c1a858b9/outputs/observation.json"
+      },
+      "participants": [
+        "construction-astra",
+        "construction-astra-2"
+      ]
+    }
+  },
+  "evaluations": [
+    {
+      "id": "c9b3727417e5f69f2a53e931",
+      "arm": "direct",
+      "actor": "direct-astra",
+      "phase": "screen",
+      "primary": 20.916607401463217,
+      "survival": {
+        "S4": 0.4125,
+        "S20": 0.23125,
+        "S40": 0.16875,
+        "S80": 0.11875,
+        "S120": 0.1125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 7.487836122512817,
+      "design": {
+        "name": "astra eta0.60 eps0.70 de0.020 N24",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.02,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra eta0.60 eps0.70 de0.020 N24",
+      "at": 1788747818.657494,
+      "completed_at": 1788747818.657494,
+      "accepted_ordinal": 1,
+      "accepted_at": 1788747810.635391,
+      "experiment_id": "b5b86116b014f62c03808bd2",
+      "canonical_observation": "inquiry/experiments/b5b86116b014f62c03808bd2/outputs/observation.json"
+    },
+    {
+      "id": "0ae4786e3c2bd9741e577f10",
+      "arm": "construction",
+      "actor": "construction-astra",
+      "phase": "screen",
+      "primary": 36.267401424663355,
+      "survival": {
+        "S4": 0.6,
+        "S20": 0.3875,
+        "S40": 0.2875,
+        "S80": 0.2375,
+        "S120": 0.2
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 12.3078031539917,
+      "design": {
+        "name": "astra fat pair eta 0.9",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmirror",
+            "params": {
+              "eta": 0.9,
+              "circuits": 24,
+              "revolutions": 2.0,
+              "mode": "woven",
+              "delta_eta": 0.06,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra fat pair eta 0.9",
+      "at": 1788747826.743667,
+      "completed_at": 1788747826.743667,
+      "accepted_ordinal": 1,
+      "accepted_at": 1788747813.939359,
+      "experiment_id": "093b55a0d7b957353110ce4d",
+      "canonical_observation": "inquiry/experiments/093b55a0d7b957353110ce4d/outputs/observation.json"
+    },
+    {
+      "id": "87a93a2a36e9af35ddce22fa",
+      "arm": "direct",
+      "actor": "direct-astra",
+      "phase": "screen",
+      "primary": 22.541711883872456,
+      "survival": {
+        "S4": 0.51875,
+        "S20": 0.3125,
+        "S40": 0.15625,
+        "S80": 0.1125,
+        "S120": 0.1
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 6.657125949859619,
+      "design": {
+        "name": "astra eta0.70 eps0.70 de0.020 N24",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.7,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.02,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra eta0.70 eps0.70 de0.020 N24",
+      "at": 1788747852.629112,
+      "completed_at": 1788747852.629112,
+      "accepted_ordinal": 2,
+      "accepted_at": 1788747845.447882,
+      "experiment_id": "cca1625593721c834b302e54",
+      "canonical_observation": "inquiry/experiments/cca1625593721c834b302e54/outputs/observation.json"
+    },
+    {
+      "id": "099c160d3ab4d7a8e586ea3d",
+      "arm": "construction",
+      "actor": "construction-astra-2",
+      "phase": "screen",
+      "primary": 28.047397658665567,
+      "survival": {
+        "S4": 0.40625,
+        "S20": 0.25,
+        "S40": 0.225,
+        "S80": 0.19375,
+        "S120": 0.1875
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 4.707118034362793,
+      "design": {
+        "name": "astra single knot eta 0.88",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopftorus",
+            "params": {
+              "eta": 0.88,
+              "circuits": 32,
+              "revolutions": 2.0
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra single knot eta 0.88",
+      "at": 1788747886.573534,
+      "completed_at": 1788747886.573534,
+      "accepted_ordinal": 2,
+      "accepted_at": 1788747881.402246,
+      "experiment_id": "01d45c7ae40038b8959e3fea",
+      "canonical_observation": "inquiry/experiments/01d45c7ae40038b8959e3fea/outputs/observation.json"
+    },
+    {
+      "id": "b6395853144ade61eef305e8",
+      "arm": "direct",
+      "actor": "direct-astra-2",
+      "phase": "screen",
+      "primary": 20.38287463829631,
+      "survival": {
+        "S4": 0.3875,
+        "S20": 0.23125,
+        "S40": 0.15625,
+        "S80": 0.10625,
+        "S120": 0.10625
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 8.026634931564331,
+      "design": {
+        "name": "astra2 baseline with vertical rings +0.3",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.015,
+              "sense": -1
+            },
+            "current": 1.0
+          },
+          {
+            "family": "circle",
+            "params": {
+              "radius": 0.62,
+              "axis": "z"
+            },
+            "translate": [
+              0,
+              0,
+              -0.46
+            ],
+            "current": 0.3
+          },
+          {
+            "family": "circle",
+            "params": {
+              "radius": 0.62,
+              "axis": "z"
+            },
+            "translate": [
+              0,
+              0,
+              0.46
+            ],
+            "current": 0.3
+          }
+        ]
+      },
+      "name": "astra2 baseline with vertical rings +0.3",
+      "at": 1788747900.916065,
+      "completed_at": 1788747900.916065,
+      "accepted_ordinal": 3,
+      "accepted_at": 1788747892.370464,
+      "experiment_id": "a4d24db087ccc4023ea28530",
+      "canonical_observation": "inquiry/experiments/a4d24db087ccc4023ea28530/outputs/observation.json"
+    },
+    {
+      "id": "8cef74a4a3474606b5f22961",
+      "arm": "direct",
+      "actor": "direct-astra-2",
+      "phase": "screen",
+      "primary": 20.150260442794384,
+      "survival": {
+        "S4": 0.4125,
+        "S20": 0.20625,
+        "S40": 0.1625,
+        "S80": 0.1125,
+        "S120": 0.1125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 7.700221061706543,
+      "design": {
+        "name": "astra2 baseline with vertical rings -0.3",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.015,
+              "sense": -1
+            },
+            "current": 1.0
+          },
+          {
+            "family": "circle",
+            "params": {
+              "radius": 0.62,
+              "axis": "z"
+            },
+            "translate": [
+              0,
+              0,
+              -0.46
+            ],
+            "current": -0.3
+          },
+          {
+            "family": "circle",
+            "params": {
+              "radius": 0.62,
+              "axis": "z"
+            },
+            "translate": [
+              0,
+              0,
+              0.46
+            ],
+            "current": -0.3
+          }
+        ]
+      },
+      "name": "astra2 baseline with vertical rings -0.3",
+      "at": 1788747932.178349,
+      "completed_at": 1788747932.178349,
+      "accepted_ordinal": 4,
+      "accepted_at": 1788747923.964614,
+      "experiment_id": "5a8a54b0a952d1c6acd685c9",
+      "canonical_observation": "inquiry/experiments/5a8a54b0a952d1c6acd685c9/outputs/observation.json"
+    },
+    {
+      "id": "40f735e06047e7c1d3b07e98",
+      "arm": "construction",
+      "actor": "construction-astra",
+      "phase": "screen",
+      "primary": 37.205562502741465,
+      "survival": {
+        "S4": 0.63125,
+        "S20": 0.4125,
+        "S40": 0.3125,
+        "S80": 0.23125,
+        "S120": 0.20625
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 20.052289724349976,
+      "design": {
+        "name": "astra fat pair eta .9 N40",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmirror",
+            "params": {
+              "eta": 0.9,
+              "circuits": 40,
+              "revolutions": 2.0,
+              "mode": "woven",
+              "delta_eta": 0.06,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra fat pair eta .9 N40",
+      "at": 1788747988.599353,
+      "completed_at": 1788747988.599353,
+      "accepted_ordinal": 3,
+      "accepted_at": 1788747968.003818,
+      "experiment_id": "b120f592722dd8c6b949231d",
+      "canonical_observation": "inquiry/experiments/b120f592722dd8c6b949231d/outputs/observation.json"
+    },
+    {
+      "id": "bafad39e316f77103151a898",
+      "arm": "direct",
+      "actor": "direct-astra-2",
+      "phase": "screen",
+      "primary": 25.799612655968453,
+      "survival": {
+        "S4": 0.54375,
+        "S20": 0.30625,
+        "S40": 0.21875,
+        "S80": 0.125,
+        "S120": 0.1125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 14.857409954071045,
+      "design": {
+        "name": "astra2 eta 0.7 N40 de0.02 eps.7",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.7,
+              "circuits": 40,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.02,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra2 eta 0.7 N40 de0.02 eps.7",
+      "at": 1788748084.42366,
+      "completed_at": 1788748084.42366,
+      "accepted_ordinal": 5,
+      "accepted_at": 1788748069.02705,
+      "experiment_id": "6abcb703a33b05a589948978",
+      "canonical_observation": "inquiry/experiments/6abcb703a33b05a589948978/outputs/observation.json"
+    },
+    {
+      "id": "75b00190d137aab8da7a5012",
+      "arm": "construction",
+      "actor": "construction-astra-2",
+      "phase": "screen",
+      "primary": 30.26428670176673,
+      "survival": {
+        "S4": 0.6125,
+        "S20": 0.38125,
+        "S40": 0.25,
+        "S80": 0.16875,
+        "S120": 0.1125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 10.936844110488892,
+      "design": {
+        "name": "astra fat modulated eta .9 eps0.15",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.9,
+              "circuits": 24,
+              "eps": 0.15,
+              "periods": 4,
+              "delta_eta": 0.06,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra fat modulated eta .9 eps0.15",
+      "at": 1788748091.4066298,
+      "completed_at": 1788748091.4066298,
+      "accepted_ordinal": 4,
+      "accepted_at": 1788748079.964969,
+      "experiment_id": "8efe6df31756f847b732a9fa",
+      "canonical_observation": "inquiry/experiments/8efe6df31756f847b732a9fa/outputs/observation.json"
+    },
+    {
+      "id": "db10b4e8e6fb93ec25f113eb",
+      "arm": "direct",
+      "actor": "direct-astra",
+      "phase": "screen",
+      "primary": 22.59836760643116,
+      "survival": {
+        "S4": 0.50625,
+        "S20": 0.30625,
+        "S40": 0.1625,
+        "S80": 0.10625,
+        "S120": 0.1
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 6.680117130279541,
+      "design": {
+        "name": "astra eta0.70 eps0.70 de0.018 N24",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.7,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.018,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra eta0.70 eps0.70 de0.018 N24",
+      "at": 1788748091.99387,
+      "completed_at": 1788748091.99387,
+      "accepted_ordinal": 6,
+      "accepted_at": 1788748084.800129,
+      "experiment_id": "a16638633c1b016046efe225",
+      "canonical_observation": "inquiry/experiments/a16638633c1b016046efe225/outputs/observation.json"
+    },
+    {
+      "id": "183487541b85a17c3f7f37f4",
+      "arm": "construction",
+      "actor": "construction-astra",
+      "phase": "screen",
+      "primary": 40.91641049874163,
+      "survival": {
+        "S4": 0.6625,
+        "S20": 0.45,
+        "S40": 0.3375,
+        "S80": 0.25625,
+        "S120": 0.225
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 13.209455728530884,
+      "design": {
+        "name": "astra fat pair eta1.0 N24",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmirror",
+            "params": {
+              "eta": 1.0,
+              "circuits": 24,
+              "revolutions": 2.0,
+              "mode": "woven",
+              "delta_eta": 0.06,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra fat pair eta1.0 N24",
+      "at": 1788748185.3077781,
+      "completed_at": 1788748185.3077781,
+      "accepted_ordinal": 5,
+      "accepted_at": 1788748171.584872,
+      "experiment_id": "371291eecdc749a27c234747",
+      "canonical_observation": "inquiry/experiments/371291eecdc749a27c234747/outputs/observation.json"
+    },
+    {
+      "id": "bef1c2ee1ffb8c8bab1e7443",
+      "arm": "construction",
+      "actor": "construction-astra-2",
+      "phase": "screen",
+      "primary": 44.01264006859232,
+      "survival": {
+        "S4": 0.6625,
+        "S20": 0.525,
+        "S40": 0.3625,
+        "S80": 0.29375,
+        "S120": 0.2375
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 11.797409057617188,
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 24,
+              "delta_eta": 0.03,
+              "eta": 0.9,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2 eta.9 N24 delta0.03",
+        "wire_radius": 0.00448
+      },
+      "name": "astra2 eta.9 N24 delta0.03",
+      "at": 1788748205.51403,
+      "completed_at": 1788748205.51403,
+      "accepted_ordinal": 6,
+      "accepted_at": 1788748193.177799,
+      "experiment_id": "f121df29dd21c6e7e280b83f",
+      "canonical_observation": "inquiry/experiments/f121df29dd21c6e7e280b83f/outputs/observation.json"
+    },
+    {
+      "id": "e0c966ff7b11369ea53b6941",
+      "arm": "construction",
+      "actor": "construction-astra",
+      "phase": "screen",
+      "primary": 38.838322927279975,
+      "survival": {
+        "S4": 0.6625,
+        "S20": 0.43125,
+        "S40": 0.3,
+        "S80": 0.23125,
+        "S120": 0.20625
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 13.588738203048706,
+      "design": {
+        "name": "astra fat pair eta1.1 N24",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmirror",
+            "params": {
+              "eta": 1.1,
+              "circuits": 24,
+              "revolutions": 2.0,
+              "mode": "woven",
+              "delta_eta": 0.06,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra fat pair eta1.1 N24",
+      "at": 1788748241.477185,
+      "completed_at": 1788748241.477185,
+      "accepted_ordinal": 7,
+      "accepted_at": 1788748227.3438132,
+      "experiment_id": "9e517cd970c54eeef0e42b07",
+      "canonical_observation": "inquiry/experiments/9e517cd970c54eeef0e42b07/outputs/observation.json"
+    },
+    {
+      "id": "f5af2e074cbc8467da39d0af",
+      "arm": "direct",
+      "actor": "direct-astra",
+      "phase": "screen",
+      "primary": 23.840026845125312,
+      "survival": {
+        "S4": 0.5625,
+        "S20": 0.2875,
+        "S40": 0.2,
+        "S80": 0.11875,
+        "S120": 0.0875
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 13.551389932632446,
+      "design": {
+        "name": "astra strong eta0.70 N40 n3 de0.020",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.7,
+              "circuits": 40,
+              "eps": 0.7,
+              "periods": 3,
+              "delta_eta": 0.02,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "name": "astra strong eta0.70 N40 n3 de0.020",
+      "at": 1788748247.547711,
+      "completed_at": 1788748247.547711,
+      "accepted_ordinal": 7,
+      "accepted_at": 1788748233.455178,
+      "experiment_id": "6dcfdd8d279780f6a1183ff7",
+      "canonical_observation": "inquiry/experiments/6dcfdd8d279780f6a1183ff7/outputs/observation.json"
+    },
+    {
+      "id": "de43cd69c91d5c5d0ae90e59",
+      "arm": "direct",
+      "actor": "direct-astra-2",
+      "phase": "screen",
+      "primary": 26.13257056683658,
+      "survival": {
+        "S4": 0.4375,
+        "S20": 0.275,
+        "S40": 0.2125,
+        "S80": 0.16875,
+        "S120": 0.125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 18.978697061538696,
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 48,
+              "delta_eta": 0.02,
+              "eps": 0.7,
+              "eta": 0.6,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2_e0.60_N48_de0.020_eps0.70",
+        "wire_radius": 0.00448
+      },
+      "name": "astra2_e0.60_N48_de0.020_eps0.70",
+      "at": 1788748263.652125,
+      "completed_at": 1788748263.652125,
+      "accepted_ordinal": 8,
+      "accepted_at": 1788748244.137931,
+      "experiment_id": "9fc0fa92de0a8ed97f314709",
+      "canonical_observation": "inquiry/experiments/9fc0fa92de0a8ed97f314709/outputs/observation.json"
+    },
+    {
+      "id": "86b333858160e1a9718f025d",
+      "arm": "construction",
+      "actor": "construction-astra-2",
+      "phase": "screen",
+      "primary": 46.10740176207019,
+      "survival": {
+        "S4": 0.69375,
+        "S20": 0.51875,
+        "S40": 0.3875,
+        "S80": 0.3,
+        "S120": 0.24375
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 12.085400104522705,
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 24,
+              "delta_eta": 0.035,
+              "eta": 1.0,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2 eta1 N24 delta0.035",
+        "wire_radius": 0.00448
+      },
+      "name": "astra2 eta1 N24 delta0.035",
+      "at": 1788748301.225548,
+      "completed_at": 1788748301.225548,
+      "accepted_ordinal": 8,
+      "accepted_at": 1788748288.623401,
+      "experiment_id": "650d1e547be170d2c73c1d8a",
+      "canonical_observation": "inquiry/experiments/650d1e547be170d2c73c1d8a/outputs/observation.json"
+    },
+    {
+      "id": "bcce62e3e741adb919c922ce",
+      "arm": "direct",
+      "actor": "direct-astra",
+      "phase": "screen",
+      "primary": 26.473888701707722,
+      "survival": {
+        "S4": 0.50625,
+        "S20": 0.325,
+        "S40": 0.2375,
+        "S80": 0.13125,
+        "S120": 0.1125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 14.727874994277954,
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 40,
+              "delta_eta": 0.02,
+              "eps": 0.55,
+              "eta": 0.7,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2_e0.70_N40_de0.020_eps0.55",
+        "wire_radius": 0.00448
+      },
+      "name": "astra2_e0.70_N40_de0.020_eps0.55",
+      "at": 1788748433.6154618,
+      "completed_at": 1788748433.6154618,
+      "accepted_ordinal": 9,
+      "accepted_at": 1788748418.378054,
+      "experiment_id": "a8fcb6bf31500c3def1d70cb",
+      "canonical_observation": "inquiry/experiments/a8fcb6bf31500c3def1d70cb/outputs/observation.json"
+    },
+    {
+      "id": "8c8d74e8d25cedc1b77f86d4",
+      "arm": "direct",
+      "actor": "direct-astra-2",
+      "phase": "screen",
+      "primary": 24.98704077427471,
+      "survival": {
+        "S4": 0.4,
+        "S20": 0.2625,
+        "S40": 0.2125,
+        "S80": 0.15625,
+        "S120": 0.125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 18.649845838546753,
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 48,
+              "delta_eta": 0.02,
+              "eps": 0.55,
+              "eta": 0.6,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2 N48 eta.60 eps0.55 de.020 n4",
+        "wire_radius": 0.00448
+      },
+      "name": "astra2 N48 eta.60 eps0.55 de.020 n4",
+      "at": 1788748447.989289,
+      "completed_at": 1788748447.989289,
+      "accepted_ordinal": 10,
+      "accepted_at": 1788748428.830313,
+      "experiment_id": "e42fc1f09ff3cec84bead235",
+      "canonical_observation": "inquiry/experiments/e42fc1f09ff3cec84bead235/outputs/observation.json"
+    },
+    {
+      "id": "09528c4f9ab6fdf88ef8bd2c",
+      "arm": "construction",
+      "actor": "construction-astra",
+      "phase": "screen",
+      "primary": 47.80330823179222,
+      "survival": {
+        "S4": 0.675,
+        "S20": 0.5375,
+        "S40": 0.4125,
+        "S80": 0.3125,
+        "S120": 0.28125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 17.447510957717896,
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 32,
+              "delta_eta": 0.03,
+              "eta": 0.9,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra eta.9 reduced gap.03 N32",
+        "wire_radius": 0.00448
+      },
+      "name": "astra eta.9 reduced gap.03 N32",
+      "at": 1788748495.929474,
+      "completed_at": 1788748495.929474,
+      "accepted_ordinal": 9,
+      "accepted_at": 1788748477.948884,
+      "experiment_id": "8ed85b0ae5585333c1a858b9",
+      "canonical_observation": "inquiry/experiments/8ed85b0ae5585333c1a858b9/outputs/observation.json"
+    },
+    {
+      "id": "08690c8eb759b3419f4fce3d",
+      "arm": "direct",
+      "actor": "direct-astra",
+      "phase": "screen",
+      "primary": 33.37876397973888,
+      "survival": {
+        "S4": 0.49375,
+        "S20": 0.375,
+        "S40": 0.275,
+        "S80": 0.2125,
+        "S120": 0.1625
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 17.628112077713013,
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 40,
+              "delta_eta": 0.02,
+              "eps": 0.4,
+              "eta": 0.7,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra final eta.70 N40 eps0.40",
+        "wire_radius": 0.00448
+      },
+      "name": "astra final eta.70 N40 eps0.40",
+      "at": 1788748516.403456,
+      "completed_at": 1788748516.403456,
+      "accepted_ordinal": 11,
+      "accepted_at": 1788748498.2833369,
+      "experiment_id": "9fec5df6df198153bde233cf",
+      "canonical_observation": "inquiry/experiments/9fec5df6df198153bde233cf/outputs/observation.json"
+    },
+    {
+      "id": "a46f8b519c156c5418873020",
+      "arm": "direct",
+      "actor": "direct-astra-2",
+      "phase": "screen",
+      "primary": 25.289323146850364,
+      "survival": {
+        "S4": 0.4875,
+        "S20": 0.275,
+        "S40": 0.23125,
+        "S80": 0.14375,
+        "S120": 0.10625
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 18.44791865348816,
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 48,
+              "delta_eta": 0.02,
+              "eps": 0.75,
+              "eta": 0.6,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2 N48 eta.60 eps0.75 de.020 n4",
+        "wire_radius": 0.00448
+      },
+      "name": "astra2 N48 eta.60 eps0.75 de.020 n4",
+      "at": 1788748539.141353,
+      "completed_at": 1788748539.141353,
+      "accepted_ordinal": 12,
+      "accepted_at": 1788748520.181251,
+      "experiment_id": "9368438e375e7cc5bdd2e549",
+      "canonical_observation": "inquiry/experiments/9368438e375e7cc5bdd2e549/outputs/observation.json"
+    },
+    {
+      "id": "confinement-holdout-baseline-baseline-0-primary",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 0,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-baseline-baseline-0-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/d43d7d9c6a04f5a4c55a5978/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+      "design": {
+        "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.015,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "primary": 18.04014576948807,
+      "survival": {
+        "S4": 0.42083333333333334,
+        "S20": 0.19375,
+        "S40": 0.12083333333333333,
+        "S80": 0.10208333333333333,
+        "S120": 0.0875
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 15.276843070983887,
+      "at": 1788748805.325889
+    },
+    {
+      "id": "confinement-holdout-direct-primary-0-primary",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 0,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-direct-primary-0-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/ccedb198277ef467a19316b1/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra final eta.70 N40 eps0.40",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 40,
+              "delta_eta": 0.02,
+              "eps": 0.4,
+              "eta": 0.7,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra final eta.70 N40 eps0.40",
+        "wire_radius": 0.00448
+      },
+      "primary": 32.671593022125535,
+      "survival": {
+        "S4": 0.5354166666666667,
+        "S20": 0.375,
+        "S40": 0.29375,
+        "S80": 0.19583333333333333,
+        "S120": 0.13958333333333334
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 42.4134840965271,
+      "at": 1788748848.254208
+    },
+    {
+      "id": "confinement-holdout-direct-alternate-0-primary",
+      "arm": "direct",
+      "nominee": "alternate",
+      "replicate": 0,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-direct-alternate-0-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/6ac92f43baf55097a1adc446/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra2_e0.60_N48_de0.020_eps0.70",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 48,
+              "delta_eta": 0.02,
+              "eps": 0.7,
+              "eta": 0.6,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2_e0.60_N48_de0.020_eps0.70",
+        "wire_radius": 0.00448
+      },
+      "primary": 21.984303525492365,
+      "survival": {
+        "S4": 0.41458333333333336,
+        "S20": 0.22291666666666668,
+        "S40": 0.17291666666666666,
+        "S80": 0.1375,
+        "S120": 0.11458333333333333
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 37.640663146972656,
+      "at": 1788748886.3797839
+    },
+    {
+      "id": "confinement-holdout-construction-primary-0-primary",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 0,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-construction-primary-0-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/dd28c0373748e67b73c2c405/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra eta.9 reduced gap.03 N32",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 32,
+              "delta_eta": 0.03,
+              "eta": 0.9,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra eta.9 reduced gap.03 N32",
+        "wire_radius": 0.00448
+      },
+      "primary": 50.507111239562356,
+      "survival": {
+        "S4": 0.6833333333333333,
+        "S20": 0.5604166666666667,
+        "S40": 0.43333333333333335,
+        "S80": 0.3375,
+        "S120": 0.29791666666666666
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 47.171632051467896,
+      "at": 1788748934.067609
+    },
+    {
+      "id": "confinement-holdout-construction-alternate-0-primary",
+      "arm": "construction",
+      "nominee": "alternate",
+      "replicate": 0,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-construction-alternate-0-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/90ccdb43757c80970dac73c2/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra2 eta1 N24 delta0.035",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 24,
+              "delta_eta": 0.035,
+              "eta": 1.0,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2 eta1 N24 delta0.035",
+        "wire_radius": 0.00448
+      },
+      "primary": 46.57520483415252,
+      "survival": {
+        "S4": 0.725,
+        "S20": 0.5291666666666667,
+        "S40": 0.39166666666666666,
+        "S80": 0.29583333333333334,
+        "S120": 0.24791666666666667
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 30.47753119468689,
+      "at": 1788748965.030829
+    },
+    {
+      "id": "confinement-holdout-baseline-baseline-1-primary",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 1,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-baseline-baseline-1-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/838ae592175f66bfbaec4744/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+      "design": {
+        "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.015,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "primary": 18.71474904969023,
+      "survival": {
+        "S4": 0.4125,
+        "S20": 0.2125,
+        "S40": 0.13125,
+        "S80": 0.10208333333333333,
+        "S120": 0.09791666666666667
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 16.79026198387146,
+      "at": 1788748982.312973
+    },
+    {
+      "id": "confinement-holdout-direct-primary-1-primary",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 1,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-direct-primary-1-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/d47690b2089ed6d97c732671/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra final eta.70 N40 eps0.40",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 40,
+              "delta_eta": 0.02,
+              "eps": 0.4,
+              "eta": 0.7,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra final eta.70 N40 eps0.40",
+        "wire_radius": 0.00448
+      },
+      "primary": 30.57677532482013,
+      "survival": {
+        "S4": 0.49375,
+        "S20": 0.37083333333333335,
+        "S40": 0.275,
+        "S80": 0.17291666666666666,
+        "S120": 0.1375
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 40.10852289199829,
+      "at": 1788749022.945261
+    },
+    {
+      "id": "confinement-holdout-direct-alternate-1-primary",
+      "arm": "direct",
+      "nominee": "alternate",
+      "replicate": 1,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-direct-alternate-1-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/d2f96ad0ace70d627d980643/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra2_e0.60_N48_de0.020_eps0.70",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 48,
+              "delta_eta": 0.02,
+              "eps": 0.7,
+              "eta": 0.6,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2_e0.60_N48_de0.020_eps0.70",
+        "wire_radius": 0.00448
+      },
+      "primary": 21.403293223828438,
+      "survival": {
+        "S4": 0.42916666666666664,
+        "S20": 0.22291666666666668,
+        "S40": 0.17916666666666667,
+        "S80": 0.12708333333333333,
+        "S120": 0.09166666666666666
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 38.12021613121033,
+      "at": 1788749061.549291
+    },
+    {
+      "id": "confinement-holdout-construction-primary-1-primary",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 1,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-construction-primary-1-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/afe982fe10dff178f6a5b950/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra eta.9 reduced gap.03 N32",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 32,
+              "delta_eta": 0.03,
+              "eta": 0.9,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra eta.9 reduced gap.03 N32",
+        "wire_radius": 0.00448
+      },
+      "primary": 47.86137764149142,
+      "survival": {
+        "S4": 0.6458333333333334,
+        "S20": 0.5208333333333334,
+        "S40": 0.4125,
+        "S80": 0.3145833333333333,
+        "S120": 0.28958333333333336
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 46.44798493385315,
+      "at": 1788749108.5043578
+    },
+    {
+      "id": "confinement-holdout-construction-alternate-1-primary",
+      "arm": "construction",
+      "nominee": "alternate",
+      "replicate": 1,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-construction-alternate-1-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/b5ec64975d00bd291bfa40a2/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra2 eta1 N24 delta0.035",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 24,
+              "delta_eta": 0.035,
+              "eta": 1.0,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2 eta1 N24 delta0.035",
+        "wire_radius": 0.00448
+      },
+      "primary": 44.411923326511854,
+      "survival": {
+        "S4": 0.6895833333333333,
+        "S20": 0.5125,
+        "S40": 0.39375,
+        "S80": 0.275,
+        "S120": 0.23541666666666666
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 29.138269186019897,
+      "at": 1788749138.146844
+    },
+    {
+      "id": "confinement-holdout-baseline-baseline-2-primary",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 2,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-baseline-baseline-2-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/e8ec895e7f2c830a8e44b956/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+      "design": {
+        "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.015,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "primary": 17.41025730175377,
+      "survival": {
+        "S4": 0.4270833333333333,
+        "S20": 0.17708333333333334,
+        "S40": 0.11875,
+        "S80": 0.09583333333333334,
+        "S120": 0.08541666666666667
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 14.921879053115845,
+      "at": 1788749153.567504
+    },
+    {
+      "id": "confinement-holdout-direct-primary-2-primary",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 2,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-direct-primary-2-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/673948746ad5042ff67ec1b9/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra final eta.70 N40 eps0.40",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 40,
+              "delta_eta": 0.02,
+              "eps": 0.4,
+              "eta": 0.7,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra final eta.70 N40 eps0.40",
+        "wire_radius": 0.00448
+      },
+      "primary": 32.628181098869824,
+      "survival": {
+        "S4": 0.5645833333333333,
+        "S20": 0.3875,
+        "S40": 0.2833333333333333,
+        "S80": 0.19166666666666668,
+        "S120": 0.15208333333333332
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 41.94469380378723,
+      "at": 1788749196.016528
+    },
+    {
+      "id": "confinement-holdout-direct-alternate-2-primary",
+      "arm": "direct",
+      "nominee": "alternate",
+      "replicate": 2,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-direct-alternate-2-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/c19b57652d3247bbc81580a4/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra2_e0.60_N48_de0.020_eps0.70",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 48,
+              "delta_eta": 0.02,
+              "eps": 0.7,
+              "eta": 0.6,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2_e0.60_N48_de0.020_eps0.70",
+        "wire_radius": 0.00448
+      },
+      "primary": 21.52378799438386,
+      "survival": {
+        "S4": 0.4270833333333333,
+        "S20": 0.21458333333333332,
+        "S40": 0.1875,
+        "S80": 0.125,
+        "S120": 0.10208333333333333
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 37.37348294258118,
+      "at": 1788749233.880667
+    },
+    {
+      "id": "confinement-holdout-construction-primary-2-primary",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 2,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-construction-primary-2-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/ae6bb979ae92277e55e06478/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra eta.9 reduced gap.03 N32",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 32,
+              "delta_eta": 0.03,
+              "eta": 0.9,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra eta.9 reduced gap.03 N32",
+        "wire_radius": 0.00448
+      },
+      "primary": 54.151672564625414,
+      "survival": {
+        "S4": 0.725,
+        "S20": 0.5895833333333333,
+        "S40": 0.475,
+        "S80": 0.35833333333333334,
+        "S120": 0.31666666666666665
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 53.2533118724823,
+      "at": 1788749287.6529331
+    },
+    {
+      "id": "confinement-holdout-construction-alternate-2-primary",
+      "arm": "construction",
+      "nominee": "alternate",
+      "replicate": 2,
+      "setting": "primary",
+      "result_path": "validation/confinement-holdout-construction-alternate-2-primary/observation.json",
+      "canonical_observation": "inquiry/experiments/de34cdf73ba318481718a91b/outputs/observation.json",
+      "phase": "holdout",
+      "actor": "study-validation",
+      "name": "astra2 eta1 N24 delta0.035",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 24,
+              "delta_eta": 0.035,
+              "eta": 1.0,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra2 eta1 N24 delta0.035",
+        "wire_radius": 0.00448
+      },
+      "primary": 46.88228891127647,
+      "survival": {
+        "S4": 0.7583333333333333,
+        "S20": 0.5708333333333333,
+        "S40": 0.42291666666666666,
+        "S80": 0.2833333333333333,
+        "S120": 0.21458333333333332
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 31.310627222061157,
+      "at": 1788749319.449156
+    },
+    {
+      "id": "confinement-sensitivity-baseline-baseline-0-grid33",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 0,
+      "setting": "grid33",
+      "result_path": "validation/confinement-sensitivity-baseline-baseline-0-grid33/observation.json",
+      "canonical_observation": "inquiry/experiments/0882264c89bc220d27139794/outputs/observation.json",
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+      "design": {
+        "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.015,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "primary": 16.876430997254666,
+      "survival": {
+        "S4": 0.4270833333333333,
+        "S20": 0.175,
+        "S40": 0.11041666666666666,
+        "S80": 0.09375,
+        "S120": 0.08541666666666667
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 10.626150846481323,
+      "at": 1788749598.283202
+    },
+    {
+      "id": "confinement-sensitivity-direct-primary-0-grid33",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 0,
+      "setting": "grid33",
+      "result_path": "validation/confinement-sensitivity-direct-primary-0-grid33/observation.json",
+      "canonical_observation": "inquiry/experiments/2508201ba10f459a5fa58074/outputs/observation.json",
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "astra final eta.70 N40 eps0.40",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 40,
+              "delta_eta": 0.02,
+              "eps": 0.4,
+              "eta": 0.7,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra final eta.70 N40 eps0.40",
+        "wire_radius": 0.00448
+      },
+      "primary": 33.752932835477694,
+      "survival": {
+        "S4": 0.51875,
+        "S20": 0.37916666666666665,
+        "S40": 0.30833333333333335,
+        "S80": 0.2125,
+        "S120": 0.15208333333333332
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 34.025657176971436,
+      "at": 1788749598.283206
+    },
+    {
+      "id": "confinement-sensitivity-construction-primary-0-grid33",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 0,
+      "setting": "grid33",
+      "result_path": "validation/confinement-sensitivity-construction-primary-0-grid33/observation.json",
+      "canonical_observation": "inquiry/experiments/c0f4fc0b443ed9b35f6bd1ef/outputs/observation.json",
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "astra eta.9 reduced gap.03 N32",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 32,
+              "delta_eta": 0.03,
+              "eta": 0.9,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra eta.9 reduced gap.03 N32",
+        "wire_radius": 0.00448
+      },
+      "primary": 50.26292015884261,
+      "survival": {
+        "S4": 0.6875,
+        "S20": 0.5645833333333333,
+        "S40": 0.44375,
+        "S80": 0.33541666666666664,
+        "S120": 0.28541666666666665
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 36.025681257247925,
+      "at": 1788749598.28321
+    },
+    {
+      "id": "confinement-sensitivity-baseline-baseline-0-halfdt",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 0,
+      "setting": "halfdt",
+      "result_path": "validation/confinement-sensitivity-baseline-baseline-0-halfdt/observation.json",
+      "canonical_observation": "inquiry/experiments/1bdc6aacda397d814ea8dd43/outputs/observation.json",
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+      "design": {
+        "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.015,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "primary": 17.875795635072343,
+      "survival": {
+        "S4": 0.41041666666666665,
+        "S20": 0.20416666666666666,
+        "S40": 0.13333333333333333,
+        "S80": 0.09583333333333334,
+        "S120": 0.08125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 26.322707891464233,
+      "at": 1788749598.2832131
+    },
+    {
+      "id": "confinement-sensitivity-direct-primary-0-halfdt",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 0,
+      "setting": "halfdt",
+      "result_path": "validation/confinement-sensitivity-direct-primary-0-halfdt/observation.json",
+      "canonical_observation": "inquiry/experiments/f23ee54aa5107efb20064b0e/outputs/observation.json",
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "astra final eta.70 N40 eps0.40",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 40,
+              "delta_eta": 0.02,
+              "eps": 0.4,
+              "eta": 0.7,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra final eta.70 N40 eps0.40",
+        "wire_radius": 0.00448
+      },
+      "primary": 32.49411657539367,
+      "survival": {
+        "S4": 0.5354166666666667,
+        "S20": 0.375,
+        "S40": 0.29791666666666666,
+        "S80": 0.2,
+        "S120": 0.13958333333333334
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 84.03769183158875,
+      "at": 1788749598.283217
+    },
+    {
+      "id": "confinement-sensitivity-construction-primary-0-halfdt",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 0,
+      "setting": "halfdt",
+      "result_path": "validation/confinement-sensitivity-construction-primary-0-halfdt/observation.json",
+      "canonical_observation": "inquiry/experiments/438f1a5f35f66f8369f5ee75/outputs/observation.json",
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "astra eta.9 reduced gap.03 N32",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 32,
+              "delta_eta": 0.03,
+              "eta": 0.9,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra eta.9 reduced gap.03 N32",
+        "wire_radius": 0.00448
+      },
+      "primary": 49.01503111840327,
+      "survival": {
+        "S4": 0.6770833333333334,
+        "S20": 0.54375,
+        "S40": 0.4166666666666667,
+        "S80": 0.3229166666666667,
+        "S120": 0.2791666666666667
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "seconds": 88.00329375267029,
+      "at": 1788749598.28322
+    },
+    {
+      "id": "confinement-segment-baseline-baseline-holdout0-prefix160",
+      "experiment_id": "9188d5b3c6b18ecf3ae71658",
+      "arm": "baseline",
+      "nominee": "baseline",
+      "replicate": 0,
+      "setting": "finite-segments-prefix160",
+      "analysis_role": "segment_collision_sensitivity_only",
+      "design_sha256": "057f4e168d3be0396d76003335bab70d1880b18f680a60ab29d27f476be31ebf",
+      "definition_sha256": "3d88826f442783c2e4749b25587dc9f644479e2ad5017d56811386ecbe5504ea",
+      "canonical_observation": "inquiry/experiments/9188d5b3c6b18ecf3ae71658/outputs/observation.json",
+      "result_path": "validation/confinement-segment-baseline-baseline-holdout0-prefix160/observation.json",
+      "experiment_path": "validation/confinement-segment-baseline-baseline-holdout0-prefix160/experiment.json",
+      "state": "finished",
+      "exit_code": 0,
+      "started": 1788749169.971137,
+      "finished": 1788749175.297345,
+      "experiment_seconds": 5.284988164901733,
+      "host_load_start": [
+        4.32080078125,
+        3.974609375,
+        4.0947265625
+      ],
+      "host_load_end": [
+        4.375,
+        3.9912109375,
+        4.099609375
+      ],
+      "eligible": true,
+      "problems": [],
+      "primary": 18.99599832477227,
+      "seconds": 4.843782901763916,
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+      "design": {
+        "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+        "wire_radius": 0.00448,
+        "components": [
+          {
+            "family": "hopfmesh",
+            "params": {
+              "eta": 0.6,
+              "circuits": 24,
+              "eps": 0.7,
+              "periods": 4,
+              "delta_eta": 0.015,
+              "sense": -1
+            },
+            "current": 1.0
+          }
+        ]
+      },
+      "survival": {
+        "S4": 0.3625,
+        "S20": 0.2,
+        "S40": 0.15,
+        "S80": 0.11875,
+        "S120": 0.0875
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "at": 1788749175.297345
+    },
+    {
+      "id": "confinement-segment-direct-primary-holdout0-prefix160",
+      "experiment_id": "272363bd8361263c3d504680",
+      "arm": "direct",
+      "nominee": "primary",
+      "replicate": 0,
+      "setting": "finite-segments-prefix160",
+      "analysis_role": "segment_collision_sensitivity_only",
+      "design_sha256": "2d27ee158ea0aad10f3cb062c2739ad611f59f0f864f9e4ff86423af1e2229b2",
+      "definition_sha256": "3d88826f442783c2e4749b25587dc9f644479e2ad5017d56811386ecbe5504ea",
+      "canonical_observation": "inquiry/experiments/272363bd8361263c3d504680/outputs/observation.json",
+      "result_path": "validation/confinement-segment-direct-primary-holdout0-prefix160/observation.json",
+      "experiment_path": "validation/confinement-segment-direct-primary-holdout0-prefix160/experiment.json",
+      "state": "finished",
+      "exit_code": 0,
+      "started": 1788749175.3004422,
+      "finished": 1788749190.335831,
+      "experiment_seconds": 14.99497389793396,
+      "host_load_start": [
+        4.375,
+        3.9912109375,
+        4.099609375
+      ],
+      "host_load_end": [
+        4.494140625,
+        4.03955078125,
+        4.1142578125
+      ],
+      "eligible": true,
+      "problems": [],
+      "primary": 31.935684208314285,
+      "seconds": 14.573814868927002,
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "astra final eta.70 N40 eps0.40",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmesh",
+            "params": {
+              "circuits": 40,
+              "delta_eta": 0.02,
+              "eps": 0.4,
+              "eta": 0.7,
+              "periods": 4,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra final eta.70 N40 eps0.40",
+        "wire_radius": 0.00448
+      },
+      "survival": {
+        "S4": 0.53125,
+        "S20": 0.38125,
+        "S40": 0.30625,
+        "S80": 0.16875,
+        "S120": 0.125
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "at": 1788749190.335831
+    },
+    {
+      "id": "confinement-segment-construction-primary-holdout0-prefix160",
+      "experiment_id": "9dbc5f5aeb6043db6ef0529a",
+      "arm": "construction",
+      "nominee": "primary",
+      "replicate": 0,
+      "setting": "finite-segments-prefix160",
+      "analysis_role": "segment_collision_sensitivity_only",
+      "design_sha256": "5d2b016c312a463f6aee8aea0fbafc87606a45dca67b6b75268a1ed235bd3cf9",
+      "definition_sha256": "3d88826f442783c2e4749b25587dc9f644479e2ad5017d56811386ecbe5504ea",
+      "canonical_observation": "inquiry/experiments/9dbc5f5aeb6043db6ef0529a/outputs/observation.json",
+      "result_path": "validation/confinement-segment-construction-primary-holdout0-prefix160/observation.json",
+      "experiment_path": "validation/confinement-segment-construction-primary-holdout0-prefix160/experiment.json",
+      "state": "finished",
+      "exit_code": 0,
+      "started": 1788749190.338932,
+      "finished": 1788749204.234866,
+      "experiment_seconds": 13.853364944458008,
+      "host_load_start": [
+        4.494140625,
+        4.03955078125,
+        4.1142578125
+      ],
+      "host_load_end": [
+        4.7529296875,
+        4.11865234375,
+        4.140625
+      ],
+      "eligible": true,
+      "problems": [],
+      "primary": 48.638127326662016,
+      "seconds": 13.435903072357178,
+      "phase": "sensitivity",
+      "actor": "study-validation",
+      "name": "astra eta.9 reduced gap.03 N32",
+      "design": {
+        "components": [
+          {
+            "current": 1.0,
+            "family": "hopfmirror",
+            "params": {
+              "circuits": 32,
+              "delta_eta": 0.03,
+              "eta": 0.9,
+              "mode": "woven",
+              "revolutions": 2.0,
+              "sense": -1
+            }
+          }
+        ],
+        "name": "astra eta.9 reduced gap.03 N32",
+        "wire_radius": 0.00448
+      },
+      "survival": {
+        "S4": 0.6875,
+        "S20": 0.5375,
+        "S40": 0.425,
+        "S80": 0.33125,
+        "S120": 0.2875
+      },
+      "valid": true,
+      "numerically_qualified": true,
+      "at": 1788749204.234866
+    }
+  ],
+  "baseline": {
+    "evaluation_version": "confinement-fixed-current-rmst-1",
+    "study_config_sha256": "43ae81b3ce9963bc40575674ebdeb5fdb2d107786541abc142e8f47d974aa60e",
+    "design": {
+      "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+      "wire_radius": 0.00448,
+      "components": [
+        {
+          "family": "hopfmesh",
+          "params": {
+            "eta": 0.6,
+            "circuits": 24,
+            "eps": 0.7,
+            "periods": 4,
+            "delta_eta": 0.015,
+            "sense": -1
+          },
+          "current": 1.0
+        }
+      ]
+    },
+    "design_sha256": "057f4e168d3be0396d76003335bab70d1880b18f680a60ab29d27f476be31ebf",
+    "seed_set": "screen",
+    "replicate": 0,
+    "initial_conditions": {
+      "path": "initial_conditions/screen-0.npz",
+      "sha256": "2f53ca8b8d00015141b628b2909f93ee0105a51a1d1b95dfb13973705de80e8c",
+      "particles": 160,
+      "position_seed": 271828,
+      "velocity_seed": 12345,
+      "positions_sha256": "d979d7173d00a4ce0c377d6bf2dcf0807336152163582e42c39c1e331dbbdad0",
+      "velocities_sha256": "0de032d01b09acf3382cbcca44714772a01ef924bd693bb9240bb9c96f0f0f91"
+    },
+    "positions_used_sha256": "d979d7173d00a4ce0c377d6bf2dcf0807336152163582e42c39c1e331dbbdad0",
+    "velocities_used_sha256": "0de032d01b09acf3382cbcca44714772a01ef924bd693bb9240bb9c96f0f0f91",
+    "n_particles": 160,
+    "grid_n": 25,
+    "horizon_transits": 120,
+    "energy_eV": 15000.0,
+    "I_max_A": 149422.414723351,
+    "wire_radius_m": 0.00448,
+    "diagnostic_override": false,
+    "primary_name": "restricted_mean_all_120",
+    "orbit_backend": "numba",
+    "validation": {
+      "valid": true,
+      "problems": [],
+      "r_max": 0.9999720996045087,
+      "clearance": 0.009962584723318393,
+      "conductor_points": 7202,
+      "circuits": 2,
+      "hash": "b4738978fc66"
+    },
+    "valid": true,
+    "primary": 22.158218499561322,
+    "standard_error_markers": 3.2015147180248036,
+    "survival": {
+      "S4": 0.39375,
+      "S20": 0.225,
+      "S40": 0.1625,
+      "S80": 0.1375,
+      "S120": 0.13125
+    },
+    "initial_wire_losses": 0,
+    "initial_min_wire_distance_m": 0.006285369805345324,
+    "loss_times_transits": [
+      null,
+      null,
+      0.7208907894448108,
+      1.6111337008544433,
+      0.4348230158556014,
+      32.64376577980643,
+      0.5675584628009942,
+      3.2565955345395157,
+      0.5904438846881309,
+      null,
+      4.421463508594734,
+      2.1626723683344187,
+      null,
+      19.823352438636363,
+      1.8285452087822345,
+      1.4692440851542008,
+      14.912140901658328,
+      39.62839653975842,
+      1.4852638804751959,
+      1.9475494025953413,
+      1.0023814786566014,
+      0.9131283332967655,
+      0.5034792815170115,
+      1.249544035037686,
+      27.37554166138917,
+      10.788187877597354,
+      34.76753293093207,
+      5.963940943787798,
+      4.043854047456991,
+      1.489840964852623,
+      15.880194247483914,
+      1.5562086883253172,
+      0.5835782581219898,
+      0.46686260649759276,
+      0.0389052172081327,
+      64.73599289217198,
+      0.39591779864746907,
+      17.525656081168542,
+      1.8285452087822345,
+      0.6911397409915323,
+      0.5950209690655582,
+      3.0941090391408506,
+      3.7120154300935204,
+      null,
+      5.410113734119005,
+      0.3844750877039007,
+      0.21970005011651442,
+      29.666372392290857,
+      null,
+      2.3274474059217973,
+      null,
+      null,
+      86.54122286627639,
+      null,
+      0.0984073141146886,
+      0.9108397911080517,
+      1.5607857727027443,
+      8.84063847500156,
+      6.904531783349339,
+      0.1144271094356844,
+      6.719159866063487,
+      0.8101439348046469,
+      0.7872585129175094,
+      5.497078337290121,
+      0.6911397409915323,
+      0.6819855722366777,
+      3.4991810065431563,
+      6.355281658057928,
+      13.044690475668542,
+      1.1602908896778499,
+      2.0299369213890306,
+      6.032597209449224,
+      0.862780405145063,
+      1.350239891341091,
+      0.686562656614105,
+      null,
+      0.08925314535983385,
+      3.8561935879824767,
+      2.386949502828351,
+      6.4514004299839245,
+      0.02746250626456426,
+      null,
+      null,
+      2.146652573013424,
+      2.457894310678472,
+      1.0206898161663114,
+      24.07088674088764,
+      2.5631672513592973,
+      2.384660960639637,
+      0.5378074143477165,
+      null,
+      2.2313286339958265,
+      0.4874594861960158,
+      2.2770994777700984,
+      0.022885421887136884,
+      0.9955158520904602,
+      4.760167752524345,
+      0.4096490517797511,
+      5.554291892007961,
+      2.9224683749873313,
+      12.28947155339326,
+      2.441874515357477,
+      0.7391991269545207,
+      0.7872585129175094,
+      2.0253598370116035,
+      39.08601204103345,
+      1.10536587714872,
+      null,
+      1.0756148286954414,
+      12.994342547516856,
+      0.9749189723920365,
+      0.020596879698423196,
+      0.38905217208132803,
+      null,
+      0.5561157518574259,
+      null,
+      0.3638782080054777,
+      0.8170095613707881,
+      0.8765116582773455,
+      null,
+      3.4122164033720397,
+      7.259255822600041,
+      0.5767126315558488,
+      24.638445203688455,
+      0.5263647034041482,
+      1.2815836256796784,
+      2.3777953340734963,
+      5.977672196920083,
+      0.16477503758738554,
+      1.2381013240941172,
+      null,
+      2.7691360483435203,
+      null,
+      4.648029185277379,
+      1.473821169531628,
+      74.27921381912573,
+      12.262009047128705,
+      28.39852001974387,
+      1.0687492021293001,
+      1.501283675796191,
+      2.1855577902215546,
+      1.1305398412245713,
+      2.004762957313181,
+      12.584693495737234,
+      1.2175044443956937,
+      0.14417815788896235,
+      0.12358127819053916,
+      null,
+      1.769043111875681,
+      48.53997982261522,
+      1.6317305805528657,
+      0.4279573892894604,
+      31.982377087268382,
+      0.10527294068082967,
+      64.662759542133,
+      0.862780405145063,
+      0.9611877192597541,
+      1.2998919631893884,
+      null,
+      15.73830463178371
+    ],
+    "restricted_lifetimes_transits": [
+      120.0,
+      120.0,
+      0.7208907894448108,
+      1.6111337008544433,
+      0.4348230158556014,
+      32.64376577980643,
+      0.5675584628009942,
+      3.2565955345395157,
+      0.5904438846881309,
+      120.0,
+      4.421463508594734,
+      2.1626723683344187,
+      120.0,
+      19.823352438636363,
+      1.8285452087822345,
+      1.4692440851542008,
+      14.912140901658328,
+      39.62839653975842,
+      1.4852638804751959,
+      1.9475494025953413,
+      1.0023814786566014,
+      0.9131283332967655,
+      0.5034792815170115,
+      1.249544035037686,
+      27.37554166138917,
+      10.788187877597354,
+      34.76753293093207,
+      5.963940943787798,
+      4.043854047456991,
+      1.489840964852623,
+      15.880194247483914,
+      1.5562086883253172,
+      0.5835782581219898,
+      0.46686260649759276,
+      0.0389052172081327,
+      64.73599289217198,
+      0.39591779864746907,
+      17.525656081168542,
+      1.8285452087822345,
+      0.6911397409915323,
+      0.5950209690655582,
+      3.0941090391408506,
+      3.7120154300935204,
+      120.0,
+      5.410113734119005,
+      0.3844750877039007,
+      0.21970005011651442,
+      29.666372392290857,
+      120.0,
+      2.3274474059217973,
+      120.0,
+      120.0,
+      86.54122286627639,
+      120.0,
+      0.0984073141146886,
+      0.9108397911080517,
+      1.5607857727027443,
+      8.84063847500156,
+      6.904531783349339,
+      0.1144271094356844,
+      6.719159866063487,
+      0.8101439348046469,
+      0.7872585129175094,
+      5.497078337290121,
+      0.6911397409915323,
+      0.6819855722366777,
+      3.4991810065431563,
+      6.355281658057928,
+      13.044690475668542,
+      1.1602908896778499,
+      2.0299369213890306,
+      6.032597209449224,
+      0.862780405145063,
+      1.350239891341091,
+      0.686562656614105,
+      120.0,
+      0.08925314535983385,
+      3.8561935879824767,
+      2.386949502828351,
+      6.4514004299839245,
+      0.02746250626456426,
+      120.0,
+      120.0,
+      2.146652573013424,
+      2.457894310678472,
+      1.0206898161663114,
+      24.07088674088764,
+      2.5631672513592973,
+      2.384660960639637,
+      0.5378074143477165,
+      120.0,
+      2.2313286339958265,
+      0.4874594861960158,
+      2.2770994777700984,
+      0.022885421887136884,
+      0.9955158520904602,
+      4.760167752524345,
+      0.4096490517797511,
+      5.554291892007961,
+      2.9224683749873313,
+      12.28947155339326,
+      2.441874515357477,
+      0.7391991269545207,
+      0.7872585129175094,
+      2.0253598370116035,
+      39.08601204103345,
+      1.10536587714872,
+      120.0,
+      1.0756148286954414,
+      12.994342547516856,
+      0.9749189723920365,
+      0.020596879698423196,
+      0.38905217208132803,
+      120.0,
+      0.5561157518574259,
+      120.0,
+      0.3638782080054777,
+      0.8170095613707881,
+      0.8765116582773455,
+      120.0,
+      3.4122164033720397,
+      7.259255822600041,
+      0.5767126315558488,
+      24.638445203688455,
+      0.5263647034041482,
+      1.2815836256796784,
+      2.3777953340734963,
+      5.977672196920083,
+      0.16477503758738554,
+      1.2381013240941172,
+      120.0,
+      2.7691360483435203,
+      120.0,
+      4.648029185277379,
+      1.473821169531628,
+      74.27921381912573,
+      12.262009047128705,
+      28.39852001974387,
+      1.0687492021293001,
+      1.501283675796191,
+      2.1855577902215546,
+      1.1305398412245713,
+      2.004762957313181,
+      12.584693495737234,
+      1.2175044443956937,
+      0.14417815788896235,
+      0.12358127819053916,
+      120.0,
+      1.769043111875681,
+      48.53997982261522,
+      1.6317305805528657,
+      0.4279573892894604,
+      31.982377087268382,
+      0.10527294068082967,
+      64.662759542133,
+      0.862780405145063,
+      0.9611877192597541,
+      1.2998919631893884,
+      120.0,
+      15.73830463178371
+    ],
+    "counts": {
+      "retained": 21,
+      "wall": 61,
+      "wire": 78
+    },
+    "actual_radius_m": 0.00448,
+    "physical_currents_A": [
+      149422.414723351,
+      -149422.414723351
+    ],
+    "current_density_max_A_m2": 2369789930.6390023,
+    "active_conductor_length_m": 226.43414547618886,
+    "total_conductor_length_m": 226.43414547618886,
+    "B_rms_fixed_launch_T": 2.345678018062353,
+    "energy_drift_relative_max": 8.878897617137227e-12,
+    "dt_s": 1.5651754688972843e-09,
+    "transit_seconds": 6.839181189738153e-07,
+    "numerical_losses": 0,
+    "numerically_qualified": true,
+    "seconds": 6.748661041259766
+  },
+  "execution_amendments": [
+    {
+      "id": "execution-amendment-01",
+      "at": 1788747674.613585,
+      "reason": "Native Fable 5.1 established session identity but returned a session-limit error with zero reported input, cache, and output tokens. Replace that unavailable peer in both arms with a fresh gpt-6-astra session; preserve the first Astra session and all prior evidence.",
+      "original_launched_at": 1788747246.6960871,
+      "wall_deadline_unix": 1788749946.6960871,
+      "raw_attempt_ceiling_per_arm": 9,
+      "chargeable_activation_ceiling_per_arm": 8,
+      "excluded_zero_token_failures_per_arm": 1,
+      "runtime_correction": "/Users/johnharry/Documents/Codex/2026-09-04/w/work/confinement-venv/bin/python",
+      "control_nomination": "Optional screened parent/removal candidate or baseline, with rationale; locked before held-out evaluation; no extra screening budget.",
+      "arms": {
+        "direct": {
+          "from": [
+            "direct-astra",
+            "direct-fable"
+          ],
+          "to": [
+            "direct-astra",
+            "direct-astra-2"
+          ],
+          "raw_activations_preserved": 2
+        },
+        "construction": {
+          "from": [
+            "construction-astra",
+            "construction-fable"
+          ],
+          "to": [
+            "construction-astra",
+            "construction-astra-2"
+          ],
+          "raw_activations_preserved": 2
+        }
+      }
+    }
+  ],
+  "locked_nominees": {
+    "locked_at": 1788748789.426112,
+    "config_sha256": "43ae81b3ce9963bc40575674ebdeb5fdb2d107786541abc142e8f47d974aa60e",
+    "baseline_design_sha256": "057f4e168d3be0396d76003335bab70d1880b18f680a60ab29d27f476be31ebf",
+    "baseline_design": {
+      "name": "meshed torus II woven δη 0.015 (η 0.60, ε 0.70, n 4)",
+      "wire_radius": 0.00448,
+      "components": [
+        {
+          "family": "hopfmesh",
+          "params": {
+            "eta": 0.6,
+            "circuits": 24,
+            "eps": 0.7,
+            "periods": 4,
+            "delta_eta": 0.015,
+            "sense": -1
+          },
+          "current": 1.0
+        }
+      ]
+    },
+    "nominees": [
+      {
+        "arm": "direct",
+        "nominee": "primary",
+        "design_sha256": "2d27ee158ea0aad10f3cb062c2739ad611f59f0f864f9e4ff86423af1e2229b2",
+        "design": {
+          "components": [
+            {
+              "current": 1.0,
+              "family": "hopfmesh",
+              "params": {
+                "circuits": 40,
+                "delta_eta": 0.02,
+                "eps": 0.4,
+                "eta": 0.7,
+                "periods": 4,
+                "sense": -1
+              }
+            }
+          ],
+          "name": "astra final eta.70 N40 eps0.40",
+          "wire_radius": 0.00448
+        },
+        "source_path": "lab/candidates/08690c8eb759b3419f4fce3d.json",
+        "source_revision": 1,
+        "nomination_revision": 1,
+        "reason": "Primary has highest screened all-particle RMST120, 33.37876398 versus baseline22.15821850 (+50.64%), and S120 .1625 versus .13125. Alternate is best narrow N48 eta.60 branch (26.13257057), retaining a distinct capture/hold geometry rather than another amplitude variant of primary. Adaptive screen ranking remains uncertain until fresh holdouts."
+      },
+      {
+        "arm": "direct",
+        "nominee": "alternate",
+        "design_sha256": "04b828e067e3f692a300134737b95fbd1dcc9f493a82c62786f08bf7f41a543d",
+        "design": {
+          "components": [
+            {
+              "current": 1.0,
+              "family": "hopfmesh",
+              "params": {
+                "circuits": 48,
+                "delta_eta": 0.02,
+                "eps": 0.7,
+                "eta": 0.6,
+                "periods": 4,
+                "sense": -1
+              }
+            }
+          ],
+          "name": "astra2_e0.60_N48_de0.020_eps0.70",
+          "wire_radius": 0.00448
+        },
+        "source_path": "lab/candidates/de43cd69c91d5c5d0ae90e59.json",
+        "source_revision": 1,
+        "nomination_revision": 1,
+        "reason": "Primary has highest screened all-particle RMST120, 33.37876398 versus baseline22.15821850 (+50.64%), and S120 .1625 versus .13125. Alternate is best narrow N48 eta.60 branch (26.13257057), retaining a distinct capture/hold geometry rather than another amplitude variant of primary. Adaptive screen ranking remains uncertain until fresh holdouts."
+      },
+      {
+        "arm": "direct",
+        "nominee": "control",
+        "design_sha256": "79290b1b62161027ac444bff9d1f9b8833512c8ecfaa5fecd20ea2b7eb1336c8",
+        "design": {
+          "components": [
+            {
+              "current": 1.0,
+              "family": "hopfmesh",
+              "params": {
+                "circuits": 40,
+                "delta_eta": 0.02,
+                "eps": 0.55,
+                "eta": 0.7,
+                "periods": 4,
+                "sense": -1
+              }
+            }
+          ],
+          "name": "astra2_e0.70_N40_de0.020_eps0.55",
+          "wire_radius": 0.00448
+        },
+        "source_path": "lab/candidates/bcce62e3e741adb919c922ce.json",
+        "source_revision": 1,
+        "nomination_revision": 1,
+        "reason": "Primary has highest screened all-particle RMST120, 33.37876398 versus baseline22.15821850 (+50.64%), and S120 .1625 versus .13125. Alternate is best narrow N48 eta.60 branch (26.13257057), retaining a distinct capture/hold geometry rather than another amplitude variant of primary. Adaptive screen ranking remains uncertain until fresh holdouts."
+      },
+      {
+        "arm": "construction",
+        "nominee": "primary",
+        "design_sha256": "5d2b016c312a463f6aee8aea0fbafc87606a45dca67b6b75268a1ed235bd3cf9",
+        "design": {
+          "components": [
+            {
+              "current": 1.0,
+              "family": "hopfmirror",
+              "params": {
+                "circuits": 32,
+                "delta_eta": 0.03,
+                "eta": 0.9,
+                "mode": "woven",
+                "revolutions": 2.0,
+                "sense": -1
+              }
+            }
+          ],
+          "name": "astra eta.9 reduced gap.03 N32",
+          "wire_radius": 0.00448
+        },
+        "source_path": "lab/candidates/09528c4f9ab6fdf88ef8bd2c.json",
+        "source_revision": 1,
+        "nomination_revision": 1,
+        "reason": "Primary has highest screened all-particle RMST120 (47.8033 vs baseline22.1582), S120 .28125, and valid clearance .0113283m. Alternate combo RMST46.1074 retains a nearby geometry with similar performance. Primary versus alternate gain1.6959 has paired marker interval[-3.6935,7.0067], so ordering is unresolved; both are locked before any held-out outcomes. Nine screens used; stop after small final interaction gain rather than exhaust budget."
+      },
+      {
+        "arm": "construction",
+        "nominee": "alternate",
+        "design_sha256": "e97eaba8d92d68ed907dba3131e7250e0d61eeef67a5ad8b553bb8858e0ba96d",
+        "design": {
+          "components": [
+            {
+              "current": 1.0,
+              "family": "hopfmirror",
+              "params": {
+                "circuits": 24,
+                "delta_eta": 0.035,
+                "eta": 1.0,
+                "mode": "woven",
+                "revolutions": 2.0,
+                "sense": -1
+              }
+            }
+          ],
+          "name": "astra2 eta1 N24 delta0.035",
+          "wire_radius": 0.00448
+        },
+        "source_path": "lab/candidates/86b333858160e1a9718f025d.json",
+        "source_revision": 1,
+        "nomination_revision": 1,
+        "reason": "Primary has highest screened all-particle RMST120 (47.8033 vs baseline22.1582), S120 .28125, and valid clearance .0113283m. Alternate combo RMST46.1074 retains a nearby geometry with similar performance. Primary versus alternate gain1.6959 has paired marker interval[-3.6935,7.0067], so ordering is unresolved; both are locked before any held-out outcomes. Nine screens used; stop after small final interaction gain rather than exhaust budget."
+      },
+      {
+        "arm": "construction",
+        "nominee": "control",
+        "design_sha256": "afeb5ac42c555cf44f73c265ad7a50120b8fe4af4321413d3755d34c2e3b1797",
+        "design": {
+          "components": [
+            {
+              "current": 1.0,
+              "family": "hopfmirror",
+              "params": {
+                "circuits": 24,
+                "delta_eta": 0.03,
+                "eta": 0.9,
+                "mode": "woven",
+                "revolutions": 2.0,
+                "sense": -1
+              }
+            }
+          ],
+          "name": "astra2 eta.9 N24 delta0.03",
+          "wire_radius": 0.00448
+        },
+        "source_path": "lab/candidates/bef1c2ee1ffb8c8bab1e7443.json",
+        "source_revision": 1,
+        "nomination_revision": 1,
+        "reason": "Primary has highest screened all-particle RMST120 (47.8033 vs baseline22.1582), S120 .28125, and valid clearance .0113283m. Alternate combo RMST46.1074 retains a nearby geometry with similar performance. Primary versus alternate gain1.6959 has paired marker interval[-3.6935,7.0067], so ordering is unresolved; both are locked before any held-out outcomes. Nine screens used; stop after small final interaction gain rather than exhaust budget."
+      }
+    ]
+  },
+  "completed_at": 1788749598.285841,
+  "diagnostics": {
+    "status": "complete",
+    "rows": [
+      {
+        "setting": "Finer field grid",
+        "particles": 480,
+        "complete": true,
+        "baseline": 16.876430997254666,
+        "direct": 33.752932835477694,
+        "construction": 50.26292015884261
+      },
+      {
+        "setting": "Smaller time step",
+        "particles": 480,
+        "complete": true,
+        "baseline": 17.875795635072343,
+        "direct": 32.49411657539367,
+        "construction": 49.01503111840327
+      },
+      {
+        "setting": "Wire segment collisions",
+        "particles": 160,
+        "complete": true,
+        "baseline": 18.99599832477227,
+        "direct": 31.935684208314285,
+        "construction": 48.638127326662016
+      }
+    ],
+    "scope": "Each row uses matched fresh particles; diagnostics do not replace the locked primary comparison. The wire-segment row uses a common 160-particle prefix; the other rows use 480. These checks do not establish full numerical convergence or plasma confinement."
+  },
+  "report": "results/confinement_report.md"
+}

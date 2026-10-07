@@ -1,0 +1,11 @@
+=== agent2_m24 (480 markers)
+mesh e0.60 N24 eps0.70 n4 de0.08 wr-fit      τ_c=   5.6 (all 7 · pass 4; 40T) score=   5.6  S4=0.28 S20=0.10  closed=0.00 pred=0.56 I=152kA build=1.00 (17s)
+=== tornado_same_030 (480 markers)
+m24 + cone plugs (same, I=0.3)               τ_c=   5.2 (all 6 · pass 4; 40T) score=   5.2  S4=0.29 S20=0.07  closed=0.00 pred=0.48 I=128kA build=1.00 (21s)
+=== tornado_same_010 (480 markers)
+m24 + cone plugs (same, I=0.1)               τ_c=   4.6 (all 5 · pass 4; 40T) score=   4.6  S4=0.29 S20=0.06  closed=0.00 pred=0.51 I=128kA build=1.00 (19s)
+=== tornado_same_100 (480 markers)
+m24 + cone plugs (same, I=1.0)               τ_c=   5.2 (all 6 · pass 5; 40T) score=   5.2  S4=0.30 S20=0.07  closed=0.00 pred=0.46 I=125kA build=1.00 (24s)
+=== agent2_m24n3 (480 markers)
+mesh e0.60 N24 eps0.55 n3 de0.08             τ_c=   6.6 (all 7 · pass 6; 40T) score=   6.6  S4=0.30 S20=0.07  closed=0.00 pred=0.52 I=153kA build=1.00 (18s)
+DONE

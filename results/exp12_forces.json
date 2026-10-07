@@ -1,0 +1,65 @@
+{
+ "a_m": 0.0066231412137589514,
+ "I_A": 364730.0777203766,
+ "J_A_m2": 2646632716.7129583,
+ "f_max_N_m": 4186598.7120969156,
+ "f_p99_N_m": 2693276.5300784046,
+ "f_median_N_m": 722000.3626952047,
+ "B_surface_max_T": 17.470819481029242,
+ "magnetic_pressure_max_Pa": 121446972.45510797,
+ "contact_stress_max_Pa": 316058391.0999551,
+ "per_circuit": [
+  {
+   "name": "hopf mirror pair #0",
+   "current_A": 364730.0777203766,
+   "f_max_N_m": 4186598.712096675,
+   "f_mean_N_m": 868564.79883365,
+   "B_surface_max_T": 17.470819481029242,
+   "net_force_N": [
+    -740671.8061219758,
+    -288686.52142184257,
+    -31010.816123864945
+   ]
+  },
+  {
+   "name": "hopf mirror pair #1",
+   "current_A": -364730.0777203766,
+   "f_max_N_m": 4186598.7120969156,
+   "f_mean_N_m": 868564.7988336622,
+   "B_surface_max_T": 17.470819481025927,
+   "net_force_N": [
+    740671.8060913881,
+    288686.5214245149,
+    31010.81615788969
+   ]
+  }
+ ],
+ "conductor_limits": {
+  "copper, steady (water-cooled)": {
+   "J_limit_A_m2": 20000000.0,
+   "ratio": 132.33163583564792
+  },
+  "copper, pulsed (ms)": {
+   "J_limit_A_m2": 1000000000.0,
+   "ratio": 2.646632716712958
+  },
+  "NbTi at 5 T, 4.2 K (engineering)": {
+   "J_limit_A_m2": 300000000.0,
+   "ratio": 8.822109055709861
+  },
+  "Nb3Sn at 12 T, 4.2 K (engineering)": {
+   "J_limit_A_m2": 500000000.0,
+   "ratio": 5.293265433425916
+  },
+  "REBCO tape at 20 T, 20 K (engineering)": {
+   "J_limit_A_m2": 1000000000.0,
+   "ratio": 2.646632716712958
+  }
+ },
+ "yield_ratios": {
+  "annealed copper": 4.515119872856501,
+  "hard copper": 1.0535279703331837,
+  "316 stainless": 1.2642335643998204,
+  "Inconel 718": 0.3160583910999551
+ }
+}

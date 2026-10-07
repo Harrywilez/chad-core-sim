@@ -1,0 +1,59 @@
+field recursive-L2 (loop of loops, 12 turns)                  Brms/A/m=1.085e-06  clearance=0.2650  return-sens=0.026  interp p95=8.228e-03
+field recursive-L3 (coil of coils, 12×6)                      Brms/A/m=9.395e-07  clearance=0.1224  return-sens=0.047  interp p95=8.708e-03
+field recursive-L3 alt-hand (12×6, opposite handedness)       Brms/A/m=8.930e-07  clearance=0.1203  return-sens=0.038  interp p95=8.516e-03
+field codex phase-slip toroidal spiral                        Brms/A/m=5.774e-06  clearance=0.0024  return-sens=0.036  interp p95=2.782e-03
+field codex precessing inward loops                           Brms/A/m=7.102e-06  clearance=0.0031  return-sens=0.018  interp p95=3.739e-03
+field codex Hopf-coordinate drift                             Brms/A/m=5.990e-06  clearance=0.0399  return-sens=0.070  interp p95=3.235e-03
+field hopf-drift Shallow 150° (10 circuits)                   Brms/A/m=6.416e-06  clearance=0.0306  return-sens=0.043  interp p95=3.058e-03
+field hopf-drift Shallow 180° (10 circuits)                   Brms/A/m=6.087e-06  clearance=0.0367  return-sens=0.030  interp p95=2.985e-03
+field hopf-drift Shallow 210° (10 circuits)                   Brms/A/m=5.791e-06  clearance=0.0424  return-sens=0.049  interp p95=2.774e-03
+field hopf-drift Deep 150° (10 circuits)                      Brms/A/m=6.537e-06  clearance=0.0296  return-sens=0.028  interp p95=3.266e-03
+field hopf-drift Deep 180° (10 circuits)                      Brms/A/m=6.215e-06  clearance=0.0353  return-sens=0.045  interp p95=3.217e-03
+field hopf-drift Deep 210° (10 circuits)                      Brms/A/m=5.925e-06  clearance=0.0411  return-sens=0.041  interp p95=3.529e-03
+field reference solenoid (12 turns)                           Brms/A/m=7.940e-06  clearance=0.0917  return-sens=0.014  interp p95=2.951e-03
+
+=== benchtop: R_wall=0.148 m, a_wire=0.001 m, I=1e+03 A, t_max=2e-05 s, dt=1e-07 s
+recursive-L2 (loop of loops, 12 turns)                  B_rms=0.00603  a=1.00e-03  P=3.14e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=256 wire=0 sub=3 | e- 3 eV: ret=0.039 [0.02,0.09] wall=122 wire=1 sub=14  (23s)
+recursive-L3 (coil of coils, 12×6)                      B_rms=0.00522  a=1.00e-03  P=4.45e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=253 wire=3 sub=4 | e- 3 eV: ret=0.008 [0.00,0.04] wall=124 wire=3 sub=12  (23s)
+recursive-L3 alt-hand (12×6, opposite handedness)       B_rms=0.00496  a=1.00e-03  P=4.45e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=254 wire=2 sub=4 | e- 3 eV: ret=0.031 [0.01,0.08] wall=119 wire=5 sub=24  (24s)
+codex phase-slip toroidal spiral                        B_rms=0.0321  a=1.92e-04  P=2.53e+06 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=256 wire=0 sub=8 | e- 3 eV: ret=0.047 [0.02,0.10] wall=122 wire=0 sub=6  (108s)
+codex precessing inward loops                           B_rms=0.0395  a=2.52e-04  P=1.49e+06 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=256 wire=0 sub=4 | e- 3 eV: ret=0.094 [0.05,0.16] wall=116 wire=0 sub=5  (96s)
+codex Hopf-coordinate drift                             B_rms=0.0333  a=1.00e-03  P=5.18e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=256 wire=0 sub=4 | e- 3 eV: ret=0.289 [0.22,0.37] wall=89 wire=2 sub=4  (95s)
+hopf-drift Shallow 150° (10 circuits)                   B_rms=0.0356  a=1.00e-03  P=5.01e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=254 wire=2 sub=4 | e- 3 eV: ret=0.250 [0.18,0.33] wall=94 wire=2 sub=4  (92s)
+hopf-drift Shallow 180° (10 circuits)                   B_rms=0.0338  a=1.00e-03  P=5.02e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=255 wire=1 sub=4 | e- 3 eV: ret=0.211 [0.15,0.29] wall=96 wire=5 sub=4  (88s)
+hopf-drift Shallow 210° (10 circuits)                   B_rms=0.0322  a=1.00e-03  P=5.03e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=254 wire=2 sub=4 | e- 3 eV: ret=0.242 [0.18,0.32] wall=96 wire=1 sub=4  (81s)
+hopf-drift Deep 150° (10 circuits)                      B_rms=0.0363  a=1.00e-03  P=4.86e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=255 wire=1 sub=4 | e- 3 eV: ret=0.219 [0.16,0.30] wall=95 wire=5 sub=4  (102s)
+hopf-drift Deep 180° (10 circuits)                      B_rms=0.0345  a=1.00e-03  P=4.87e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=252 wire=4 sub=4 | e- 3 eV: ret=0.242 [0.18,0.32] wall=93 wire=4 sub=4  (97s)
+hopf-drift Deep 210° (10 circuits)                      B_rms=0.0329  a=1.00e-03  P=4.87e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=254 wire=2 sub=4 | e- 3 eV: ret=0.234 [0.17,0.31] wall=96 wire=2 sub=4  (86s)
+reference solenoid (12 turns)                           B_rms=0.0441  a=1.00e-03  P=5.09e+04 W  D+ 10 eV: ret=0.000 [0.00,0.01] wall=253 wire=3 sub=3 | e- 3 eV: ret=0.320 [0.25,0.41] wall=83 wire=4 sub=3  (97s)
+
+=== reactor: R_wall=0.82 m, a_wire=0.01 m, I=3.65e+05 A, t_max=2e-05 s, dt=2e-09 s
+recursive-L2 (loop of loops, 12 turns)                  B_rms=0.396  a=1.00e-02  P=2.32e+08 W  D+ 15 keV: ret=0.000 [0.00,0.01] wall=255 wire=1 sub=4 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=126 wire=2 sub=4  (4s)
+recursive-L3 (coil of coils, 12×6)                      B_rms=0.343  a=1.00e-02  P=3.29e+08 W  D+ 15 keV: ret=0.000 [0.00,0.01] wall=239 wire=17 sub=3 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=123 wire=5 sub=3  (11s)
+recursive-L3 alt-hand (12×6, opposite handedness)       B_rms=0.326  a=1.00e-02  P=3.29e+08 W  D+ 15 keV: ret=0.000 [0.00,0.01] wall=242 wire=14 sub=5 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=125 wire=3 sub=4  (10s)
+codex phase-slip toroidal spiral                        B_rms=2.11  a=1.07e-03  P=6.06e+10 W  D+ 15 keV: ret=0.000 [0.00,0.01] wall=256 wire=0 sub=10 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=128 wire=0 sub=8  (26s)
+codex precessing inward loops                           B_rms=2.59  a=1.40e-03  P=3.57e+10 W  D+ 15 keV: ret=0.004 [0.00,0.02] wall=255 wire=0 sub=4 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=128 wire=0 sub=7  (34s)
+codex Hopf-coordinate drift                             B_rms=2.18  a=1.00e-02  P=3.83e+08 W  D+ 15 keV: ret=0.012 [0.00,0.03] wall=224 wire=29 sub=5 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=120 wire=8 sub=4  (53s)
+hopf-drift Shallow 150° (10 circuits)                   B_rms=2.34  a=1.00e-02  P=3.7e+08 W  D+ 15 keV: ret=0.000 [0.00,0.01] wall=227 wire=29 sub=4 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=117 wire=11 sub=4  (51s)
+hopf-drift Shallow 180° (10 circuits)                   B_rms=2.22  a=1.00e-02  P=3.71e+08 W  D+ 15 keV: ret=0.000 [0.00,0.01] wall=234 wire=22 sub=5 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=121 wire=7 sub=4  (44s)
+hopf-drift Shallow 210° (10 circuits)                   B_rms=2.11  a=1.00e-02  P=3.72e+08 W  D+ 15 keV: ret=0.008 [0.00,0.03] wall=230 wire=24 sub=4 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=119 wire=9 sub=5  (45s)
+hopf-drift Deep 150° (10 circuits)                      B_rms=2.38  a=1.00e-02  P=3.59e+08 W  D+ 15 keV: ret=0.000 [0.00,0.01] wall=229 wire=27 sub=4 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=119 wire=9 sub=4  (54s)
+hopf-drift Deep 180° (10 circuits)                      B_rms=2.27  a=1.00e-02  P=3.6e+08 W  D+ 15 keV: ret=0.008 [0.00,0.03] wall=227 wire=27 sub=4 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=123 wire=5 sub=5  (48s)
+hopf-drift Deep 210° (10 circuits)                      B_rms=2.16  a=1.00e-02  P=3.6e+08 W  D+ 15 keV: ret=0.008 [0.00,0.03] wall=237 wire=17 sub=4 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=123 wire=5 sub=3  (49s)
+reference solenoid (12 turns)                           B_rms=2.9  a=1.00e-02  P=3.77e+08 W  D+ 15 keV: ret=0.027 [0.01,0.06] wall=172 wire=77 sub=3 | alpha 3.5 MeV: ret=0.000 [0.00,0.03] wall=123 wire=5 sub=3  (78s)
+
+=== dimensionless: R_wall=0.82 m, a_wire=0.005 m, I=1 A, t_max=19.2 s, dt=0.008 s
+recursive-L2 (loop of loops, 12 turns)                  B_rms=8  a=5.00e-03  P=3.8e+11 W  code particles: ret=0.039 [0.02,0.09] wall=122 wire=1 sub=5  (2s)
+recursive-L3 (coil of coils, 12×6)                      B_rms=8  a=5.00e-03  P=7.18e+11 W  code particles: ret=0.070 [0.04,0.13] wall=117 wire=2 sub=5  (5s)
+recursive-L3 alt-hand (12×6, opposite handedness)       B_rms=8  a=5.00e-03  P=7.94e+11 W  code particles: ret=0.031 [0.01,0.08] wall=117 wire=7 sub=6  (4s)
+codex phase-slip toroidal spiral                        B_rms=8  a=1.07e-03  P=8.75e+11 W  code particles: ret=0.008 [0.00,0.04] wall=127 wire=0 sub=3  (3s)
+codex precessing inward loops                           B_rms=8  a=1.40e-03  P=3.41e+11 W  code particles: ret=0.016 [0.00,0.06] wall=125 wire=1 sub=2  (3s)
+codex Hopf-coordinate drift                             B_rms=8  a=5.00e-03  P=2.05e+10 W  code particles: ret=0.234 [0.17,0.31] wall=95 wire=3 sub=2  (4s)
+hopf-drift Shallow 150° (10 circuits)                   B_rms=8  a=5.00e-03  P=1.73e+10 W  code particles: ret=0.180 [0.12,0.26] wall=100 wire=5 sub=2  (4s)
+hopf-drift Shallow 180° (10 circuits)                   B_rms=8  a=5.00e-03  P=1.93e+10 W  code particles: ret=0.148 [0.10,0.22] wall=106 wire=3 sub=2  (3s)
+hopf-drift Shallow 210° (10 circuits)                   B_rms=8  a=5.00e-03  P=2.13e+10 W  code particles: ret=0.141 [0.09,0.21] wall=105 wire=5 sub=2  (3s)
+hopf-drift Deep 150° (10 circuits)                      B_rms=8  a=5.00e-03  P=1.62e+10 W  code particles: ret=0.141 [0.09,0.21] wall=106 wire=4 sub=2  (3s)
+hopf-drift Deep 180° (10 circuits)                      B_rms=8  a=5.00e-03  P=1.79e+10 W  code particles: ret=0.141 [0.09,0.21] wall=106 wire=4 sub=2  (3s)
+hopf-drift Deep 210° (10 circuits)                      B_rms=8  a=5.00e-03  P=1.97e+10 W  code particles: ret=0.109 [0.07,0.18] wall=108 wire=6 sub=2  (3s)
+reference solenoid (12 turns)                           B_rms=8  a=5.00e-03  P=1.15e+10 W  code particles: ret=0.227 [0.16,0.31] wall=94 wire=5 sub=2  (3s)
+done

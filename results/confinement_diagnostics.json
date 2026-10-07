@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "setting": "Finer field grid",
+      "particles": 480,
+      "complete": true,
+      "baseline": 16.876430997254666,
+      "direct": 33.752932835477694,
+      "construction": 50.26292015884261
+    },
+    {
+      "setting": "Smaller time step",
+      "particles": 480,
+      "complete": true,
+      "baseline": 17.875795635072343,
+      "direct": 32.49411657539367,
+      "construction": 49.01503111840327
+    },
+    {
+      "setting": "Wire segment collisions",
+      "particles": 160,
+      "complete": true,
+      "baseline": 18.99599832477227,
+      "direct": 31.935684208314285,
+      "construction": 48.638127326662016
+    }
+  ],
+  "scope": "Each row uses matched fresh particles; diagnostics do not replace the locked primary comparison. The wire-segment row uses a common 160-particle prefix; the other rows use 480. These checks do not establish full numerical convergence or plasma confinement."
+}

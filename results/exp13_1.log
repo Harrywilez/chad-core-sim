@@ -1,0 +1,6 @@
+η 0.60, ε 0.70, n 4, δη 0.01         weave=woven  zones=0.44 clr=0.0067 surf=0.50 open=0.50 r_out=0.166 ι_axis=-0.099 ι_edge=-0.251 well=-0.218 | 0.01:-0.099 0.06:-0.110 0.10:-0.139 0.15:-0.201 (105s)
+η 0.60, ε 0.70, n 4, δη 0.02         weave=mixed  zones=0.90 clr=0.0132 surf=0.38 open=0.62 r_out=0.132 ι_axis=-0.100 ι_edge=-0.180 well=-0.127 | 0.01:-0.100 0.06:-0.113 0.11:-0.147 (75s)
+η 0.60, ε 0.70, n 4, δη 0.05         weave=nested zones=1.00 clr=0.0206 surf=0.00 open=1.00 r_out=0.000 ι_axis=+nan ι_edge=+nan well=+nan |  (7s)
+η 0.60, ε 0 (pure pair), δη 0.01     weave=woven  zones=0.38 clr=0.0071 surf=0.12 open=0.88 r_out=0.022 ι_axis=+0.013 ι_edge=-0.000 well=-0.056 | 0.00:+0.013 (88s)
+η 0.60, ε 0 (pure pair), δη 0.03     weave=nested zones=1.00 clr=0.0195 surf=0.00 open=0.79 r_out=0.000 ι_axis=+nan ι_edge=+nan well=+nan |  (115s)
+done 1

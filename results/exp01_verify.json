@@ -1,0 +1,92 @@
+{
+  "fields_analytic": {
+    "loop_offaxis_rel_max": 3.540801631015089e-06,
+    "loop_centre_rel": 3.9663745421414376e-07,
+    "solenoid_axis_rel_max": 4.911735564805397e-05,
+    "straight_wire_rel_max": 4.999625031243404e-05,
+    "conductor_interior_rel_max": 1.458316664093573e-07
+  },
+  "fields_maxwell_recursive_L3": {
+    "n_points": 80,
+    "fd_step_m": 0.00023770783830714238,
+    "div_B_rel_max": 0.0005593447045173938,
+    "curl_B_rel_max": 0.0006805855712166,
+    "curlA_minus_B_rel_max": 0.0004698204937952689,
+    "ampere_rel_err_max": 2.220446049250313e-16,
+    "ampere_loops": 3
+  },
+  "fields_maxwell_codex_hopf": {
+    "n_points": 79,
+    "fd_step_m": 0.00022280383362508673,
+    "div_B_rel_max": 0.0004304839693606897,
+    "curl_B_rel_max": 0.0003482930241711438,
+    "curlA_minus_B_rel_max": 4.32881997913001e-05,
+    "ampere_rel_err_max": 0.0,
+    "ampere_loops": 3
+  },
+  "faraday_emf_rel_err": 0.0002812464252268665,
+  "particles_uniform": {
+    "gyroradius_rel_err": 0.0013742725251986165,
+    "gyroperiod_rel_err": 0.0009036869603062936,
+    "boris_phase_error_theory": 0.0009123519700847682,
+    "energy_drift": 3.6569274524650615e-15,
+    "mu_variation": 4.600689058217052e-15
+  },
+  "particles_mirror": {
+    "B_min": 0.021447755722487024,
+    "B_max": 0.06481914807065105,
+    "loss_cone_deg": 35.11553117533507,
+    "predicted_trapped_fraction": 0.6075,
+    "observed_trapped_fraction": 0.625,
+    "per_particle_agreement": 0.9825,
+    "mu_variation_median": 0.07569452041561747,
+    "energy_drift": 8.650222495984629e-12,
+    "adiabaticity": 0.07683229100035881
+  },
+  "particles_gradB_drift": {
+    "v_drift_numeric": 2086.7678847240877,
+    "v_drift_theory": 2086.900625196379,
+    "rel_err": 6.360651326131617e-05
+  },
+  "collisions": {
+    "alpha_tau_s_s": 0.6714241389314672,
+    "small_x_limit_tau_s": 0.6585972584392248,
+    "rel_diff": 0.019476061170737635,
+    "x": 0.03198845104348912,
+    "maxwellian_energy_drift_over_half_tau": -0.0008795018245929542
+  },
+  "fusion": {
+    "DT_fit_vs_integral_rel_max": 0.0074312458846342855,
+    "DD_pT_fit_vs_integral_rel_max": 0.018734226140401877,
+    "DD_nHe3_fit_vs_integral_rel_max": 0.010815509873232543,
+    "DHe3_fit_vs_integral_rel_max": 0.03247108092757944,
+    "DT_10keV_rel_err": 0.0007339748604896501,
+    "DT_20keV_rel_err": 4.6627145084299215e-05,
+    "beam_target_mc_vs_n_sigma_v_rel": -0.014518638244377713,
+    "beam_target_expected_events": 154.23934525683364
+  },
+  "chemistry": {
+    "eckart_ch4_imag_freq_cm1": 1256.0921527265593,
+    "eckart_ch4_Tc_K": 287.6305976989163,
+    "eckart_gamma_900K": 1.2029826042950955,
+    "eckart_gamma_300K": 7.6622096705105545,
+    "qsurface_reference": {
+      "imag_freq_cm1": 1256.1,
+      "Tc_K": 287.6,
+      "gamma_900K": 1.203,
+      "gamma_300K": 7.662
+    },
+    "eedf_constant_sigma_rel_err": 9.260180109382787e-07,
+    "networks_balanced": {
+      "plasma": 9,
+      "surface": 11
+    }
+  },
+  "fields_sphere_winding": {
+    "B_centre_rel_err": 0.0006196226131132132,
+    "B_axial_rel_err_max": 0.01936960953670941,
+    "B_transverse_over_axial_max": 0.011170692425912083,
+    "B_theory_T_per_A": 1.3997614096161939e-05
+  },
+  "elapsed_s": 94.67419743537903
+}

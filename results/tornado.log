@@ -1,0 +1,15 @@
+=== tornado_same_030
+m24 + cone plugs (same, I=0.3)               τ_c=  44.9 (all 36 · pass 56; 120T) score=  44.9  S4=0.43 S20=0.20 S120=0.12  closed=0.44 pred=0.80 I=127kA build=1.00 (29s)
+=== tornado_cusp_030
+m24 + cone plugs (cusp, I=0.3)               τ_c=  27.1 (all 23 · pass 31; 80T) score=  27.1  S4=0.44 S20=0.23  closed=0.24 pred=0.72 I=127kA build=1.00 (21s)
+=== ringplug_same_030
+m24 + circle plugs (same, I=0.3)             τ_c=  27.7 (all 23 · pass 33; 80T) score=  27.3  S4=0.42 S20=0.23  closed=0.45 pred=0.82 I=141kA build=0.99 (20s)
+=== tornado_same_100
+m24 + cone plugs (same, I=1.0)               τ_c=  38.0 (all 32 · pass 45; 120T) score=  38.0  S4=0.41 S20=0.21 S120=0.10  closed=0.44 pred=0.74 I=124kA build=1.00 (27s)
+=== tornado_cusp_100
+m24 + cone plugs (cusp, I=1.0)               τ_c=   7.8 (all 9 · pass 7; 40T) score=   7.8  S4=0.46 S20=0.13  closed=0.06 pred=0.54 I=124kA build=1.00 (13s)
+=== ringplug_cusp_030
+m24 + circle plugs (cusp, I=0.3)             τ_c=  23.5 (all 19 · pass 28; 80T) score=  23.2  S4=0.41 S20=0.21  closed=0.42 pred=0.78 I=141kA build=0.99 (20s)
+=== tornado_same_010
+m24 + cone plugs (same, I=0.1)               τ_c=  39.4 (all 33 · pass 48; 120T) score=  39.4  S4=0.41 S20=0.21 S120=0.11  closed=0.45 pred=0.81 I=127kA build=1.00 (27s)
+DONE

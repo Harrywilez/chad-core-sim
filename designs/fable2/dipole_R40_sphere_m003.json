@@ -1,0 +1,22 @@
+{
+ "name": "dipole r0.40 + sphere winding I=-0.03",
+ "wire_radius": 0.0188,
+ "components": [
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.4,
+    "axis": "z"
+   },
+   "current": 1.0
+  },
+  {
+   "family": "sphere",
+   "params": {
+    "radius": 0.76,
+    "turns": 24
+   },
+   "current": -0.03
+  }
+ ]
+}

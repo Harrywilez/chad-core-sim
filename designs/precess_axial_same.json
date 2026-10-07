@@ -1,0 +1,24 @@
+{
+ "name": "precess \u00d7 pair-axial-same core 0.55",
+ "wire_radius": 0.0007,
+ "components": [
+  {
+   "family": "precess",
+   "scale": 0.55,
+   "translate": [
+    0,
+    0,
+    0.5
+   ]
+  },
+  {
+   "family": "precess",
+   "scale": 0.55,
+   "translate": [
+    0,
+    0,
+    -0.5
+   ]
+  }
+ ]
+}

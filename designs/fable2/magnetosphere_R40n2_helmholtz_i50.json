@@ -1,0 +1,58 @@
+{
+ "name": "stack R0.40 n2 + Helmholtz (.80,\u00b1.40) I=-0.50",
+ "wire_radius": 0.01845,
+ "components": [
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.4,
+    "axis": "z"
+   },
+   "current": 1.0,
+   "translate": [
+    0.0,
+    0.0,
+    -0.0205
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.4,
+    "axis": "z"
+   },
+   "current": 1.0,
+   "translate": [
+    0.0,
+    0.0,
+    0.0205
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.8,
+    "axis": "z"
+   },
+   "current": -0.5,
+   "translate": [
+    0.0,
+    0.0,
+    0.4
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.8,
+    "axis": "z"
+   },
+   "current": -0.5,
+   "translate": [
+    0.0,
+    0.0,
+    -0.4
+   ]
+  }
+ ]
+}

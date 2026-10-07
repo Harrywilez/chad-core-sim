@@ -1,0 +1,5 @@
+{"name": "hopfmesh N24 de0.08 scale 0.85 (centred in seed shell)",
+ "wire_radius": 0.0042,
+ "components": [{"family": "hopfmesh",
+   "params": {"eta": 0.60, "circuits": 24, "eps": 0.70, "periods": 4, "delta_eta": 0.08, "sense": -1},
+   "scale": 0.85, "current": 1.0}]}

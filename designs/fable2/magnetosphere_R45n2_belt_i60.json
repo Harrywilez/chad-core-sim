@@ -1,0 +1,58 @@
+{
+ "name": "stack R0.45 n2 + belt pair (0.90,\u00b10.25) I=-0.60",
+ "wire_radius": 0.0207,
+ "components": [
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.45,
+    "axis": "z"
+   },
+   "current": 1.0,
+   "translate": [
+    0.0,
+    0.0,
+    -0.023
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.45,
+    "axis": "z"
+   },
+   "current": 1.0,
+   "translate": [
+    0.0,
+    0.0,
+    0.023
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.9,
+    "axis": "z"
+   },
+   "current": -0.6,
+   "translate": [
+    0.0,
+    0.0,
+    0.25
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.9,
+    "axis": "z"
+   },
+   "current": -0.6,
+   "translate": [
+    0.0,
+    0.0,
+    -0.25
+   ]
+  }
+ ]
+}

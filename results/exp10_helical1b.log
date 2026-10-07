@@ -1,0 +1,4 @@
+helical-current ε=0.70, n=5                clr=0.0034 surf=0.19 isl=0.00 open=0.81 r_out=0.194 ι_axis=-0.054 ι_edge=-0.085 well=-0.160 | 0.16:-0.054 (23s)
+helical-current ε=0.70, n=4                clr=0.0112 surf=0.12 isl=0.00 open=0.88 r_out=0.183 ι_axis=-0.094 ι_edge=-0.111 well=-0.130 | 0.17:-0.094 (18s)
+helical-current ε=0.85, n=5                clr=0.0070 surf=0.12 isl=0.00 open=0.88 r_out=0.179 ι_axis=-0.080 ι_edge=-0.098 well=+0.001 | 0.16:-0.080 (19s)
+done helical1

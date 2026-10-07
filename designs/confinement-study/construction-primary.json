@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "current": 1.0,
+      "family": "hopfmirror",
+      "params": {
+        "circuits": 32,
+        "delta_eta": 0.03,
+        "eta": 0.9,
+        "mode": "woven",
+        "revolutions": 2.0,
+        "sense": -1
+      }
+    }
+  ],
+  "name": "astra eta.9 reduced gap.03 N32",
+  "wire_radius": 0.00448
+}

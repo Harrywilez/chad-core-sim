@@ -1,0 +1,4 @@
+hopf continued 720° / 48 circuits             clr=0.0228 wall=1.00 closed=0.00 Rmir p90=1.16 pred=0.178 | dimless ret=0.250 | reactor D+ S4=0.31 S8=0.23 S20=0.19 B_rms=8.42 T (453s)
+hopf continued 1440° / 96 circuits            clr=0.0111 wall=1.00 closed=0.00 Rmir p90=1.11 pred=0.146 | dimless ret=0.195 | reactor D+ S4=0.27 S8=0.22 S20=0.18 B_rms=16.69 T (1595s)
+hopf continued 1440° / 96, η→0.50             clr=0.0197 wall=1.00 closed=0.00 Rmir p90=1.06 pred=0.081 | dimless ret=0.109 | reactor D+ S4=0.21 S8=0.14 S20=0.11 B_rms=17.19 T (1472s)
+hopf torus η=0.70, 24×1                       clr=0.0196 wall=1.00 closed=0.00 Rmir p90=1.37 pred=0.242 | dimless ret=0.211 | reactor D+ S4=0.36 S8=0.25 S20=0.14 B_rms=4.42 T (161s)

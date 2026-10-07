@@ -1,0 +1,7 @@
+hopf-drift s64_180 × pair-axial-same          clr=0.0165 wall=0.97 closed=0.00 Rmir p90=41.85 pred=0.764 | dimless ret=0.266 | reactor D+ S4=0.32 S8=0.23 S20=0.13 B_rms=1.62 T (188s)
+hopf-drift s64_180 × pair-axial-opposed       clr=0.0165 wall=1.00 closed=0.00 Rmir p90=11.76 pred=0.311 | dimless ret=0.156 | reactor D+ S4=0.22 S8=0.09 S20=0.00 B_rms=1.62 T (148s)
+hopf-drift s64_180 × pair-facing-flipped      clr=0.0165 wall=1.00 closed=0.00 Rmir p90=9.98 pred=0.301 | dimless ret=0.148 | reactor D+ S4=0.18 S8=0.07 S20=0.00 B_rms=1.60 T (141s)
+hopf-drift s64_180 × pair-side-crossed        clr=0.0165 wall=0.97 closed=0.00 Rmir p90=26.82 pred=0.783 | dimless ret=0.430 | reactor D+ S4=0.51 S8=0.36 S20=0.12 B_rms=1.62 T (190s)
+hopf-drift s64_180 × triad-120                clr=0.0165 wall=0.90 closed=0.00 Rmir p90=9.81 pred=0.491 | dimless ret=0.211 | reactor D+ S4=0.26 S8=0.13 S20=0.02 B_rms=2.11 T (318s)
+hopf-drift s64_180 × tetra-4                  clr=0.0165 wall=0.99 closed=0.00 Rmir p90=10.17 pred=0.693 | dimless ret=0.234 | reactor D+ S4=0.43 S8=0.26 S20=0.11 B_rms=2.44 T (397s)
+hopf-drift s64_180 × octa-6-cusp              clr=0.0165 wall=0.98 closed=0.00 Rmir p90=9.73 pred=0.692 | dimless ret=0.320 | reactor D+ S4=0.47 S8=0.32 S20=0.11 B_rms=3.12 T (571s)

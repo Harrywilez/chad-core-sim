@@ -1,0 +1,44 @@
+T1 adiabatic prediction vs survival after 4 / 8 / 20 crossings:
+  recursive-L2 (loop of loops, 12 turns)               pred=0.081 | S4: e=0.07 D=0.01 a=0.00 dl=0.04 bD=0.00 | S8: e=0.04 D=0.00 a=0.00 | S20: D=0.00 a=0.00 | end: D=0.000
+  recursive-L3 (coil of coils, 12×6)                   pred=0.117 | S4: e=0.07 D=0.01 a=0.00 dl=0.09 bD=0.00 | S8: e=0.01 D=0.01 a=0.00 | S20: D=0.00 a=0.00 | end: D=0.000
+  recursive-L3 alt-hand (12×6, opposite handedness)    pred=0.113 | S4: e=0.07 D=0.02 a=0.00 dl=0.03 bD=0.00 | S8: e=0.03 D=0.00 a=0.00 | S20: D=0.00 a=0.00 | end: D=0.000
+  codex phase-slip toroidal spiral                     pred=0.063 | S4: e=0.07 D=0.03 a=0.00 dl=0.01 bD=0.00 | S8: e=0.05 D=0.01 a=0.00 | S20: D=0.00 a=0.00 | end: D=0.000
+  codex precessing inward loops                        pred=0.091 | S4: e=0.11 D=0.07 a=0.00 dl=0.02 bD=0.01 | S8: e=0.09 D=0.02 a=0.00 | S20: D=0.00 a=0.00 | end: D=0.004
+  codex Hopf-coordinate drift                          pred=0.260 | S4: e=0.34 D=0.27 a=0.02 dl=0.23 bD=0.03 | S8: e=0.29 D=0.17 a=0.00 | S20: D=0.04 a=0.00 | end: D=0.012
+  hopf-drift Shallow 150° (10 circuits)                pred=0.244 | S4: e=0.28 D=0.21 a=0.00 dl=0.18 bD=0.01 | S8: e=0.25 D=0.15 a=0.00 | S20: D=0.03 a=0.00 | end: D=0.000
+  hopf-drift Shallow 180° (10 circuits)                pred=0.232 | S4: e=0.26 D=0.17 a=0.02 dl=0.16 bD=0.00 | S8: e=0.21 D=0.11 a=0.00 | S20: D=0.02 a=0.00 | end: D=0.000
+  hopf-drift Shallow 210° (10 circuits)                pred=0.204 | S4: e=0.28 D=0.20 a=0.02 dl=0.16 bD=0.02 | S8: e=0.24 D=0.12 a=0.00 | S20: D=0.03 a=0.00 | end: D=0.008
+  hopf-drift Deep 150° (10 circuits)                   pred=0.222 | S4: e=0.25 D=0.19 a=0.01 dl=0.14 bD=0.01 | S8: e=0.22 D=0.12 a=0.00 | S20: D=0.03 a=0.00 | end: D=0.000
+  hopf-drift Deep 180° (10 circuits)                   pred=0.232 | S4: e=0.28 D=0.18 a=0.02 dl=0.14 bD=0.01 | S8: e=0.24 D=0.10 a=0.00 | S20: D=0.02 a=0.00 | end: D=0.008
+  hopf-drift Deep 210° (10 circuits)                   pred=0.225 | S4: e=0.29 D=0.19 a=0.02 dl=0.12 bD=0.01 | S8: e=0.23 D=0.11 a=0.00 | S20: D=0.02 a=0.00 | end: D=0.008
+  reference solenoid (12 turns)                        pred=0.307 | S4: e=0.38 D=0.27 a=0.05 dl=0.23 bD=0.08 | S8: e=0.32 D=0.18 a=0.00 | S20: D=0.07 a=0.00 | end: D=0.027
+  mean |pred-obs| = 0.17888795470608818  within-interval fraction = 0.0
+T2 speed=0.010 rho/L=0.0012 retention=0.242 [0.18,0.32] mu-var=0.08 (55s)
+T2 speed=0.020 rho/L=0.0203 retention=0.203 [0.14,0.28] mu-var=0.00 (25s)
+T2 speed=0.045 rho/L=0.0457 retention=0.148 [0.10,0.22] mu-var=0.01 (11s)
+T2 speed=0.090 rho/L=0.0986 retention=0.109 [0.07,0.18] mu-var=0.00 (5s)
+T2 speed=0.180 rho/L=0.1959 retention=0.031 [0.01,0.08] mu-var=0.01 (2s)
+T2 speed=0.360 rho/L=0.3997 retention=0.016 [0.00,0.06] mu-var=0.01 (1s)
+T2 speed=0.720 rho/L=0.8320 retention=0.000 [0.00,0.03] mu-var=0.01 (0s)
+T2 speed=1.500 rho/L=1.7616 retention=0.000 [0.00,0.03] mu-var=0.02 (0s)
+T2 speed=3.000 rho/L=3.6423 retention=0.000 [0.00,0.03] mu-var=0.03 (0s)
+T3 s64_150: codex ret=0.242 [0.18,0.32] median=6.30 | ccsim ret=0.180 [0.12,0.26] median=6.78  overlap=True
+T3 s64_180: codex ret=0.180 [0.12,0.26] median=6.57 | ccsim ret=0.148 [0.10,0.22] median=6.54  overlap=True
+T3 s64_210: codex ret=0.125 [0.08,0.19] median=7.18 | ccsim ret=0.141 [0.09,0.21] median=6.32  overlap=True
+T3 d48_150: codex ret=0.219 [0.16,0.30] median=5.97 | ccsim ret=0.141 [0.09,0.21] median=5.79  overlap=True
+T3 d48_180: codex ret=0.180 [0.12,0.26] median=6.72 | ccsim ret=0.141 [0.09,0.21] median=5.69  overlap=True
+T3 d48_210: codex ret=0.172 [0.12,0.25] median=6.89 | ccsim ret=0.109 [0.07,0.18] median=5.87  overlap=True
+T4 recursive-L2 (loop of loops, 12 turns)                  ret(coll)=0.000 beam-target/Maxwellian=0.58 tau_mean=8.89e-07 s
+T4 recursive-L3 (coil of coils, 12×6)                      ret(coll)=0.000 beam-target/Maxwellian=0.58 tau_mean=9.31e-07 s
+T4 recursive-L3 alt-hand (12×6, opposite handedness)       ret(coll)=0.000 beam-target/Maxwellian=0.58 tau_mean=9.12e-07 s
+T4 codex phase-slip toroidal spiral                        ret(coll)=0.000 beam-target/Maxwellian=0.57 tau_mean=8.27e-07 s
+T4 codex precessing inward loops                           ret(coll)=0.000 beam-target/Maxwellian=0.57 tau_mean=1.09e-06 s
+T4 codex Hopf-coordinate drift                             ret(coll)=0.008 beam-target/Maxwellian=0.57 tau_mean=2.95e-06 s
+T4 hopf-drift Shallow 150° (10 circuits)                   ret(coll)=0.000 beam-target/Maxwellian=0.57 tau_mean=2.46e-06 s
+T4 hopf-drift Shallow 180° (10 circuits)                   ret(coll)=0.000 beam-target/Maxwellian=0.57 tau_mean=2.42e-06 s
+T4 hopf-drift Shallow 210° (10 circuits)                   ret(coll)=0.004 beam-target/Maxwellian=0.58 tau_mean=2.58e-06 s
+T4 hopf-drift Deep 150° (10 circuits)                      ret(coll)=0.004 beam-target/Maxwellian=0.57 tau_mean=2.38e-06 s
+T4 hopf-drift Deep 180° (10 circuits)                      ret(coll)=0.000 beam-target/Maxwellian=0.57 tau_mean=2.10e-06 s
+T4 hopf-drift Deep 210° (10 circuits)                      ret(coll)=0.008 beam-target/Maxwellian=0.57 tau_mean=2.34e-06 s
+T4 reference solenoid (12 turns)                           ret(coll)=0.035 beam-target/Maxwellian=0.57 tau_mean=3.93e-06 s
+saved

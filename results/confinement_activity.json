@@ -1,0 +1,4783 @@
+{
+  "observed_at": 1788749598.826727,
+  "status": "complete",
+  "arms": {
+    "direct": {
+      "status": "participants_stopped",
+      "activations": 8,
+      "completed_responses": 7,
+      "known_tokens": 13098066,
+      "usage_reported_activations": 7,
+      "usage_missing_activations": 1,
+      "usage_scope": "Completed adapter responses only. Input + output tokens; cached input is not counted twice. Missing usage is not zero.",
+      "limits": {
+        "max_activations": 9,
+        "activation_seconds": 600,
+        "wall_seconds": 2700
+      },
+      "participants": [
+        {
+          "name": "direct-astra",
+          "state": "stopped",
+          "waiting_for": [],
+          "last_contribution": 1788748719.768762
+        },
+        {
+          "name": "direct-astra-2",
+          "state": "stopped",
+          "waiting_for": [],
+          "last_contribution": 1788748699.165735
+        },
+        {
+          "name": "lab-oracle",
+          "state": "unobserved",
+          "waiting_for": [],
+          "last_contribution": 1788748539.15287
+        }
+      ],
+      "cursor": 153,
+      "used": 12,
+      "completed_screens": 12,
+      "best_primary": 33.37876397973888,
+      "last_public_messages": [
+        {
+          "actor": "direct-astra-2",
+          "text": "All my audit/experiment evidence published and nominee/control content agreed. I have until02:38:10 soft deadline (about45s) to review your concrete report. Please publish draft as soon as ready; I will read immediately. If report publication slips, my review of numerical evidence and exact triplet already passes, but I will distinguish that from reviewing prose.",
+          "seq": 146,
+          "at": 1788748648.114621,
+          "refs": []
+        },
+        {
+          "actor": "direct-astra",
+          "text": "Concrete drafts event147 ready for prompt review: primary08690..., alternate de43..., controlbcce62... . Primary baseline delta11.220545 SE3.461214; immediate-parent delta6.904875 SE2.498681. Full12 table and negatives; explicit alternate is distinct narrow branch, not second-highest. Tool runtime119.45s geometry/analysis known, plus evaluator total in report. Please flag corrections or confirm; I will publish lab/report.md and nominees.json then stop as agreed. Softdeadline02:38:25 approaching.",
+          "seq": 148,
+          "at": 1788748669.52962,
+          "refs": [
+            "analysis/astra_report_proposed.md",
+            "analysis/astra_nominees_proposed.json"
+          ]
+        },
+        {
+          "actor": "direct-astra-2",
+          "text": "Reviewed concrete report and nominees at event147 revision1. Approved exact primary/alternate/control, numerical table, adaptive-uncertainty wording, explicit distinction between conductor nesting and magnetic surfaces, and preserved failures. Please add independent audit reference analysis/astra2_final_audit.json (event142/143) to reproducibility paragraph; it recomputes all12 means and checks frozen conditions. Otherwise publish lab/report.md and lab/nominees.json now and stop as agreed. I am ending participation at soft deadline after this review; numerical agreement is not held-out proof.",
+          "seq": 149,
+          "at": 1788748699.165735,
+          "refs": [
+            "analysis/astra_report_proposed.md",
+            "analysis/astra_nominees_proposed.json",
+            "analysis/astra2_final_audit.json"
+          ]
+        },
+        {
+          "actor": "direct-astra",
+          "text": "Published final nominees/report: primary08690c8eb759b3419f4fce3d, alternate de43cd69c91d5c5d0ae90e59, controlbcce62e3e741adb919c922ce, as jointly agreed. Primary33.37876 vs22.15822 baseline (+50.64%), paired SE3.46121; adaptive-screen evidence, no held-out outcomes inspected. Final report adds independent peer audit, one initial overlap loss in each narrow eps.55/.75 test, tooltime119.56s and field153.393s. Twelve screens exhausted. Proposed stopping point reached; ending participation for locked holdout evaluation.",
+          "seq": 152,
+          "at": 1788748719.768762,
+          "refs": [
+            "lab/report.md",
+            "lab/nominees.json"
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "lab/report.md",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748719.694072
+        },
+        {
+          "path": "lab/nominees.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748719.694072
+        },
+        {
+          "path": "inquiry/notes/astra2-report-approved.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748699.286792
+        },
+        {
+          "path": "analysis/astra_report_proposed.md",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "analysis/astra_nominees_proposed.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "analysis/astra_screen_summary.json",
+          "revision": 2,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "experiments/astra_screen_summary.json",
+          "revision": 2,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "proposals/astra-N40-eps055.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "proposals/astra-N40-eps040.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "instruments/astra_final_preflight.py",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "experiments/astra_final_preflight.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "analysis/astra_final_preflight.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748656.857195
+        },
+        {
+          "path": "inquiry/notes/astra2-final-review.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748630.4141219
+        },
+        {
+          "path": "instruments/astra2_final_audit.py",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748614.029291
+        },
+        {
+          "path": "experiments/astra2_final_audit.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748614.029291
+        },
+        {
+          "path": "analysis/astra2_final_audit.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748614.029291
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/stdout.txt",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.271343
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/stderr.txt",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.271343
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/result.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.271343
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/outputs/analysis/astra2_final_audit.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.271343
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/outputs.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.271343
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/instruments/astra2_final_audit.py",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/baseline-observation.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/08690c8eb759b3419f4fce3d.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/8c8d74e8d25cedc1b77f86d4.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/8cef74a4a3474606b5f22961.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/a46f8b519c156c5418873020.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/b6395853144ade61eef305e8.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/bafad39e316f77103151a898.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/bcce62e3e741adb919c922ce.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/c9b3727417e5f69f2a53e931.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/db10b4e8e6fb93ec25f113eb.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/de43cd69c91d5c5d0ae90e59.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/f5af2e074cbc8467da39d0af.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/1676a59928bbb424e7083d76/definition.json",
+          "revision": 1,
+          "actor": "direct-astra-2",
+          "at": 1788748584.143765
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/stdout.txt",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.762248
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/stderr.txt",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.762248
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/result.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.762248
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/outputs/analysis/astra_screen_summary.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.762248
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/outputs.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.762248
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/instruments/astra_screen_summary.py",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/baseline-observation.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/08690c8eb759b3419f4fce3d.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/8c8d74e8d25cedc1b77f86d4.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/8cef74a4a3474606b5f22961.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/a46f8b519c156c5418873020.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/b6395853144ade61eef305e8.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/bafad39e316f77103151a898.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/bcce62e3e741adb919c922ce.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/c9b3727417e5f69f2a53e931.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/db10b4e8e6fb93ec25f113eb.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        },
+        {
+          "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/de43cd69c91d5c5d0ae90e59.json",
+          "revision": 1,
+          "actor": "direct-astra",
+          "at": 1788748574.637254
+        }
+      ],
+      "experiments": [
+        {
+          "id": "1676a59928bbb424e7083d76",
+          "actor": "direct-astra-2",
+          "declared_at": 1788748584.143765,
+          "question": "Do all12 screened results preserve frozen conditions and recompute exactly, and does the chosen parent differ only in modulation?",
+          "prediction": "All stored conditions match and primary arithmetic verifies; primary eps.40 improvement remains descriptively positive versus eps.55 parent, with adaptive uncertainty unremoved.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.11368012428283691,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/instruments/astra2_final_audit.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2_final_audit.py"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/08690c8eb759b3419f4fce3d.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/08690c8eb759b3419f4fce3d.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/87a93a2a36e9af35ddce22fa.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/8c8d74e8d25cedc1b77f86d4.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/8c8d74e8d25cedc1b77f86d4.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/8cef74a4a3474606b5f22961.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/8cef74a4a3474606b5f22961.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/a46f8b519c156c5418873020.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/a46f8b519c156c5418873020.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/b6395853144ade61eef305e8.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/b6395853144ade61eef305e8.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/bafad39e316f77103151a898.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bafad39e316f77103151a898.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/bcce62e3e741adb919c922ce.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bcce62e3e741adb919c922ce.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/c9b3727417e5f69f2a53e931.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/c9b3727417e5f69f2a53e931.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/db10b4e8e6fb93ec25f113eb.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/db10b4e8e6fb93ec25f113eb.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/de43cd69c91d5c5d0ae90e59.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/de43cd69c91d5c5d0ae90e59.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/environment/lab/observations/f5af2e074cbc8467da39d0af.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/f5af2e074cbc8467da39d0af.json"
+            },
+            {
+              "path": "inquiry/experiments/1676a59928bbb424e7083d76/outputs/analysis/astra2_final_audit.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra2_final_audit.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "cda43dee42943e382139f199",
+          "actor": "direct-astra",
+          "declared_at": 1788748574.637254,
+          "question": "Final twelve-screen paired comparison: which valid candidates and exact parent control should be nominated before unseen holdouts?",
+          "prediction": "Wide N40 epsilon.40 leads with improved late survival, while best narrow alternative remains N48 epsilon.70; estimate descriptive paired uncertainty and preserve every negative.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.11009478569030762,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/instruments/astra_screen_summary.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_screen_summary.py"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/08690c8eb759b3419f4fce3d.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/08690c8eb759b3419f4fce3d.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/87a93a2a36e9af35ddce22fa.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/8c8d74e8d25cedc1b77f86d4.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/8c8d74e8d25cedc1b77f86d4.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/8cef74a4a3474606b5f22961.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/8cef74a4a3474606b5f22961.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/a46f8b519c156c5418873020.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/a46f8b519c156c5418873020.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/b6395853144ade61eef305e8.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/b6395853144ade61eef305e8.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/bafad39e316f77103151a898.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bafad39e316f77103151a898.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/bcce62e3e741adb919c922ce.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bcce62e3e741adb919c922ce.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/c9b3727417e5f69f2a53e931.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/c9b3727417e5f69f2a53e931.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/db10b4e8e6fb93ec25f113eb.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/db10b4e8e6fb93ec25f113eb.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/de43cd69c91d5c5d0ae90e59.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/de43cd69c91d5c5d0ae90e59.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/environment/lab/observations/f5af2e074cbc8467da39d0af.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/f5af2e074cbc8467da39d0af.json"
+            },
+            {
+              "path": "inquiry/experiments/cda43dee42943e382139f199/outputs/analysis/astra_screen_summary.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra_screen_summary.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "c562fde342872a39981bd8f4",
+          "actor": "direct-astra",
+          "declared_at": 1788748464.5841348,
+          "question": "Can lower modulation or additional turns safely extend the improved wide epsilon.55 candidate?",
+          "prediction": "Lower epsilon.40 should remain valid; N44 may fit relaxed density crowding, N48 less likely.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 7.206728219985962,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/environment/instruments/astra_final_preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_final_preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/environment/proposals/astra-N40-eps055.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra-N40-eps055.json"
+            },
+            {
+              "path": "inquiry/experiments/c562fde342872a39981bd8f4/outputs/analysis/astra_final_preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra_final_preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "484846b3150540f9ec59b37b",
+          "actor": "direct-astra-2",
+          "declared_at": 1788748403.384514,
+          "question": "Does reducing helical modulation preserve geometric validity of the narrow N48 candidate?",
+          "prediction": "Epsilon.55 and.40 should relax self-clearance; epsilon.75 may violate the small remaining margin. No orbit calls.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 8.526226997375488,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/environment/candidates/astra2_N48_eta060.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "candidates/astra2_N48_eta060.json"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/environment/instruments/astra2_modulation_preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2_modulation_preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/outputs/analysis/astra2_modulation_preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra2_modulation_preflight.json"
+            },
+            {
+              "path": "inquiry/experiments/484846b3150540f9ec59b37b/outputs/candidates/astra2_N48_eps055.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "candidates/astra2_N48_eps055.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "873cb39c7bba2e20bd35844b",
+          "actor": "direct-astra",
+          "declared_at": 1788748298.9878259,
+          "question": "How do all eight screened candidates compare on paired all-particle restricted lifetimes and fixed launch/field checks?",
+          "prediction": "N48 eta.60 and N40 eta.70 lead RMST, but paired SE may remain large and late survival could differ.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.11469793319702148,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/instruments/astra_screen_summary.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_screen_summary.py"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/87a93a2a36e9af35ddce22fa.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/observations/8cef74a4a3474606b5f22961.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/8cef74a4a3474606b5f22961.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/observations/b6395853144ade61eef305e8.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/b6395853144ade61eef305e8.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/observations/bafad39e316f77103151a898.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bafad39e316f77103151a898.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/observations/c9b3727417e5f69f2a53e931.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/c9b3727417e5f69f2a53e931.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/observations/db10b4e8e6fb93ec25f113eb.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/db10b4e8e6fb93ec25f113eb.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/observations/de43cd69c91d5c5d0ae90e59.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/de43cd69c91d5c5d0ae90e59.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/environment/lab/observations/f5af2e074cbc8467da39d0af.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/f5af2e074cbc8467da39d0af.json"
+            },
+            {
+              "path": "inquiry/experiments/873cb39c7bba2e20bd35844b/outputs/analysis/astra_screen_summary.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra_screen_summary.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "51e33ae06e0289f8ea2763d6",
+          "actor": "direct-astra-2",
+          "declared_at": 1788748182.458606,
+          "question": "Is the N40 gain broad across paired markers, and which stronger-field or width changes satisfy clearance?",
+          "prediction": "N40 field strength should rise roughly with turn count and paired gain should exceed N24 width. N44 eta.70 may violate clearance; wider eta.75 N40 may need delta.022 or greater. Epsilon changes may face self-clearance constraints.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 15.799907207489014,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/environment/instruments/astra2_density_followup.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2_density_followup.py"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/87a93a2a36e9af35ddce22fa.json"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/environment/lab/observations/bafad39e316f77103151a898.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bafad39e316f77103151a898.json"
+            },
+            {
+              "path": "inquiry/experiments/51e33ae06e0289f8ea2763d6/outputs/analysis/astra2_density_followup.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra2_density_followup.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "b900a46954fb5c177d4bfa6e",
+          "actor": "direct-astra",
+          "declared_at": 1788748149.355566,
+          "question": "Which stronger-field descendants allow tests of coverage and helical periodicity without clearance violations?",
+          "prediction": "N48 at eta.65 may recover clearance versus invalid eta.70 N48; n3 and n5 modulation may fit at de.020 but add topology differences requiring actual screens.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 22.131887912750244,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/environment/candidates/astra2_N40_width.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "candidates/astra2_N40_width.json"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/environment/instruments/astra_strong_preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_strong_preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/b900a46954fb5c177d4bfa6e/outputs/analysis/astra_strong_preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra_strong_preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "53c13da2a15d71dd75ca6409",
+          "actor": "direct-astra-2",
+          "declared_at": 1788748139.038315,
+          "question": "Is the N40 gain broad across paired markers, and which stronger-field or width changes satisfy clearance?",
+          "prediction": "N40 field strength should rise roughly with turn count and paired gain should exceed N24 width. N44 eta.70 may violate clearance; wider eta.75 N40 may need delta.022 or greater. Epsilon changes may face self-clearance constraints.",
+          "state": "capture_failed",
+          "exit_code": 1,
+          "elapsed_seconds": 15.661419153213501,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/environment/instruments/astra2_density_followup.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2_density_followup.py"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/87a93a2a36e9af35ddce22fa.json"
+            },
+            {
+              "path": "inquiry/experiments/53c13da2a15d71dd75ca6409/environment/lab/observations/bafad39e316f77103151a898.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bafad39e316f77103151a898.json"
+            }
+          ],
+          "output_omissions": {
+            "analysis/astra2_density_followup.json": "missing: Declared file is missing: analysis/astra2_density_followup.json"
+          },
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "25757110c6c2ffd6105d2845",
+          "actor": "direct-astra",
+          "declared_at": 1788747955.542055,
+          "question": "Can strand separation be reduced at wider eta while meeting pilot clearance?",
+          "prediction": "Eta .70 should be valid around delta_eta .018; eta .75 needs near .020. This only finds geometry candidates, not confinement evidence.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 7.235869884490967,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/environment/instruments/astra_boundary_scan.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_boundary_scan.py"
+            },
+            {
+              "path": "inquiry/experiments/25757110c6c2ffd6105d2845/outputs/analysis/astra_boundary_scan.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra_boundary_scan.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "edf9e5707175610ba3f78376",
+          "actor": "direct-astra",
+          "declared_at": 1788747923.833941,
+          "question": "Is the small width-candidate gain broad across paired markers or uncertain relative to marker variability?",
+          "prediction": "Width gains early survival but loses late survivors, so its +0.38-transit baseline difference is small relative to paired marker SE.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.11304903030395508,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/environment/instruments/astra_paired_analysis.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_paired_analysis.py"
+            },
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/87a93a2a36e9af35ddce22fa.json"
+            },
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/environment/lab/observations/c9b3727417e5f69f2a53e931.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/c9b3727417e5f69f2a53e931.json"
+            },
+            {
+              "path": "inquiry/experiments/edf9e5707175610ba3f78376/outputs/analysis/astra_paired_analysis.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra_paired_analysis.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "cc712d4c88f19dff800d600a",
+          "actor": "direct-astra",
+          "declared_at": 1788747905.617287,
+          "question": "Is the small width-candidate gain broad across paired markers or uncertain relative to marker variability?",
+          "prediction": "Width gains early survival but loses late survivors, so its +0.38-transit baseline difference is small relative to paired marker SE.",
+          "state": "capture_failed",
+          "exit_code": 1,
+          "elapsed_seconds": 0.11271810531616211,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/cc712d4c88f19dff800d600a/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/cc712d4c88f19dff800d600a/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/cc712d4c88f19dff800d600a/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/cc712d4c88f19dff800d600a/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/cc712d4c88f19dff800d600a/environment/instruments/astra_paired_analysis.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_paired_analysis.py"
+            },
+            {
+              "path": "inquiry/experiments/cc712d4c88f19dff800d600a/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/cc712d4c88f19dff800d600a/environment/lab/observations/87a93a2a36e9af35ddce22fa.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/87a93a2a36e9af35ddce22fa.json"
+            },
+            {
+              "path": "inquiry/experiments/cc712d4c88f19dff800d600a/environment/lab/observations/c9b3727417e5f69f2a53e931.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/c9b3727417e5f69f2a53e931.json"
+            }
+          ],
+          "output_omissions": {
+            "analysis/astra_paired_analysis.json": "missing: Declared file is missing: analysis/astra_paired_analysis.json"
+          },
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "e359f1fb3f9053312fd32f1f",
+          "actor": "direct-astra",
+          "declared_at": 1788747829.925996,
+          "question": "Do baseline and the two proposed width/separation candidates retain woven rather than nested topology?",
+          "prediction": "Larger strand separation and wider eta may increase zone_fraction; topology differences are a competing explanation for eventual orbit results.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 1.5648047924041748,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/environment/instruments/astra_weave_diagnostic.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_weave_diagnostic.py"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/environment/proposals/astra-de020.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra-de020.json"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/environment/proposals/astra-eta070-de020.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra-eta070-de020.json"
+            },
+            {
+              "path": "inquiry/experiments/e359f1fb3f9053312fd32f1f/outputs/analysis/astra_weave_diagnostic.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra_weave_diagnostic.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "b98306cd53ea204b5087e275",
+          "actor": "direct-astra-2",
+          "declared_at": 1788747824.835119,
+          "question": "Are sign-paired vertical-field corrections and higher-turn-density Hopf meshes geometrically valid at the study wire clearance?",
+          "prediction": "The exterior rings should retain baseline clearance. Higher turn counts strengthen the fixed-current field but may violate nonlocal clearance even if delta_eta is increased.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 25.137294054031372,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/environment/instruments/astra2_preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2_preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/outputs/analysis/astra2_preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra2_preflight.json"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/outputs/candidates/astra2_vrings_minus.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "candidates/astra2_vrings_minus.json"
+            },
+            {
+              "path": "inquiry/experiments/b98306cd53ea204b5087e275/outputs/candidates/astra2_vrings_plus.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "candidates/astra2_vrings_plus.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "51d8fa7f75125fe15c8cfec1",
+          "actor": "direct-astra",
+          "declared_at": 1788747731.228589,
+          "question": "Which wider Hopf mesh tori satisfy fixed conductor clearance while retaining chiral modulation?",
+          "prediction": "Increasing eta expands launch coverage but tightens clearance; lowering epsilon should recover valid candidates, with delta_eta .020 potentially nesting instead of weaving.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 15.673319816589355,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/environment/instruments/astra_geometry_scan.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_geometry_scan.py"
+            },
+            {
+              "path": "inquiry/experiments/51d8fa7f75125fe15c8cfec1/outputs/analysis/astra_geometry_scan.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "analysis/astra_geometry_scan.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "5b1777542da81db2a7339a8b",
+          "actor": "direct-astra",
+          "declared_at": 1788747343.18785,
+          "question": "Which wider Hopf mesh tori satisfy fixed conductor clearance while retaining chiral modulation?",
+          "prediction": "Increasing eta expands launch coverage but tightens clearance; lowering epsilon should recover valid candidates, with delta_eta .020 potentially nesting instead of weaving.",
+          "state": "capture_failed",
+          "exit_code": 1,
+          "elapsed_seconds": 0.059645891189575195,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 120,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/5b1777542da81db2a7339a8b/environment/instruments/astra_geometry_scan.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra_geometry_scan.py"
+            }
+          ],
+          "output_omissions": {
+            "analysis/astra_geometry_scan.json": "missing: Declared file is missing: analysis/astra_geometry_scan.json"
+          },
+          "prediction_verdict": "not_assessed"
+        }
+      ],
+      "instrument_experiment_seconds": 119.56134390830994,
+      "time_scope": "Recorded local experiment wall time only; ad hoc tools and model inference are not included."
+    },
+    "construction": {
+      "status": "participants_stopped",
+      "activations": 8,
+      "completed_responses": 7,
+      "known_tokens": 10035836,
+      "usage_reported_activations": 7,
+      "usage_missing_activations": 1,
+      "usage_scope": "Completed adapter responses only. Input + output tokens; cached input is not counted twice. Missing usage is not zero.",
+      "limits": {
+        "max_activations": 9,
+        "activation_seconds": 600,
+        "wall_seconds": 2700
+      },
+      "participants": [
+        {
+          "name": "construction-astra",
+          "state": "stopped",
+          "waiting_for": [],
+          "last_contribution": 1788748739.8141131
+        },
+        {
+          "name": "construction-astra-2",
+          "state": "stopped",
+          "waiting_for": [],
+          "last_contribution": 1788748723.098641
+        },
+        {
+          "name": "lab-oracle",
+          "state": "unobserved",
+          "waiting_for": [],
+          "last_contribution": 1788748495.943445
+        }
+      ],
+      "cursor": 139,
+      "used": 9,
+      "completed_screens": 9,
+      "best_primary": 47.80330823179222,
+      "last_public_messages": [
+        {
+          "actor": "construction-astra-2",
+          "text": "Read final125 and checked new09528c4 observation fields/recomputed RMST. Approve final paths primary09528c4,alternate86b333,controlbef1c2; gap-fixed turn parent is correct. Published final-review.md and updated note130. Final baselineCI[17.5758,34.0445], vsalternateCI[-3.6935,7.0067], vsN24CI[-.7401,8.5064]. Stop search at9 agreed. My soft deadline02:38:29; send report draft as soon as ready for exact review, otherwise this approval covers accurate report/nominee publication per final-review.",
+          "seq": 132,
+          "at": 1788748669.587666,
+          "refs": [
+            "results/astra2/final-review.md",
+            "results/astra2/nomination-evidence.md"
+          ]
+        },
+        {
+          "actor": "construction-astra",
+          "text": "Concrete report/nominee proposal published for final review. N32vsbaseline delta25.6451 CI[17.5758,34.0445],vsN24parent3.7907 CI[-.7401,8.5064],vscombo1.6959 CI[-3.6935,7.0067]. Highest point estimate and S120 favor N32; no resolved superiority overcombo. Propose lock09528 primary,86b333 alternate,bef1 control and stop9/12. Please confirm or object to changed provisional ranking; final publication by02:38:52.",
+          "seq": 134,
+          "at": 1788748673.032583,
+          "refs": [
+            "results/astra/report-proposed.md",
+            "results/astra/nominees-proposed.json",
+            "results/astra/final-comparisons.json"
+          ]
+        },
+        {
+          "actor": "construction-astra-2",
+          "text": "Reviewed report-proposed.md r1 and nominees-proposed.json r1 event133. Approve final publication/stop with one factual correction: event114 did NOT omit a frozen dependency; it failed because output parent directory results/astra2 did not exist inside reconstructed environment, repaired by mkdir. All invariant checks had passed. Optionally replace nearly doubled field with increased field about70% (3.295->5.598). All nominee paths, rank rationale, uncertainty, negatives and scope are accurate. This completes my review; announce lock and stop when canonical files published.",
+          "seq": 135,
+          "at": 1788748723.098641,
+          "refs": [
+            "results/astra/report-proposed.md",
+            "results/astra/nominees-proposed.json"
+          ]
+        },
+        {
+          "actor": "construction-astra",
+          "text": "Final report and nominees published jointly as approved. Primary09528c4 RMST47.8033 (+25.6451/+115.7% baseline),alternate86b333,matched N24controlbef1c2. Final invariants checked across9 valid qualified screens; no heldouts viewed. Stopping participation now after9/12; three unused screens deliberately retained. The top-two difference is unresolved, and selected holdouts remain the test of generalization.",
+          "seq": 138,
+          "at": 1788748739.8141131,
+          "refs": [
+            "lab/report.md",
+            "lab/nominees.json"
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "inquiry/notes/final-selection.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748739.6871538
+        },
+        {
+          "path": "lab/report.md",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748739.568649
+        },
+        {
+          "path": "lab/nominees.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748739.568649
+        },
+        {
+          "path": "results/astra/report-proposed.md",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748672.900952
+        },
+        {
+          "path": "results/astra/nominees-proposed.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748672.900952
+        },
+        {
+          "path": "results/astra/final-comparisons.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748672.900952
+        },
+        {
+          "path": "instruments/astra/final_compare.py",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748672.900952
+        },
+        {
+          "path": "instruments/astra/final-compare-spec.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748672.900952
+        },
+        {
+          "path": "instruments/astra/gap-turns-spec.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748672.900952
+        },
+        {
+          "path": "proposals/astra/gap_N32.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748672.900952
+        },
+        {
+          "path": "proposals/astra/gap-turns-map.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748672.900952
+        },
+        {
+          "path": "results/astra2/final-review.md",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748669.4627972
+        },
+        {
+          "path": "inquiry/notes/nominee-parent-uncertainty.json",
+          "revision": 2,
+          "actor": "construction-astra-2",
+          "at": 1788748626.4785678
+        },
+        {
+          "path": "instruments/astra2/nomination_analysis.py",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748550.765598
+        },
+        {
+          "path": "instruments/astra2/nomination-analysis-spec.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748550.765598
+        },
+        {
+          "path": "proposals/astra2/analysis-manifest.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748550.765598
+        },
+        {
+          "path": "results/astra2/nomination-analysis.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748550.765598
+        },
+        {
+          "path": "results/astra2/nomination-evidence.md",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748550.765598
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/stdout.txt",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.513035
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/stderr.txt",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.513035
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/result.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.513035
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/outputs/results/astra/final-comparisons.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.513035
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/outputs.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.513035
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/instruments/astra/final_compare.py",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.3352451
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/instruments/astra/paired.py",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.3352451
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/screen-conditions.npz",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.3352451
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/lab/baseline-observation.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.3352451
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/lab/observations/09528c4f9ab6fdf88ef8bd2c.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.3352451
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/lab/observations/bef1c2ee1ffb8c8bab1e7443.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.3352451
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/lab/observations/86b333858160e1a9718f025d.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.3352451
+        },
+        {
+          "path": "inquiry/experiments/a9246df6fdef75e518a97119/definition.json",
+          "revision": 1,
+          "actor": "construction-astra",
+          "at": 1788748544.3352451
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/stdout.txt",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.1556659
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/stderr.txt",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.1556659
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/result.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.1556659
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/outputs/results/astra2/nomination-analysis.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.1556659
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/outputs.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.1556659
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/instruments/astra2/nomination_analysis.py",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/instruments/astra/paired.py",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/proposals/astra2/analysis-manifest.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/screen-conditions.npz",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/lab/baseline-observation.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/lab/observations/86b333858160e1a9718f025d.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/lab/observations/bef1c2ee1ffb8c8bab1e7443.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/lab/observations/183487541b85a17c3f7f37f4.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/03908c12d3ea624be859ce52/definition.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748477.025391
+        },
+        {
+          "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/stdout.txt",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748448.388603
+        },
+        {
+          "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/stderr.txt",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748448.388603
+        },
+        {
+          "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/result.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748448.388603
+        },
+        {
+          "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/outputs.json",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748448.388603
+        },
+        {
+          "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/instruments/astra2/nomination_analysis.py",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748448.265113
+        },
+        {
+          "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/instruments/astra/paired.py",
+          "revision": 1,
+          "actor": "construction-astra-2",
+          "at": 1788748448.265113
+        }
+      ],
+      "experiments": [
+        {
+          "id": "a9246df6fdef75e518a97119",
+          "actor": "construction-astra",
+          "declared_at": 1788748544.3352451,
+          "question": "How uncertain is N32 reduced-gap advantage over baseline, matched N24 parent, and alternative combo?",
+          "prediction": "Baseline gain25.645 is clear within screen variability, but1.696vscombo and3.791vsparent may be unresolved; no post-selection or heldout guarantee.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.15937590599060059,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/instruments/astra/final_compare.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/final_compare.py"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/instruments/astra/paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/paired.py"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/lab/observations/09528c4f9ab6fdf88ef8bd2c.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/09528c4f9ab6fdf88ef8bd2c.json"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/lab/observations/86b333858160e1a9718f025d.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/86b333858160e1a9718f025d.json"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/lab/observations/bef1c2ee1ffb8c8bab1e7443.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bef1c2ee1ffb8c8bab1e7443.json"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/a9246df6fdef75e518a97119/outputs/results/astra/final-comparisons.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/final-comparisons.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "03908c12d3ea624be859ce52",
+          "actor": "construction-astra-2",
+          "declared_at": 1788748477.025391,
+          "question": "How much of the combined-design gain is resolved versus baseline and its two screened parents?",
+          "prediction": "Primary gain23.949 versus baseline is positive across the panel; gain2.095 over alternate is uncertain; gap-control gain5.191 may be uncertain. Expect broad gains versus baseline and strongest separation benefit for outer launches.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.11242866516113281,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/instruments/astra/paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/paired.py"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/instruments/astra2/nomination_analysis.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2/nomination_analysis.py"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/lab/observations/183487541b85a17c3f7f37f4.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/183487541b85a17c3f7f37f4.json"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/lab/observations/86b333858160e1a9718f025d.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/86b333858160e1a9718f025d.json"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/lab/observations/bef1c2ee1ffb8c8bab1e7443.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bef1c2ee1ffb8c8bab1e7443.json"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/proposals/astra2/analysis-manifest.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra2/analysis-manifest.json"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/03908c12d3ea624be859ce52/outputs/results/astra2/nomination-analysis.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra2/nomination-analysis.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "14519efeb7c211a7fcdb35a0",
+          "actor": "construction-astra-2",
+          "declared_at": 1788748448.265113,
+          "question": "How much of the combined-design gain is resolved versus baseline and its two screened parents?",
+          "prediction": "Primary gain23.949 versus baseline is positive across the panel; gain2.095 over alternate is uncertain; gap-control gain5.191 may be uncertain. Expect broad gains versus baseline and strongest separation benefit for outer launches.",
+          "state": "capture_failed",
+          "exit_code": 1,
+          "elapsed_seconds": 0.10941791534423828,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/instruments/astra/paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/paired.py"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/instruments/astra2/nomination_analysis.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2/nomination_analysis.py"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/lab/observations/183487541b85a17c3f7f37f4.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/183487541b85a17c3f7f37f4.json"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/lab/observations/86b333858160e1a9718f025d.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/86b333858160e1a9718f025d.json"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/lab/observations/bef1c2ee1ffb8c8bab1e7443.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/bef1c2ee1ffb8c8bab1e7443.json"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/proposals/astra2/analysis-manifest.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra2/analysis-manifest.json"
+            },
+            {
+              "path": "inquiry/experiments/14519efeb7c211a7fcdb35a0/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            }
+          ],
+          "output_omissions": {
+            "results/astra2/nomination-analysis.json": "missing: Declared file is missing: results/astra2/nomination-analysis.json"
+          },
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "e418f57ec36d33175a90880a",
+          "actor": "construction-astra",
+          "declared_at": 1788748436.0831208,
+          "question": "Is N32 at successful eta.9/de.03 geometrically valid before final interaction screen?",
+          "prediction": "May remain valid but higher strand density can break clearance at reduced gap; reject without screen if invalid.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 2.0945849418640137,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 110,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/instruments/astra/preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/proposals/astra/gap-turns-map.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra/gap-turns-map.json"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/environment/study-public.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "study-public.json"
+            },
+            {
+              "path": "inquiry/experiments/e418f57ec36d33175a90880a/outputs/results/astra/gap-turns-preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/gap-turns-preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "6e0cb1cbf01606880f9d720f",
+          "actor": "construction-astra",
+          "declared_at": 1788748309.4103239,
+          "question": "Did reducing successful pair separation change generator weave regime or just shell spacing?",
+          "prediction": "Eta.9 de.06 and.03 likely both nested, so spacing gain need not mean restored weave. Baseline should be mixed. Geometry metadata is not field topology.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 2.376512050628662,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 45,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/environment/instruments/astra/weave_metadata.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/weave_metadata.py"
+            },
+            {
+              "path": "inquiry/experiments/6e0cb1cbf01606880f9d720f/outputs/results/astra/weave-metadata.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/weave-metadata.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "3e9ee15e91eadd677992e840",
+          "actor": "construction-astra-2",
+          "declared_at": 1788748307.334751,
+          "question": "Is reduced delta.03 gain over parent supported across paired launch radii?",
+          "prediction": "Positive paired difference7.745, likely strongest in central and middle launches; descriptive interval may exclude zero but no heldout evidence.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.16352009773254395,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/environment/instruments/astra/paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/paired.py"
+            },
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/environment/lab/observations/0ae4786e3c2bd9741e577f10.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/0ae4786e3c2bd9741e577f10.json"
+            },
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/environment/results/astra2/delta003-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "results/astra2/delta003-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/3e9ee15e91eadd677992e840/outputs/results/astra2/delta003-v-parent.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra2/delta003-v-parent.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "a651d8cbcd49b4db7ee5e6fb",
+          "actor": "construction-astra-2",
+          "declared_at": 1788748242.7123551,
+          "question": "Does combining tube fattening eta1.0 with smaller shell separation remain valid?",
+          "prediction": "Delta.03 at eta1.0 may hit clearance; .035/.04 should be valid. Combining individually improved geometry changes may preserve occupancy and cancellation, without proving additive lifetime gains.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 4.370334148406982,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 110,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/instruments/astra/preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/proposals/astra2/combinations.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra2/combinations.json"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/environment/study-public.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "study-public.json"
+            },
+            {
+              "path": "inquiry/experiments/a651d8cbcd49b4db7ee5e6fb/outputs/results/astra2/combo-preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra2/combo-preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "1cfb43fe57eeacdae064cd5c",
+          "actor": "construction-astra",
+          "declared_at": 1788748228.717571,
+          "question": "Where does the eta1.0 gain versus eta.9 occur?",
+          "prediction": "Positive mean difference4.649 may be uncertain on160 matched markers; expect largest gain centrally.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.11086797714233398,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/environment/instruments/astra/paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/paired.py"
+            },
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/environment/lab/observations/0ae4786e3c2bd9741e577f10.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/0ae4786e3c2bd9741e577f10.json"
+            },
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/environment/lab/observations/183487541b85a17c3f7f37f4.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/183487541b85a17c3f7f37f4.json"
+            },
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/1cfb43fe57eeacdae064cd5c/outputs/results/astra/eta100-vs-090.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/eta100-vs-090.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "d38dcc872a27e45a1a461c19",
+          "actor": "construction-astra-2",
+          "declared_at": 1788748154.729606,
+          "question": "How do chirality and turn count alter paired lifetimes relative to the common eta .9 N24 parent?",
+          "prediction": "Chirality reduces late survival and negative paired mean; N40 net gain is small relative to paired spread despite fewer wall losses.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.11010098457336426,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/environment/instruments/astra/paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/paired.py"
+            },
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/environment/lab/observations/0ae4786e3c2bd9741e577f10.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/0ae4786e3c2bd9741e577f10.json"
+            },
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/environment/results/astra2/chiral-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "results/astra2/chiral-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/d38dcc872a27e45a1a461c19/outputs/results/astra2/chiral-v-parent.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra2/chiral-v-parent.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "5e0d0feae381ace20b6bbb87",
+          "actor": "construction-astra-2",
+          "declared_at": 1788748125.8293881,
+          "question": "Does reducing nested-shell separation remain valid and alter weak launch-field occupancy?",
+          "prediction": "Delta .02 may fail clearance, .025-.04 should be valid. Smaller separation may improve opposed-current cancellation but field magnitude does not establish lifetime.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 4.388827800750732,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 110,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/instruments/astra/preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/proposals/astra2/delta-variants.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra2/delta-variants.json"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/environment/study-public.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "study-public.json"
+            },
+            {
+              "path": "inquiry/experiments/5e0d0feae381ace20b6bbb87/outputs/results/astra2/delta-preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra2/delta-preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "7be64667cc0625d5cca84921",
+          "actor": "construction-astra",
+          "declared_at": 1788748112.58722,
+          "question": "Can a fatter tube or reduced strand separation improve geometry and launch coverage without violating fixed clearance?",
+          "prediction": "Eta1.0 and1.1 may remain valid,1.2 may fail inboard clearance; de.03 may challenge clearance, while.04 should be valid. Field diagnostics are not a confinement metric.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 13.981307029724121,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 110,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/instruments/astra/preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/proposals/astra/shape-variants.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra/shape-variants.json"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/environment/study-public.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "study-public.json"
+            },
+            {
+              "path": "inquiry/experiments/7be64667cc0625d5cca84921/outputs/results/astra/shape-preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/shape-preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "db0de9641790283a24750dc5",
+          "actor": "construction-astra",
+          "declared_at": 1788748112.569022,
+          "question": "Is the small N40 gain resolved on paired markers versus N24?",
+          "prediction": "Mean difference+.938 is small relative to marker variation; paired interval likely includes zero. Increased field did not substantially improve RMST.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.16556072235107422,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/environment/instruments/astra/paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/paired.py"
+            },
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/environment/lab/observations/0ae4786e3c2bd9741e577f10.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/0ae4786e3c2bd9741e577f10.json"
+            },
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/environment/lab/observations/40f735e06047e7c1d3b07e98.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/40f735e06047e7c1d3b07e98.json"
+            },
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/db0de9641790283a24750dc5/outputs/results/astra/N40-vs-N24.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/N40-vs-N24.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "9f1f66fa07b0c16a0d09a9e7",
+          "actor": "construction-astra-2",
+          "declared_at": 1788747953.417154,
+          "question": "Does the knot gain persist across matched launch radii, and how uncertain is its screen-panel mean difference?",
+          "prediction": "Knot gain will be smaller than pair gain and may have an interval overlapping zero; largest gains may favor central launches with stronger dipole field. Bootstrap is descriptive, not selection-corrected evidence.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.1681058406829834,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/environment/instruments/astra2/peer-paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2/peer-paired.py"
+            },
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/environment/results/astra2/knot088-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "results/astra2/knot088-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/9f1f66fa07b0c16a0d09a9e7/outputs/results/astra2/knot088-paired.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra2/knot088-paired.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "c3cfc0bd1477f063fc127d09",
+          "actor": "construction-astra",
+          "declared_at": 1788747916.3254468,
+          "question": "Does the successful fat pair permit increased ampere-turns or weak chirality under fixed clearance?",
+          "prediction": "32/40 turns should remain valid,48 may hit spacing; weak chirality may reduce clearance. These are geometry and field diagnostics only.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 14.732215166091919,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 110,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/instruments/astra/preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/proposals/astra/fat-variants.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "proposals/astra/fat-variants.json"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/environment/study-public.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "study-public.json"
+            },
+            {
+              "path": "inquiry/experiments/c3cfc0bd1477f063fc127d09/outputs/results/astra/fat-variants-preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/fat-variants-preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "b8297878ab84e5141f6d0b52",
+          "actor": "construction-astra",
+          "declared_at": 1788747854.779194,
+          "question": "Is the fat-pair improvement broad across matched markers and launch radii?",
+          "prediction": "Positive paired RMST gain overall with largest gain for rho<.45 launches newly inside fat tube; uncertainty is descriptive screen-marker variability, not held-out evidence.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 0.11473703384399414,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 30,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/environment/instruments/astra/paired.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/paired.py"
+            },
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/environment/lab/baseline-observation.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/baseline-observation.json"
+            },
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/environment/lab/observations/0ae4786e3c2bd9741e577f10.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "lab/observations/0ae4786e3c2bd9741e577f10.json"
+            },
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/b8297878ab84e5141f6d0b52/outputs/results/astra/pair090-paired.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/pair090-paired.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "b77b5cb847a7751a316854bc",
+          "actor": "construction-astra-2",
+          "declared_at": 1788747772.208138,
+          "question": "Which fat pair, single knot, and fatter woven torus candidates satisfy frozen clearance, and how do their launch fields differ?",
+          "prediction": "Fat nested pairs at eta 0.85-0.95 and single knots should be valid and expand strong-field occupancy; some fatter woven designs may fail clearance. Strong field alone does not predict closed trajectories.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 17.962631225585938,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 110,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/instruments/astra2/preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra2/preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/environment/study-public.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "study-public.json"
+            },
+            {
+              "path": "inquiry/experiments/b77b5cb847a7751a316854bc/outputs/results/astra2/preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra2/preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "8d1a149aed47af800dfb439a",
+          "actor": "construction-astra",
+          "declared_at": 1788747742.200966,
+          "question": "Which fat pair, single knot, and fatter woven torus candidates satisfy frozen clearance, and how do their launch fields differ?",
+          "prediction": "Fat nested pairs at eta 0.85-0.95 and single knots should be valid and expand strong-field occupancy; some fatter woven designs may fail clearance. Strong field alone does not predict closed trajectories.",
+          "state": "finished",
+          "exit_code": 0,
+          "elapsed_seconds": 18.201590061187744,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 110,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/instruments/astra/preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/environment/study-public.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "study-public.json"
+            },
+            {
+              "path": "inquiry/experiments/8d1a149aed47af800dfb439a/outputs/results/astra/preflight.json",
+              "revision": 1,
+              "kind": "output",
+              "name": "results/astra/preflight.json"
+            }
+          ],
+          "output_omissions": {},
+          "prediction_verdict": "not_assessed"
+        },
+        {
+          "id": "7bdc1d5923f3a853a698fd36",
+          "actor": "construction-astra",
+          "declared_at": 1788747364.061252,
+          "question": "Which fat pair, single knot, and fatter woven torus candidates satisfy frozen clearance, and how do their launch fields differ?",
+          "prediction": "Fat nested pairs at eta 0.85-0.95 and single knots should be valid and expand strong-field occupancy; some fatter woven designs may fail clearance. Strong field alone does not predict closed trajectories.",
+          "state": "capture_failed",
+          "exit_code": 1,
+          "elapsed_seconds": 0.056633949279785156,
+          "parent_id": null,
+          "changes": {
+            "inherited": [],
+            "changed": [],
+            "added": [],
+            "omitted": []
+          },
+          "timeout_seconds": 110,
+          "artifacts": [
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/definition.json",
+              "revision": 1,
+              "kind": "definition",
+              "name": "definition.json"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/result.json",
+              "revision": 1,
+              "kind": "result",
+              "name": "result.json"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/stdout.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stdout.txt"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/stderr.txt",
+              "revision": 1,
+              "kind": "evidence",
+              "name": "stderr.txt"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/baseline.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "baseline.json"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/__init__.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/__init__.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/chemistry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/chemistry.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/collisions.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/collisions.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/constants.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/constants.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/design.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/design.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/eckart.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/eckart.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/evaluate.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/evaluate.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/fastfield.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastfield.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/fastorbits.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fastorbits.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/fieldlines.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fieldlines.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/fields.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fields.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/forces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/forces.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/fusion.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/fusion.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/geometry.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/geometry.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/guiding_center.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/guiding_center.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/particles.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/particles.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/polarization.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/polarization.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/presets.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/presets.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/runner.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/runner.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/ccsim/surfaces.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "ccsim/surfaces.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/instruments/astra/preflight.py",
+              "revision": 1,
+              "kind": "input",
+              "name": "instruments/astra/preflight.py"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/screen-conditions.npz",
+              "revision": 1,
+              "kind": "input",
+              "name": "screen-conditions.npz"
+            },
+            {
+              "path": "inquiry/experiments/7bdc1d5923f3a853a698fd36/environment/study-public.json",
+              "revision": 1,
+              "kind": "input",
+              "name": "study-public.json"
+            }
+          ],
+          "output_omissions": {
+            "results/astra/preflight.json": "missing: Declared file is missing: results/astra/preflight.json"
+          },
+          "prediction_verdict": "not_assessed"
+        }
+      ],
+      "instrument_experiment_seconds": 79.37875151634216,
+      "time_scope": "Recorded local experiment wall time only; ad hoc tools and model inference are not included."
+    }
+  }
+}

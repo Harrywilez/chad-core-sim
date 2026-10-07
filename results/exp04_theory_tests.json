@@ -1,0 +1,967 @@
+{
+ "T1": {
+  "rows": [
+   {
+    "winding": "recursive-L2 (loop of loops, 12 turns)",
+    "predicted_adiabatic": 0.08075085249692159,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0,
+    "reactor_D_wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "reactor_D_adiabaticity": 0.07811013808016518,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 1.1476772357961034,
+    "dimensionless_retention": 0.0390625,
+    "dimensionless_adiabaticity": 0.024892019783517946,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 1.058057511467374,
+    "benchtop_e_retention": 0.0390625,
+    "benchtop_e_adiabaticity": 0.006325422429393312,
+    "S4": {
+     "reactor_D": 0.01171875,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.0703125,
+     "bench_D": 0.0,
+     "dimless": 0.0390625
+    },
+    "S8": {
+     "reactor_D": 0.00390625,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.0390625,
+     "bench_D": 0.0,
+     "dimless": 0.0390625
+    },
+    "S20": {
+     "reactor_D": 0.0,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "recursive-L3 (coil of coils, 12\u00d76)",
+    "predicted_adiabatic": 0.11747001129194083,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0,
+    "reactor_D_wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "reactor_D_adiabaticity": 0.07948891732860991,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 1.2570850667196787,
+    "dimensionless_retention": 0.0703125,
+    "dimensionless_adiabaticity": 0.022190457493268513,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.9714766987963784,
+    "benchtop_e_retention": 0.0078125,
+    "benchtop_e_adiabaticity": 0.006494745326133713,
+    "S4": {
+     "reactor_D": 0.01171875,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.0703125,
+     "bench_D": 0.0,
+     "dimless": 0.0859375
+    },
+    "S8": {
+     "reactor_D": 0.0078125,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.0078125,
+     "bench_D": 0.0,
+     "dimless": 0.0703125
+    },
+    "S20": {
+     "reactor_D": 0.00390625,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "recursive-L3 alt-hand (12\u00d76, opposite handedness)",
+    "predicted_adiabatic": 0.11297762703422914,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0,
+    "reactor_D_wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "reactor_D_adiabaticity": 0.07934596780208512,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 1.439478199947903,
+    "dimensionless_retention": 0.03125,
+    "dimensionless_adiabaticity": 0.021545102948912296,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 1.1083225246091761,
+    "benchtop_e_retention": 0.03125,
+    "benchtop_e_adiabaticity": 0.006380888988763897,
+    "S4": {
+     "reactor_D": 0.0234375,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.0703125,
+     "bench_D": 0.0,
+     "dimless": 0.03125
+    },
+    "S8": {
+     "reactor_D": 0.00390625,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.03125,
+     "bench_D": 0.0,
+     "dimless": 0.03125
+    },
+    "S20": {
+     "reactor_D": 0.00390625,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "codex phase-slip toroidal spiral",
+    "predicted_adiabatic": 0.0628042331847302,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0,
+    "reactor_D_wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "reactor_D_adiabaticity": 0.008277533676461984,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.08631431827958227,
+    "dimensionless_retention": 0.0078125,
+    "dimensionless_adiabaticity": 0.013422846064773824,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.07800204832530216,
+    "benchtop_e_retention": 0.046875,
+    "benchtop_e_adiabaticity": 0.0006665781887412924,
+    "S4": {
+     "reactor_D": 0.02734375,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.0703125,
+     "bench_D": 0.0,
+     "dimless": 0.0078125
+    },
+    "S8": {
+     "reactor_D": 0.0078125,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.046875,
+     "bench_D": 0.0,
+     "dimless": 0.0078125
+    },
+    "S20": {
+     "reactor_D": 0.0,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "codex precessing inward loops",
+    "predicted_adiabatic": 0.09148860060468957,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.00390625,
+    "reactor_D_wilson": [
+     0.0006898644160236098,
+     0.02179152424537626
+    ],
+    "reactor_D_adiabaticity": 0.006980521732576189,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.07850337540594066,
+    "dimensionless_retention": 0.015625,
+    "dimensionless_adiabaticity": 0.015720867958251988,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.06300637045012186,
+    "benchtop_e_retention": 0.09375,
+    "benchtop_e_adiabaticity": 0.0006347063405802219,
+    "S4": {
+     "reactor_D": 0.06640625,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.109375,
+     "bench_D": 0.0078125,
+     "dimless": 0.015625
+    },
+    "S8": {
+     "reactor_D": 0.01953125,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.09375,
+     "bench_D": 0.0,
+     "dimless": 0.015625
+    },
+    "S20": {
+     "reactor_D": 0.00390625,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "codex Hopf-coordinate drift",
+    "predicted_adiabatic": 0.2602123021700057,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.01171875,
+    "reactor_D_wilson": [
+     0.003993214821806392,
+     0.03388216771894151
+    ],
+    "reactor_D_adiabaticity": 0.009804807209317482,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.07463539961039574,
+    "dimensionless_retention": 0.234375,
+    "dimensionless_adiabaticity": 0.020729774701076197,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.07595681031190635,
+    "benchtop_e_retention": 0.2890625,
+    "benchtop_e_adiabaticity": 0.0008714160436741837,
+    "S4": {
+     "reactor_D": 0.265625,
+     "reactor_alpha": 0.015625,
+     "bench_e": 0.3359375,
+     "bench_D": 0.03125,
+     "dimless": 0.234375
+    },
+    "S8": {
+     "reactor_D": 0.16796875,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.2890625,
+     "bench_D": 0.0,
+     "dimless": 0.234375
+    },
+    "S20": {
+     "reactor_D": 0.03515625,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "hopf-drift Shallow 150\u00b0 (10 circuits)",
+    "predicted_adiabatic": 0.24410443859592748,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0,
+    "reactor_D_wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "reactor_D_adiabaticity": 0.008950046081720342,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.06857894999083514,
+    "dimensionless_retention": 0.1796875,
+    "dimensionless_adiabaticity": 0.017724901042305435,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.06207464529748216,
+    "benchtop_e_retention": 0.25,
+    "benchtop_e_adiabaticity": 0.00072201350525989,
+    "S4": {
+     "reactor_D": 0.2109375,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.28125,
+     "bench_D": 0.0078125,
+     "dimless": 0.1796875
+    },
+    "S8": {
+     "reactor_D": 0.15234375,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.25,
+     "bench_D": 0.0,
+     "dimless": 0.1796875
+    },
+    "S20": {
+     "reactor_D": 0.02734375,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "hopf-drift Shallow 180\u00b0 (10 circuits)",
+    "predicted_adiabatic": 0.23199212269998098,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0,
+    "reactor_D_wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "reactor_D_adiabaticity": 0.009226705589689275,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.08411173449949308,
+    "dimensionless_retention": 0.1484375,
+    "dimensionless_adiabaticity": 0.019506246701513866,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.06948046586523621,
+    "benchtop_e_retention": 0.2109375,
+    "benchtop_e_adiabaticity": 0.0008225394690858376,
+    "S4": {
+     "reactor_D": 0.16796875,
+     "reactor_alpha": 0.0234375,
+     "bench_e": 0.2578125,
+     "bench_D": 0.00390625,
+     "dimless": 0.1640625
+    },
+    "S8": {
+     "reactor_D": 0.10546875,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.2109375,
+     "bench_D": 0.0,
+     "dimless": 0.1484375
+    },
+    "S20": {
+     "reactor_D": 0.01953125,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "hopf-drift Shallow 210\u00b0 (10 circuits)",
+    "predicted_adiabatic": 0.203944925667127,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0078125,
+    "reactor_D_wilson": [
+     0.0021450454442769468,
+     0.02803334015679694
+    ],
+    "reactor_D_adiabaticity": 0.01015924115350055,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.08456773097907076,
+    "dimensionless_retention": 0.140625,
+    "dimensionless_adiabaticity": 0.01979513761869648,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.07877089900637457,
+    "benchtop_e_retention": 0.2421875,
+    "benchtop_e_adiabaticity": 0.0008200663554820569,
+    "S4": {
+     "reactor_D": 0.1953125,
+     "reactor_alpha": 0.015625,
+     "bench_e": 0.28125,
+     "bench_D": 0.01953125,
+     "dimless": 0.1640625
+    },
+    "S8": {
+     "reactor_D": 0.12109375,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.2421875,
+     "bench_D": 0.0,
+     "dimless": 0.140625
+    },
+    "S20": {
+     "reactor_D": 0.02734375,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "hopf-drift Deep 150\u00b0 (10 circuits)",
+    "predicted_adiabatic": 0.2224515583471086,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0,
+    "reactor_D_wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "reactor_D_adiabaticity": 0.007953221080939233,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.06712343435391388,
+    "dimensionless_retention": 0.140625,
+    "dimensionless_adiabaticity": 0.015315159933457952,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.05815050271174971,
+    "benchtop_e_retention": 0.21875,
+    "benchtop_e_adiabaticity": 0.0006757333799700493,
+    "S4": {
+     "reactor_D": 0.1875,
+     "reactor_alpha": 0.0078125,
+     "bench_e": 0.25,
+     "bench_D": 0.01171875,
+     "dimless": 0.140625
+    },
+    "S8": {
+     "reactor_D": 0.12109375,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.21875,
+     "bench_D": 0.0,
+     "dimless": 0.140625
+    },
+    "S20": {
+     "reactor_D": 0.02734375,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "hopf-drift Deep 180\u00b0 (10 circuits)",
+    "predicted_adiabatic": 0.23177564950639176,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0078125,
+    "reactor_D_wilson": [
+     0.0021450454442769468,
+     0.02803334015679694
+    ],
+    "reactor_D_adiabaticity": 0.008841036800034582,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.07229500123192587,
+    "dimensionless_retention": 0.140625,
+    "dimensionless_adiabaticity": 0.01764115528558886,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.06409818851160423,
+    "benchtop_e_retention": 0.2421875,
+    "benchtop_e_adiabaticity": 0.0007153526626836977,
+    "S4": {
+     "reactor_D": 0.1796875,
+     "reactor_alpha": 0.015625,
+     "bench_e": 0.28125,
+     "bench_D": 0.0078125,
+     "dimless": 0.140625
+    },
+    "S8": {
+     "reactor_D": 0.1015625,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.2421875,
+     "bench_D": 0.00390625,
+     "dimless": 0.140625
+    },
+    "S20": {
+     "reactor_D": 0.01953125,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "hopf-drift Deep 210\u00b0 (10 circuits)",
+    "predicted_adiabatic": 0.2252323751099855,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.0078125,
+    "reactor_D_wilson": [
+     0.0021450454442769468,
+     0.02803334015679694
+    ],
+    "reactor_D_adiabaticity": 0.008809727959661836,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.0760021839180856,
+    "dimensionless_retention": 0.109375,
+    "dimensionless_adiabaticity": 0.01775919981116346,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.06818332939748242,
+    "benchtop_e_retention": 0.234375,
+    "benchtop_e_adiabaticity": 0.0008692121547398774,
+    "S4": {
+     "reactor_D": 0.19140625,
+     "reactor_alpha": 0.015625,
+     "bench_e": 0.2890625,
+     "bench_D": 0.01171875,
+     "dimless": 0.1171875
+    },
+    "S8": {
+     "reactor_D": 0.10546875,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.234375,
+     "bench_D": 0.0,
+     "dimless": 0.109375
+    },
+    "S20": {
+     "reactor_D": 0.01953125,
+     "reactor_alpha": 0.0
+    }
+   },
+   {
+    "winding": "reference solenoid (12 turns)",
+    "predicted_adiabatic": 0.30674496447010796,
+    "frac_closed": 0.0,
+    "mirror_ratio_median": 1.0,
+    "reactor_D_retention": 0.02734375,
+    "reactor_D_wilson": [
+     0.013306986698200705,
+     0.055356383601243266
+    ],
+    "reactor_D_adiabaticity": 0.010236867678879644,
+    "reactor_alpha_retention": 0.0,
+    "reactor_alpha_adiabaticity": 0.0778713461611604,
+    "dimensionless_retention": 0.2265625,
+    "dimensionless_adiabaticity": 0.022751269410205156,
+    "benchtop_D_retention": 0.0,
+    "benchtop_D_adiabaticity": 0.07587793952988683,
+    "benchtop_e_retention": 0.3203125,
+    "benchtop_e_adiabaticity": 0.0007687493667247642,
+    "S4": {
+     "reactor_D": 0.26953125,
+     "reactor_alpha": 0.0546875,
+     "bench_e": 0.375,
+     "bench_D": 0.078125,
+     "dimless": 0.234375
+    },
+    "S8": {
+     "reactor_D": 0.1796875,
+     "reactor_alpha": 0.0,
+     "bench_e": 0.3203125,
+     "bench_D": 0.01171875,
+     "dimless": 0.2265625
+    },
+    "S20": {
+     "reactor_D": 0.07421875,
+     "reactor_alpha": 0.0
+    }
+   }
+  ],
+  "mean_abs_dev_reactor": 0.17888795470608818,
+  "fraction_within_interval": 0.0,
+  "corr_pred_vs_reactor": 0.6301091053593032,
+  "S4_corr_pred_vs_bench_e": 0.970739566454041,
+  "S4_corr_pred_vs_reactor_D": 0.9573996133748677,
+  "S4_mean_abs_dev_bench_e": 0.042366140035925905,
+  "S4_mean_abs_dev_reactor_D": 0.04570625437224114
+ },
+ "T2": {
+  "winding": "hopf-drift Shallow 180\u00b0 (10 circuits)",
+  "predicted_adiabatic": 0.23199212269998098,
+  "sweep": [
+   {
+    "speed": 0.01,
+    "retention": 0.2421875,
+    "wilson": [
+     0.17618632286113767,
+     0.3232129562738243
+    ],
+    "adiabaticity": 0.001202850507736551,
+    "mu_variation": 0.0837421743988035,
+    "counts": {
+     "retained": 31,
+     "wall": 94,
+     "wire": 3,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 54.87774300575256
+   },
+   {
+    "speed": 0.02,
+    "retention": 0.234375,
+    "wilson": [
+     0.16939254101487963,
+     0.3148370193059903
+    ],
+    "adiabaticity": 0.0024727736957570008,
+    "mu_variation": 0.12173750351248,
+    "counts": {
+     "retained": 30,
+     "wall": 95,
+     "wire": 3,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 26.937002420425415
+   },
+   {
+    "speed": 0.045,
+    "retention": 0.21875,
+    "wilson": [
+     0.1559042491230976,
+     0.29798587356958817
+    ],
+    "adiabaticity": 0.005067530603049387,
+    "mu_variation": 0.19284841760553176,
+    "counts": {
+     "retained": 28,
+     "wall": 96,
+     "wire": 4,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 12.129327058792114
+   },
+   {
+    "speed": 0.09,
+    "retention": 0.21875,
+    "wilson": [
+     0.1559042491230976,
+     0.29798587356958817
+    ],
+    "adiabaticity": 0.00965245261618897,
+    "mu_variation": 0.300141005743664,
+    "counts": {
+     "retained": 28,
+     "wall": 96,
+     "wire": 4,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 5.90403938293457
+   },
+   {
+    "speed": 0.18,
+    "retention": 0.1328125,
+    "wilson": [
+     0.08460158144609939,
+     0.2024216342915737
+    ],
+    "adiabaticity": 0.01620642438805231,
+    "mu_variation": 0.4312230913007393,
+    "counts": {
+     "retained": 17,
+     "wall": 107,
+     "wire": 4,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 2.980306386947632
+   },
+   {
+    "speed": 0.36,
+    "retention": 0.0625,
+    "wilson": [
+     0.03200654206938657,
+     0.11848920434145796
+    ],
+    "adiabaticity": 0.029607170867485842,
+    "mu_variation": 0.5658011113245861,
+    "counts": {
+     "retained": 8,
+     "wall": 113,
+     "wire": 7,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 1.2805731296539307
+   },
+   {
+    "speed": 0.72,
+    "retention": 0.0234375,
+    "wilson": [
+     0.008002271440112167,
+     0.06664488090027204
+    ],
+    "adiabaticity": 0.05879109070705829,
+    "mu_variation": 0.6714010563777957,
+    "counts": {
+     "retained": 3,
+     "wall": 122,
+     "wire": 3,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 0.5265839099884033
+   },
+   {
+    "speed": 1.5,
+    "retention": 0.0,
+    "wilson": [
+     0.0,
+     0.02913799589810803
+    ],
+    "adiabaticity": 0.1035381119157199,
+    "mu_variation": 0.7458852384000836,
+    "counts": {
+     "retained": 0,
+     "wall": 128,
+     "wire": 0,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 0.2066962718963623
+   },
+   {
+    "speed": 3.0,
+    "retention": 0.0,
+    "wilson": [
+     0.0,
+     0.02913799589810803
+    ],
+    "adiabaticity": 0.23500893746612994,
+    "mu_variation": 0.8147472191970586,
+    "counts": {
+     "retained": 0,
+     "wall": 128,
+     "wire": 0,
+     "grid-exit": 0,
+     "numerical": 0
+    },
+    "seconds": 0.09410572052001953
+   }
+  ]
+ },
+ "T3": [
+  {
+   "variant": "s64_150",
+   "codex_retention": 0.2421875,
+   "codex_ci": [
+    0.17618632,
+    0.32321296
+   ],
+   "codex_fieldRms": 8.43954,
+   "codex_median_loss": 6.3,
+   "ccsim_retention": 0.1796875,
+   "ccsim_wilson": [
+    0.12282372833083033,
+    0.2552178002913951
+   ],
+   "ccsim_median_loss": 6.776000000000005,
+   "overlap": true
+  },
+  {
+   "variant": "s64_180",
+   "codex_retention": 0.1796875,
+   "codex_ci": [
+    0.12282373,
+    0.2552178
+   ],
+   "codex_fieldRms": 8.0,
+   "codex_median_loss": 6.568,
+   "ccsim_retention": 0.1484375,
+   "ccsim_wilson": [
+    0.09713386823483508,
+    0.22022878513102215
+   ],
+   "ccsim_median_loss": 6.536000000000005,
+   "overlap": true
+  },
+  {
+   "variant": "s64_210",
+   "codex_retention": 0.125,
+   "codex_ci": [
+    0.07842577,
+    0.19342772
+   ],
+   "codex_fieldRms": 7.60348,
+   "codex_median_loss": 7.184,
+   "ccsim_retention": 0.140625,
+   "ccsim_wilson": [
+    0.09083896111136737,
+    0.2113539734403978
+   ],
+   "ccsim_median_loss": 6.324000000000005,
+   "overlap": true
+  },
+  {
+   "variant": "d48_150",
+   "codex_retention": 0.21875,
+   "codex_ci": [
+    0.15590425,
+    0.29798587
+   ],
+   "codex_fieldRms": 8.7332,
+   "codex_median_loss": 5.968,
+   "ccsim_retention": 0.140625,
+   "ccsim_wilson": [
+    0.09083896111136737,
+    0.2113539734403978
+   ],
+   "ccsim_median_loss": 5.792000000000004,
+   "overlap": true
+  },
+  {
+   "variant": "d48_180",
+   "codex_retention": 0.1796875,
+   "codex_ci": [
+    0.12282373,
+    0.2552178
+   ],
+   "codex_fieldRms": 8.29518,
+   "codex_median_loss": 6.716,
+   "ccsim_retention": 0.140625,
+   "ccsim_wilson": [
+    0.09083896111136737,
+    0.2113539734403978
+   ],
+   "ccsim_median_loss": 5.692000000000004,
+   "overlap": true
+  },
+  {
+   "variant": "d48_210",
+   "codex_retention": 0.171875,
+   "codex_ci": [
+    0.11633031,
+    0.2465415
+   ],
+   "codex_fieldRms": 7.90166,
+   "codex_median_loss": 6.888,
+   "ccsim_retention": 0.109375,
+   "ccsim_wilson": [
+    0.0662781874950252,
+    0.1752358718003717
+   ],
+   "ccsim_median_loss": 5.868000000000004,
+   "overlap": true
+  }
+ ],
+ "T4": {
+  "ledger": [
+   {
+    "winding": "recursive-L2 (loop of loops, 12 turns)",
+    "retention_collisional": 0.0,
+    "wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "fusion_rate_per_marker_s": 0.007878924710253738,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5751187679589741,
+    "mean_confinement_time_s": 8.892578125000025e-07,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "recursive-L3 (coil of coils, 12\u00d76)",
+    "retention_collisional": 0.0,
+    "wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "fusion_rate_per_marker_s": 0.00787880606473624,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.575110107479739,
+    "mean_confinement_time_s": 9.313281250000039e-07,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "recursive-L3 alt-hand (12\u00d76, opposite handedness)",
+    "retention_collisional": 0.0,
+    "wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "fusion_rate_per_marker_s": 0.007919678858152352,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5780935997019613,
+    "mean_confinement_time_s": 9.115703125000027e-07,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "codex phase-slip toroidal spiral",
+    "retention_collisional": 0.0,
+    "wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "fusion_rate_per_marker_s": 0.007870957872206027,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5745372319942295,
+    "mean_confinement_time_s": 8.268580293425675e-07,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "codex precessing inward loops",
+    "retention_collisional": 0.0,
+    "wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "fusion_rate_per_marker_s": 0.007871331615866426,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5745645132542243,
+    "mean_confinement_time_s": 1.087358377156221e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "codex Hopf-coordinate drift",
+    "retention_collisional": 0.0078125,
+    "wilson": [
+     0.0021450454442769468,
+     0.02803334015679694
+    ],
+    "fusion_rate_per_marker_s": 0.007836704863971575,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5720369481840478,
+    "mean_confinement_time_s": 2.9498167187377606e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "hopf-drift Shallow 150\u00b0 (10 circuits)",
+    "retention_collisional": 0.0,
+    "wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "fusion_rate_per_marker_s": 0.0077980182186775555,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5692130329169041,
+    "mean_confinement_time_s": 2.462690944708144e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "hopf-drift Shallow 180\u00b0 (10 circuits)",
+    "retention_collisional": 0.0,
+    "wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "fusion_rate_per_marker_s": 0.007802061623580592,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5695081795430885,
+    "mean_confinement_time_s": 2.4230468535432623e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "hopf-drift Shallow 210\u00b0 (10 circuits)",
+    "retention_collisional": 0.00390625,
+    "wilson": [
+     0.0006898644160236098,
+     0.02179152424537626
+    ],
+    "fusion_rate_per_marker_s": 0.00789703000568227,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5764403563207513,
+    "mean_confinement_time_s": 2.5762140339734293e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "hopf-drift Deep 150\u00b0 (10 circuits)",
+    "retention_collisional": 0.00390625,
+    "wilson": [
+     0.0006898644160236098,
+     0.02179152424537626
+    ],
+    "fusion_rate_per_marker_s": 0.007830604021934277,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5715916198067583,
+    "mean_confinement_time_s": 2.381580115205298e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "hopf-drift Deep 180\u00b0 (10 circuits)",
+    "retention_collisional": 0.0,
+    "wilson": [
+     0.0,
+     0.014784391721725852
+    ],
+    "fusion_rate_per_marker_s": 0.007811456507738293,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5701939551280313,
+    "mean_confinement_time_s": 2.102378955867468e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "hopf-drift Deep 210\u00b0 (10 circuits)",
+    "retention_collisional": 0.0078125,
+    "wilson": [
+     0.0021450454442769468,
+     0.02803334015679694
+    ],
+    "fusion_rate_per_marker_s": 0.007843467587946814,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5725305903527088,
+    "mean_confinement_time_s": 2.338790267094211e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   },
+   {
+    "winding": "reference solenoid (12 turns)",
+    "retention_collisional": 0.03515625,
+    "wilson": [
+     0.018603884348547726,
+     0.06545347983024427
+    ],
+    "fusion_rate_per_marker_s": 0.007755856747304017,
+    "maxwellian_rate_per_ion_s": 0.013699648053940363,
+    "beam_target_over_maxwellian": 0.5661354741936774,
+    "mean_confinement_time_s": 3.928109016222539e-06,
+    "energy_confinement_time_needed_s_for_Q1": null,
+    "maxwellian_volume_power_W_if_confined": 4458469.645494461
+   }
+  ],
+  "sv_DT_15keV_m3_s": 2.7399296107880726e-22,
+  "note": "Lawson-type: at n=1e20, T=15 keV the D-T triple product needs tau_E ~ 3 s; the confinement times here are microseconds."
+ }
+}

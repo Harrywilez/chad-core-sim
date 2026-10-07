@@ -1,0 +1,11 @@
+=== woven_tornado_same_030
+woven δη 0.015 + tornado plugs (same, I=0.3) τ_c=  30.8 (all 27 · pass 35; 80T) score=  15.0  S4=0.48 S20=0.28  closed=0.50 pred=0.84 I=130kA build=0.49 (27s)
+=== woven_tornado_cusp_030
+woven δη 0.015 + tornado plugs (cusp, I=0.3) τ_c=  18.1 (all 15 · pass 21; 40T) score=   8.8  S4=0.47 S20=0.22  closed=0.32 pred=0.74 I=130kA build=0.49 (20s)
+=== woven_tornado_same_100
+woven δη 0.015 + tornado plugs (same, I=1.0) τ_c=  45.0 (all 38 · pass 54; 120T) score=  22.4  S4=0.55 S20=0.26 S120=0.12  closed=0.36 pred=0.76 I=127kA build=0.50 (31s)
+=== woven_m24_de015 (480 markers)
+meshed torus II woven δη 0.015 (η 0.60, ε 0. τ_c=  40.8 (all 36 · pass 47; 120T) score=  17.2  S4=0.51 S20=0.25 S120=0.11  closed=0.58 pred=0.89 I=149kA build=0.42 (58s)
+=== woven_tornado_same_030 (480 markers)
+woven δη 0.015 + tornado plugs (same, I=0.3) τ_c=  18.6 (all 17 · pass 21; 40T) score=   9.1  S4=0.49 S20=0.21  closed=0.50 pred=0.84 I=130kA build=0.49 (29s)
+PLUGSDONE

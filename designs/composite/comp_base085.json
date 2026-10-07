@@ -1,0 +1,19 @@
+{
+ "name": "woven \u03b4\u03b7 0.015 scaled \u00d70.85 (baseline for helix composites)",
+ "wire_radius": 0.0038,
+ "components": [
+  {
+   "family": "hopfmesh",
+   "params": {
+    "eta": 0.6,
+    "circuits": 24,
+    "eps": 0.7,
+    "periods": 4,
+    "delta_eta": 0.015,
+    "sense": -1
+   },
+   "current": 1.0,
+   "scale": 0.85
+  }
+ ]
+}

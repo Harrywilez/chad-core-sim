@@ -1,0 +1,6 @@
+precess × pair-axial-same                     clr=0.0014 wall=0.89 closed=0.00 Rmir p90=29.41 pred=0.770 | dimless ret=0.422 | reactor D+ S4=0.56 S8=0.48 S20=0.35 B_rms=1.92 T (325s)
+precess × pair-axial-opposed                  clr=0.0014 wall=0.96 closed=0.02 Rmir p90=2.69 pred=0.175 | dimless ret=0.172 | reactor D+ S4=0.18 S8=0.13 S20=0.04 B_rms=1.89 T (229s)
+precess × pair-facing-flipped                 clr=0.0014 wall=0.97 closed=0.00 Rmir p90=3.81 pred=0.184 | dimless ret=0.148 | reactor D+ S4=0.18 S8=0.16 S20=0.08 B_rms=1.88 T (241s)
+precess × pair-side-by-side                   clr=0.0014 wall=0.91 closed=0.00 Rmir p90=15.74 pred=0.548 | dimless ret=0.336 | reactor D+ S4=0.48 S8=0.30 S20=0.06 B_rms=1.89 T (308s)
+precess × pair-side-crossed                   clr=0.0014 wall=0.93 closed=0.00 Rmir p90=17.07 pred=0.706 | dimless ret=0.578 | reactor D+ S4=0.64 S8=0.53 S20=0.24 B_rms=1.97 T (455s)
+precess × triad-120                           clr=0.0014 wall=0.86 closed=0.01 Rmir p90=11.47 pred=0.501 | dimless ret=0.328 | reactor D+ S4=0.50 S8=0.38 S20=0.17 B_rms=2.20 T (575s)

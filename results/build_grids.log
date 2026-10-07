@@ -1,0 +1,14 @@
+  grid recursive-L2 (loop of loops, 12 turns)                  computed  14.3s
+  grid recursive-L3 (coil of coils, 12×6)                      computed  28.8s
+  grid recursive-L3 alt-hand (12×6, opposite handedness)       computed  30.9s
+  grid codex phase-slip toroidal spiral                        computed  33.9s
+  grid codex precessing inward loops                           computed  32.4s
+  grid codex Hopf-coordinate drift                             computed  30.0s
+  grid hopf-drift Shallow 150° (10 circuits)                   computed  30.0s
+  grid hopf-drift Shallow 180° (10 circuits)                   computed  27.5s
+  grid hopf-drift Shallow 210° (10 circuits)                   computed  27.0s
+  grid hopf-drift Deep 150° (10 circuits)                      computed  29.5s
+  grid hopf-drift Deep 180° (10 circuits)                      computed  24.9s
+  grid hopf-drift Deep 210° (10 circuits)                      computed  27.7s
+  grid reference solenoid (12 turns)                           computed  17.4s
+13 grids ready in 354s

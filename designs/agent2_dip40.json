@@ -1,0 +1,14 @@
+{
+ "name": "levitated dipole ring r0.40",
+ "wire_radius": 0.018841,
+ "components": [
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.4,
+    "axis": "z"
+   },
+   "current": 1.0
+  }
+ ]
+}

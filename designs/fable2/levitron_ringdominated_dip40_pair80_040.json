@@ -1,0 +1,26 @@
+{
+ "name": "dipole r0.40 + pair e0.8 I=0.4",
+ "wire_radius": 0.0117,
+ "components": [
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.4,
+    "axis": "z"
+   },
+   "current": 1.0
+  },
+  {
+   "family": "hopfmirror",
+   "params": {
+    "eta": 0.8,
+    "circuits": 24,
+    "revolutions": 2.0,
+    "mode": "woven",
+    "delta_eta": 0.06,
+    "sense": -1
+   },
+   "current": 0.4
+  }
+ ]
+}

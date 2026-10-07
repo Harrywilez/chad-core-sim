@@ -1,0 +1,9 @@
+{
+ "name": "reference solenoid",
+ "wire_radius": 0.005,
+ "components": [
+  {
+   "family": "solenoid"
+  }
+ ]
+}

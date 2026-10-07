@@ -1,0 +1,40 @@
+{
+ "name": "circle stack R0.35 n3 p0.035",
+ "wire_radius": 0.01575,
+ "components": [
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.35,
+    "axis": "z"
+   },
+   "current": 1.0,
+   "translate": [
+    0.0,
+    0.0,
+    -0.034999999999999996
+   ]
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.35,
+    "axis": "z"
+   },
+   "current": 1.0
+  },
+  {
+   "family": "circle",
+   "params": {
+    "radius": 0.35,
+    "axis": "z"
+   },
+   "current": 1.0,
+   "translate": [
+    0.0,
+    0.0,
+    0.034999999999999996
+   ]
+  }
+ ]
+}

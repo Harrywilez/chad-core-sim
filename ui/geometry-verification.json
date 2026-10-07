@@ -1,0 +1,375 @@
+{
+  "cases": 15,
+  "coils": 40,
+  "centerline_points": 80680,
+  "max_absolute_error": 1.7117973705182976e-12,
+  "tolerances": {
+    "torushelix": 1e-12,
+    "iterated_weave": 1e-10
+  },
+  "reference_geometry_sha256": "8f050fe49a87fbc20fc781a46be98ee08e1c4483a63e4a28b7e772a1939dcd64",
+  "reference_design_sha256": "e8a97896b743131a4024df3afab2af2c481de3f7235b937de94dfd1e18b48112",
+  "per_case": [
+    {
+      "name": "defaults",
+      "coils": 4,
+      "points_per_coil": [
+        721,
+        721,
+        721,
+        721
+      ],
+      "relative_signed_currents": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351,
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "odd periods",
+      "coils": 2,
+      "points_per_coil": [
+        1441,
+        1441
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "negative handedness",
+      "coils": 2,
+      "points_per_coil": [
+        1441,
+        1441
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "three toroidal turns",
+      "coils": 2,
+      "points_per_coil": [
+        2161,
+        2161
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "six distinct coils",
+      "coils": 6,
+      "points_per_coil": [
+        721,
+        721,
+        721,
+        721,
+        721,
+        721
+      ],
+      "relative_signed_currents": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "max_absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351,
+        149422.414723351,
+        -149422.414723351,
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "zero periods",
+      "coils": 4,
+      "points_per_coil": [
+        721,
+        721,
+        721,
+        721
+      ],
+      "relative_signed_currents": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351,
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "single mode",
+      "coils": 2,
+      "points_per_coil": [
+        721,
+        721
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "all transforms and signed current",
+      "coils": 4,
+      "points_per_coil": [
+        721,
+        721,
+        721,
+        721
+      ],
+      "relative_signed_currents": [
+        -2.25,
+        2.25,
+        -2.25,
+        2.25
+      ],
+      "max_absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        -149422.414723351,
+        149422.414723351,
+        -149422.414723351,
+        149422.414723351
+      ]
+    },
+    {
+      "name": "Python integer coercion",
+      "coils": 2,
+      "points_per_coil": [
+        1441,
+        1441
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "disabled coil omitted",
+      "coils": 2,
+      "points_per_coil": [
+        1441,
+        1441
+      ],
+      "relative_signed_currents": [
+        1.75,
+        -1.75
+      ],
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "study baseline woven mesh",
+      "coils": 2,
+      "points_per_coil": [
+        3601,
+        3601
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 1.1108232389478445e-12,
+      "tolerance": 1e-10,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "leading 48-circuit mesh",
+      "coils": 2,
+      "points_per_coil": [
+        7201,
+        7201
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 1.7117973705182976e-12,
+      "tolerance": 1e-10,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "leading two-revolution woven mirror",
+      "coils": 2,
+      "points_per_coil": [
+        3601,
+        3601
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 2.2015722578316854e-13,
+      "tolerance": 1e-10,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "astra final eta.70 N40 eps0.40",
+      "coils": 2,
+      "points_per_coil": [
+        6001,
+        6001
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 6.865064072769655e-13,
+      "tolerance": 1e-10,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    },
+    {
+      "name": "astra eta.9 reduced gap.03 N32",
+      "coils": 2,
+      "points_per_coil": [
+        4801,
+        4801
+      ],
+      "relative_signed_currents": [
+        1,
+        -1
+      ],
+      "max_absolute_error": 2.7400304247748863e-13,
+      "tolerance": 1e-10,
+      "physical_signed_currents_at_frozen_cap_A": [
+        149422.414723351,
+        -149422.414723351
+      ]
+    }
+  ],
+  "locked_primary_inputs": [
+    {
+      "arm": "direct",
+      "path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/locked/direct-primary.json",
+      "sha256": "31220a23f61fab614074c495d4c0a8ca235b9d05b3c58bf07950048eb039fd31",
+      "name": "astra final eta.70 N40 eps0.40"
+    },
+    {
+      "arm": "construction",
+      "path": "/Users/johnharry/Documents/Codex/2026-09-04/w/outputs/together/research/confinement/locked/construction-primary.json",
+      "sha256": "24dcacb467002d04f2998bf27beeb28b45f34585aee48202cdb585451ad082ac",
+      "name": "astra eta.9 reduced gap.03 N32"
+    }
+  ],
+  "mirror_mode_revolution_dispatch_checks": [
+    {
+      "kind": "zone_weave",
+      "args": [
+        0.7,
+        24,
+        0,
+        1,
+        0.03,
+        "toroidal"
+      ]
+    },
+    {
+      "kind": "generic_mirror",
+      "args": [
+        0.7,
+        24,
+        2,
+        "nested",
+        0.03
+      ]
+    },
+    {
+      "kind": "generic_mirror",
+      "args": [
+        0.7,
+        24,
+        1,
+        "woven",
+        0.03
+      ]
+    },
+    {
+      "kind": "generic_mirror",
+      "args": [
+        0.7,
+        24,
+        4,
+        "woven",
+        0.03
+      ]
+    }
+  ],
+  "scope": "Point geometry qualified for the listed designs. Other generic mirror modes/revolutions remain explicitly approximate; dispatch tests only establish that these parameters select distinct branches.",
+  "physical_current_scope": "Derived from matched relative signed coil order and the frozen evaluator cap; the browser preview itself uses relative currents.",
+  "assembled_pages_match_engine": true,
+  "study_config_sha256": "43ae81b3ce9963bc40575674ebdeb5fdb2d107786541abc142e8f47d974aa60e"
+}

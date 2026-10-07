@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "current": 1.0,
+      "family": "hopfmirror",
+      "params": {
+        "circuits": 24,
+        "delta_eta": 0.035,
+        "eta": 1.0,
+        "mode": "woven",
+        "revolutions": 2.0,
+        "sense": -1
+      }
+    }
+  ],
+  "name": "astra2 eta1 N24 delta0.035",
+  "wire_radius": 0.00448
+}

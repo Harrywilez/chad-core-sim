@@ -1,0 +1,7 @@
+ellipse 0.10, n=5                          clr=0.0120 surf=0.44 isl=0.00 open=0.56 r_out=0.135 ι_axis=+0.017 ι_edge=+0.003 well=-0.483 | 0.02:+0.017 0.06:+0.003 0.13:+0.003 (124s)
+ellipse 0.30, n=5                          clr=0.0078 surf=0.12 isl=0.00 open=0.88 r_out=0.097 ι_axis=+0.020 ι_edge=+0.020 well=+0.010 | 0.08:+0.020 (59s)
+ellipse 0.20, n=7                          clr=0.0074 surf=0.12 isl=0.00 open=0.88 r_out=0.049 ι_axis=+0.018 ι_edge=+0.017 well=-0.051 | 0.03:+0.018 (70s)
+helical axis 0.30, n=5                     clr=0.0057 surf=0.00 isl=0.00 open=1.00 r_out=0.000 ι_axis=+nan ι_edge=+nan well=+nan |  (3s)
+ellipse 0.20 + helical axis 0.30, n=5      clr=0.0044 surf=0.00 isl=0.00 open=1.00 r_out=0.000 ι_axis=+nan ι_edge=+nan well=+nan |  (5s)
+ellipse 0.30 + helical axis 0.15, n=4      clr=0.0109 surf=0.00 isl=0.00 open=1.00 r_out=0.000 ι_axis=+nan ι_edge=+nan well=+nan |  (4s)
+done 1
